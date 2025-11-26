@@ -1,0 +1,92 @@
+{
+  "timestamp": "2025-11-19T08:02:36.078715",
+  "total_modules": 14,
+  "successful": 14,
+  "failed": 0,
+  "modules": {
+    "1": {
+      "description": "Thermodynamic Analysis",
+      "status": "SUCCESS",
+      "time_seconds": 166.8812713623047,
+      "error": null
+    },
+    "2": {
+      "description": "Equilibration Stability",
+      "status": "SUCCESS",
+      "time_seconds": 42.153055906295776,
+      "error": null
+    },
+    "3": {
+      "description": "RDF Structural Analysis",
+      "status": "SUCCESS",
+      "time_seconds": 11.134547233581543,
+      "error": null
+    },
+    "5": {
+      "description": "Plot Water Structure",
+      "status": "SUCCESS",
+      "time_seconds": 22.220662832260132,
+      "error": null
+    },
+    "6": {
+      "description": "MSD Validation",
+      "status": "SUCCESS",
+      "time_seconds": 6.943841934204102,
+      "error": null
+    },
+    "7": {
+      "description": "High-priority quantitative analysis",
+      "status": "SUCCESS",
+      "time_seconds": 170.33269953727722,
+      "error": null
+    },
+    "8": {
+      "description": "PPM snapshot analysis",
+      "status": "SUCCESS",
+      "time_seconds": 12.619592666625977,
+      "error": null
+    },
+    "9": {
+      "description": "Equilibration pathway analysis",
+      "status": "SUCCESS",
+      "time_seconds": 19.915039539337158,
+      "error": null
+    },
+    "10": {
+      "description": "Structural data analysis",
+      "status": "SUCCESS",
+      "time_seconds": 11.946502685546875,
+      "error": null
+    },
+    "11": {
+      "description": "DCD trajectory movies",
+      "status": "SUCCESS",
+      "time_seconds": 70.0642478466034,
+      "error": null
+    },
+    "12": {
+      "description": "Equilibration convergence analysis",
+      "status": "SUCCESS",
+      "time_seconds": 3.746840000152588,
+      "error": null
+    },
+    "13": {
+      "description": "Log file performance analysis",
+      "status": "SUCCESS",
+      "time_seconds": 1.6702921390533447,
+      "error": null
+    },
+    "14": {
+      "description": "System validation and FF analysis",
+      "status": "SUCCESS",
+      "time_seconds": 1.871279001235962,
+      "error": null
+    },
+    "15": {
+      "description": "Thermal trajectory analysis",
+      "status": "SUCCESS",
+      "time_seconds": 2.8817145824432373,
+      "error": null
+    }
+  }
+}

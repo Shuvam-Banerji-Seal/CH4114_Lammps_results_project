@@ -1,0 +1,497 @@
+{
+  "system_info": {
+    "n_c60_particles": 3,
+    "n_carbon_atoms": 180,
+    "n_water_molecules": "~2000",
+    "box_size": "40\u00d740\u00d740 \u00c5\u00b3",
+    "water_model": "TIP4P/2005",
+    "timestep_fs": 2.0,
+    "target_temp_K": 300.0,
+    "target_press_atm": 1.0
+  },
+  "epsilon_statistics": {
+    "eps_0.00": {
+      "temperature": {
+        "mean_K": 300.00942534999996,
+        "std_K": 2.3914961796177376,
+        "deviation_from_target": 0.009425349999958144
+      },
+      "pressure": {
+        "mean_atm": 0.8477755134000002,
+        "std_atm": 223.93728473204723,
+        "deviation_from_target": -0.15222448659999976
+      },
+      "density": {
+        "mean_g_cm3": 1.0584926805,
+        "std_g_cm3": 0.006225927677759531
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20343.464965,
+        "std_kcal_mol": 61.37004396416531
+      },
+      "n_samples": 20000
+    },
+    "eps_0.05": {
+      "temperature": {
+        "mean_K": 300.01819670000003,
+        "std_K": 2.3863933797421693,
+        "deviation_from_target": 0.018196700000032706
+      },
+      "pressure": {
+        "mean_atm": 1.4450536610375002,
+        "std_atm": 213.45444345981994,
+        "deviation_from_target": 0.4450536610375002
+      },
+      "density": {
+        "mean_g_cm3": 1.0230103435000002,
+        "std_g_cm3": 0.005926463523510672
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20240.70941,
+        "std_kcal_mol": 62.51132323610288
+      },
+      "n_samples": 20000
+    },
+    "eps_0.10": {
+      "temperature": {
+        "mean_K": 300.00340839999996,
+        "std_K": 2.390569839728045,
+        "deviation_from_target": 0.003408399999955236
+      },
+      "pressure": {
+        "mean_atm": 1.08931749471,
+        "std_atm": 215.57529373994848,
+        "deviation_from_target": 0.08931749470999995
+      },
+      "density": {
+        "mean_g_cm3": 1.0278763485,
+        "std_g_cm3": 0.005844919243718944
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20315.305295,
+        "std_kcal_mol": 63.23940831159914
+      },
+      "n_samples": 20000
+    },
+    "eps_0.15": {
+      "temperature": {
+        "mean_K": 300.01583999999997,
+        "std_K": 2.392469892414386,
+        "deviation_from_target": 0.015839999999968768
+      },
+      "pressure": {
+        "mean_atm": 1.313809764905,
+        "std_atm": 218.9956625173031,
+        "deviation_from_target": 0.313809764905
+      },
+      "density": {
+        "mean_g_cm3": 1.0313527125000002,
+        "std_g_cm3": 0.005787203008645621
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20396.676275,
+        "std_kcal_mol": 63.10432061585319
+      },
+      "n_samples": 20000
+    },
+    "eps_0.20": {
+      "temperature": {
+        "mean_K": 299.9808899,
+        "std_K": 2.3860409666962403,
+        "deviation_from_target": -0.019110099999977592
+      },
+      "pressure": {
+        "mean_atm": 1.65455074016,
+        "std_atm": 220.5264382685167,
+        "deviation_from_target": 0.6545507401599999
+      },
+      "density": {
+        "mean_g_cm3": 1.0346782805,
+        "std_g_cm3": 0.005770346469081246
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20486.425825,
+        "std_kcal_mol": 62.01149026443096
+      },
+      "n_samples": 20000
+    },
+    "eps_0.25": {
+      "temperature": {
+        "mean_K": 300.01149174999995,
+        "std_K": 2.39104412228877,
+        "deviation_from_target": 0.011491749999947842
+      },
+      "pressure": {
+        "mean_atm": 1.22431845638,
+        "std_atm": 222.02495142867338,
+        "deviation_from_target": 0.22431845638000003
+      },
+      "density": {
+        "mean_g_cm3": 1.0373277315,
+        "std_g_cm3": 0.00584555088953709
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20578.274395,
+        "std_kcal_mol": 62.30285703066661
+      },
+      "n_samples": 20000
+    },
+    "eps_0.30": {
+      "temperature": {
+        "mean_K": 300.01638115,
+        "std_K": 2.3893634110260784,
+        "deviation_from_target": 0.016381149999972422
+      },
+      "pressure": {
+        "mean_atm": 0.5905552581900001,
+        "std_atm": 222.08626458450723,
+        "deviation_from_target": -0.4094447418099999
+      },
+      "density": {
+        "mean_g_cm3": 1.0397943755,
+        "std_g_cm3": 0.005776632438031344
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20672.685644999998,
+        "std_kcal_mol": 61.44628952800008
+      },
+      "n_samples": 20000
+    },
+    "eps_0.35": {
+      "temperature": {
+        "mean_K": 299.98376365,
+        "std_K": 2.377424615603789,
+        "deviation_from_target": -0.016236349999985578
+      },
+      "pressure": {
+        "mean_atm": 1.52442664059,
+        "std_atm": 224.10829761476847,
+        "deviation_from_target": 0.52442664059
+      },
+      "density": {
+        "mean_g_cm3": 1.04218887,
+        "std_g_cm3": 0.005871735290088088
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20763.296625,
+        "std_kcal_mol": 60.89893543508155
+      },
+      "n_samples": 20000
+    },
+    "eps_0.40": {
+      "temperature": {
+        "mean_K": 300.0161351,
+        "std_K": 2.4011024193043893,
+        "deviation_from_target": 0.016135099999985414
+      },
+      "pressure": {
+        "mean_atm": 1.1987262497395001,
+        "std_atm": 224.2657636152734,
+        "deviation_from_target": 0.19872624973950015
+      },
+      "density": {
+        "mean_g_cm3": 1.0439661340000002,
+        "std_g_cm3": 0.005763585058770321
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20860.47337,
+        "std_kcal_mol": 62.56041718317588
+      },
+      "n_samples": 20000
+    },
+    "eps_0.45": {
+      "temperature": {
+        "mean_K": 300.0227849,
+        "std_K": 2.3846384157248406,
+        "deviation_from_target": 0.02278489999997646
+      },
+      "pressure": {
+        "mean_atm": 1.304563376445,
+        "std_atm": 224.87484345511209,
+        "deviation_from_target": 0.304563376445
+      },
+      "density": {
+        "mean_g_cm3": 1.0462993235,
+        "std_g_cm3": 0.005744682290264497
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -20957.729880000003,
+        "std_kcal_mol": 62.37339254995282
+      },
+      "n_samples": 20000
+    },
+    "eps_0.50": {
+      "temperature": {
+        "mean_K": 299.9916103,
+        "std_K": 2.3866253347474404,
+        "deviation_from_target": -0.00838970000000927
+      },
+      "pressure": {
+        "mean_atm": 1.12767092962255,
+        "std_atm": 224.88821082278216,
+        "deviation_from_target": 0.12767092962255
+      },
+      "density": {
+        "mean_g_cm3": 1.0484291639999999,
+        "std_g_cm3": 0.005667219615473932
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21055.56521,
+        "std_kcal_mol": 61.38771106833525
+      },
+      "n_samples": 20000
+    },
+    "eps_0.55": {
+      "temperature": {
+        "mean_K": 300.0010558,
+        "std_K": 2.3726952033371576,
+        "deviation_from_target": 0.0010558000000173706
+      },
+      "pressure": {
+        "mean_atm": 1.8140737293999998,
+        "std_atm": 226.19933514817524,
+        "deviation_from_target": 0.8140737293999998
+      },
+      "density": {
+        "mean_g_cm3": 1.0503432000000001,
+        "std_g_cm3": 0.005714305778399761
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21159.28036,
+        "std_kcal_mol": 60.59632559601259
+      },
+      "n_samples": 10000
+    },
+    "eps_0.60": {
+      "temperature": {
+        "mean_K": 299.9750882,
+        "std_K": 2.345925254510624,
+        "deviation_from_target": -0.02491179999998394
+      },
+      "pressure": {
+        "mean_atm": 1.2376674170709998,
+        "std_atm": 229.87609676924725,
+        "deviation_from_target": 0.2376674170709998
+      },
+      "density": {
+        "mean_g_cm3": 1.05235328,
+        "std_g_cm3": 0.0058920650832025336
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21258.232640000002,
+        "std_kcal_mol": 61.94436596719598
+      },
+      "n_samples": 10000
+    },
+    "eps_0.65": {
+      "temperature": {
+        "mean_K": 299.99014139999997,
+        "std_K": 2.3921946116300887,
+        "deviation_from_target": -0.009858600000029583
+      },
+      "pressure": {
+        "mean_atm": 1.8947189043340005,
+        "std_atm": 229.33468367811216,
+        "deviation_from_target": 0.8947189043340005
+      },
+      "density": {
+        "mean_g_cm3": 1.053982822,
+        "std_g_cm3": 0.005790263951840123
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21361.15508,
+        "std_kcal_mol": 61.0082126635
+      },
+      "n_samples": 10000
+    },
+    "eps_0.70": {
+      "temperature": {
+        "mean_K": 299.98682240000005,
+        "std_K": 2.358464527176704,
+        "deviation_from_target": -0.013177599999949052
+      },
+      "pressure": {
+        "mean_atm": 0.5247696668999998,
+        "std_atm": 231.11148637932112,
+        "deviation_from_target": -0.4752303331000002
+      },
+      "density": {
+        "mean_g_cm3": 1.056496106,
+        "std_g_cm3": 0.005838847070293504
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21466.45546,
+        "std_kcal_mol": 60.83933700066978
+      },
+      "n_samples": 10000
+    },
+    "eps_0.75": {
+      "temperature": {
+        "mean_K": 299.9973178,
+        "std_K": 2.3767727695097287,
+        "deviation_from_target": -0.002682199999981094
+      },
+      "pressure": {
+        "mean_atm": 1.764141364859999,
+        "std_atm": 235.34255636210187,
+        "deviation_from_target": 0.7641413648599991
+      },
+      "density": {
+        "mean_g_cm3": 1.058390914,
+        "std_g_cm3": 0.005916570106471018
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21578.73583,
+        "std_kcal_mol": 61.22791030985126
+      },
+      "n_samples": 10000
+    },
+    "eps_0.80": {
+      "temperature": {
+        "mean_K": 300.0271249,
+        "std_K": 2.35063261933274,
+        "deviation_from_target": 0.027124899999989793
+      },
+      "pressure": {
+        "mean_atm": 0.8014550799939998,
+        "std_atm": 234.29525040599592,
+        "deviation_from_target": -0.19854492000600021
+      },
+      "density": {
+        "mean_g_cm3": 1.060211977,
+        "std_g_cm3": 0.005795740337702959
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21688.519490000002,
+        "std_kcal_mol": 61.40164160101121
+      },
+      "n_samples": 10000
+    },
+    "eps_0.85": {
+      "temperature": {
+        "mean_K": 300.0127416,
+        "std_K": 2.3780241443081547,
+        "deviation_from_target": 0.012741600000026665
+      },
+      "pressure": {
+        "mean_atm": 1.2268972862899998,
+        "std_atm": 234.4911948736745,
+        "deviation_from_target": 0.22689728628999983
+      },
+      "density": {
+        "mean_g_cm3": 1.0613812020000002,
+        "std_g_cm3": 0.005911760506517889
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21798.36918,
+        "std_kcal_mol": 61.01616773774093
+      },
+      "n_samples": 10000
+    },
+    "eps_0.90": {
+      "temperature": {
+        "mean_K": 299.9921694,
+        "std_K": 2.3957833006901996,
+        "deviation_from_target": -0.00783059999997704
+      },
+      "pressure": {
+        "mean_atm": 1.50033913588,
+        "std_atm": 240.0008701607249,
+        "deviation_from_target": 0.50033913588
+      },
+      "density": {
+        "mean_g_cm3": 1.064247653,
+        "std_g_cm3": 0.0060467275854829364
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -21916.414819999998,
+        "std_kcal_mol": 61.34063674057494
+      },
+      "n_samples": 10000
+    },
+    "eps_0.95": {
+      "temperature": {
+        "mean_K": 300.0147405,
+        "std_K": 2.4028314412903113,
+        "deviation_from_target": 0.014740500000016254
+      },
+      "pressure": {
+        "mean_atm": 1.7238774908200005,
+        "std_atm": 240.46379145646165,
+        "deviation_from_target": 0.7238774908200005
+      },
+      "density": {
+        "mean_g_cm3": 1.0660005570000002,
+        "std_g_cm3": 0.0060692679312313366
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -22033.54379,
+        "std_kcal_mol": 62.73755130279035
+      },
+      "n_samples": 10000
+    },
+    "eps_1.00": {
+      "temperature": {
+        "mean_K": 300.01535920000003,
+        "std_K": 2.3626312759781167,
+        "deviation_from_target": 0.015359200000034434
+      },
+      "pressure": {
+        "mean_atm": 1.7916565201999999,
+        "std_atm": 243.14809885924092,
+        "deviation_from_target": 0.7916565201999999
+      },
+      "density": {
+        "mean_g_cm3": 1.067192593,
+        "std_g_cm3": 0.006020158547517225
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -22151.2103,
+        "std_kcal_mol": 61.28645436684101
+      },
+      "n_samples": 10000
+    },
+    "eps_1.05": {
+      "temperature": {
+        "mean_K": 300.0286102,
+        "std_K": 2.363152733477067,
+        "deviation_from_target": 0.028610200000002806
+      },
+      "pressure": {
+        "mean_atm": 1.5385560764,
+        "std_atm": 245.34653867380408,
+        "deviation_from_target": 0.5385560763999999
+      },
+      "density": {
+        "mean_g_cm3": 1.06930367,
+        "std_g_cm3": 0.006013783816423656
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -22267.253419999997,
+        "std_kcal_mol": 59.57627206802178
+      },
+      "n_samples": 10000
+    },
+    "eps_1.10": {
+      "temperature": {
+        "mean_K": 300.0131829,
+        "std_K": 2.3870880961132226,
+        "deviation_from_target": 0.013182900000003883
+      },
+      "pressure": {
+        "mean_atm": 0.9202758453260005,
+        "std_atm": 251.57754102269658,
+        "deviation_from_target": -0.07972415467399951
+      },
+      "density": {
+        "mean_g_cm3": 1.070539539,
+        "std_g_cm3": 0.00588868573447819
+      },
+      "potential_energy": {
+        "mean_kcal_mol": -22392.44553,
+        "std_kcal_mol": 61.947361086438995
+      },
+      "n_samples": 10000
+    }
+  }
+}

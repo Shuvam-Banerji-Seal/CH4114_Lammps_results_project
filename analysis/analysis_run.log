@@ -1,0 +1,884 @@
+======================================================================
+THERMODYNAMIC ANALYSIS - C60 NANOPARTICLE SOLVATION STUDY
+======================================================================
+Loading production thermodynamic data...
+  Loaded ε=0.0: 20000 data points
+  Loaded ε=0.05: 20000 data points
+  Loaded ε=0.1: 20000 data points
+  Loaded ε=0.15: 20000 data points
+  Loaded ε=0.2: 20000 data points
+  Loaded ε=0.25: 20000 data points
+  Loaded ε=0.3: 20000 data points
+  Loaded ε=0.35: 20000 data points
+  Loaded ε=0.4: 20000 data points
+  Loaded ε=0.45: 20000 data points
+  Loaded ε=0.5: 20000 data points
+  Loaded ε=0.55: 10000 data points
+  Loaded ε=0.6: 10000 data points
+  Loaded ε=0.65: 10000 data points
+  Loaded ε=0.7: 10000 data points
+  Loaded ε=0.75: 10000 data points
+  Loaded ε=0.8: 10000 data points
+  Loaded ε=0.85: 10000 data points
+  Loaded ε=0.9: 10000 data points
+  Loaded ε=0.95: 10000 data points
+  Loaded ε=1.0: 10000 data points
+  Loaded ε=1.05: 10000 data points
+  Loaded ε=1.1: 10000 data points
+
+Statistics saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_statistics.csv
+
+======================================================================
+GENERATING PLOTS
+======================================================================
+  Saved: 01_temperature_evolution.png
+  Saved: 02_pressure_analysis.png
+  Saved: 03_density_analysis.png
+  Saved: 04_energy_analysis.png
+  Saved: 05_comparison_matrix.png
+
+Summary JSON saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_summary.json
+
+======================================================================
+ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+EQUILIBRATION AND STABILITY ANALYSIS
+======================================================================
+Loading simulation data from all stages...
+  ε=0.0: Loaded NPT equilibration (500 points)
+  ε=0.0: Loaded production (20000 points)
+  ε=0.05: Loaded NPT equilibration (500 points)
+  ε=0.05: Loaded production (20000 points)
+  ε=0.1: Loaded NPT equilibration (500 points)
+  ε=0.1: Loaded production (20000 points)
+  ε=0.15: Loaded NPT equilibration (500 points)
+  ε=0.15: Loaded production (20000 points)
+  ε=0.2: Loaded NPT equilibration (500 points)
+  ε=0.2: Loaded production (20000 points)
+  ε=0.25: Loaded NPT equilibration (500 points)
+  ε=0.25: Loaded production (20000 points)
+  ε=0.3: Loaded NPT equilibration (500 points)
+  ε=0.3: Loaded production (20000 points)
+  ε=0.35: Loaded NPT equilibration (500 points)
+  ε=0.35: Loaded production (20000 points)
+  ε=0.4: Loaded NPT equilibration (500 points)
+  ε=0.4: Loaded production (20000 points)
+  ε=0.45: Loaded NPT equilibration (500 points)
+  ε=0.45: Loaded production (20000 points)
+  ε=0.5: Loaded NPT equilibration (500 points)
+  ε=0.5: Loaded production (20000 points)
+  ε=0.55: Loaded NPT equilibration (500 points)
+  ε=0.55: Loaded production (10000 points)
+  ε=0.6: Loaded NPT equilibration (500 points)
+  ε=0.6: Loaded production (10000 points)
+  ε=0.65: Loaded NPT equilibration (500 points)
+  ε=0.65: Loaded production (10000 points)
+  ε=0.7: Loaded NPT equilibration (500 points)
+  ε=0.7: Loaded production (10000 points)
+  ε=0.75: Loaded NPT equilibration (500 points)
+  ε=0.75: Loaded production (10000 points)
+  ε=0.8: Loaded NPT equilibration (500 points)
+  ε=0.8: Loaded production (10000 points)
+  ε=0.85: Loaded NPT equilibration (500 points)
+  ε=0.85: Loaded production (10000 points)
+  ε=0.9: Loaded NPT equilibration (500 points)
+  ε=0.9: Loaded production (10000 points)
+  ε=0.95: Loaded NPT equilibration (500 points)
+  ε=0.95: Loaded production (10000 points)
+  ε=1.0: Loaded NPT equilibration (500 points)
+  ε=1.0: Loaded production (10000 points)
+  ε=1.05: Loaded NPT equilibration (500 points)
+  ε=1.05: Loaded production (10000 points)
+  ε=1.1: Loaded NPT equilibration (500 points)
+  ε=1.1: Loaded production (10000 points)
+
+Analyzing equilibration quality...
+  Metrics saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_metrics.csv
+
+======================================================================
+GENERATING EQUILIBRATION PLOTS
+======================================================================
+  Saved: 06_autocorrelation_analysis.png
+  Saved: 07_block_averaging.png
+  Saved: 08_running_averages.png
+  Saved: 09_stability_metrics.png
+
+Equilibration report saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_report.json
+
+======================================================================
+EQUILIBRATION ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+RADIAL DISTRIBUTION FUNCTION ANALYSIS
+======================================================================
+Loading RDF data...
+  ε=0.0, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.0, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.0, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.55, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.55, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.55, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, OO: 150 bins × 100 timesteps (averaged)
+
+Computing coordination numbers...
+  ε=0.0, CC: N_coord = 22.37 (r < 5.0 Å)
+  ε=0.0, CO: N_coord = 17.29 (r < 5.0 Å)
+  ε=0.0, OO: N_coord = 5.09 (r < 3.5 Å)
+  ε=0.05, CC: N_coord = 23.95 (r < 5.0 Å)
+  ε=0.05, CO: N_coord = 5.42 (r < 5.0 Å)
+  ε=0.05, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.1, CC: N_coord = 22.01 (r < 5.0 Å)
+  ε=0.1, CO: N_coord = 6.84 (r < 5.0 Å)
+  ε=0.1, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.15, CC: N_coord = 20.87 (r < 5.0 Å)
+  ε=0.15, CO: N_coord = 7.71 (r < 5.0 Å)
+  ε=0.15, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.2, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.2, CO: N_coord = 8.32 (r < 5.0 Å)
+  ε=0.2, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.25, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.25, CO: N_coord = 8.60 (r < 5.0 Å)
+  ε=0.25, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.3, CC: N_coord = 19.86 (r < 5.0 Å)
+  ε=0.3, CO: N_coord = 8.83 (r < 5.0 Å)
+  ε=0.3, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.35, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.35, CO: N_coord = 9.06 (r < 5.0 Å)
+  ε=0.35, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.4, CC: N_coord = 19.93 (r < 5.0 Å)
+  ε=0.4, CO: N_coord = 9.25 (r < 5.0 Å)
+  ε=0.4, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.45, CC: N_coord = 19.95 (r < 5.0 Å)
+  ε=0.45, CO: N_coord = 9.42 (r < 5.0 Å)
+  ε=0.45, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.5, CC: N_coord = 20.01 (r < 5.0 Å)
+  ε=0.5, CO: N_coord = 9.59 (r < 5.0 Å)
+  ε=0.5, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.55, CC: N_coord = 20.13 (r < 5.0 Å)
+  ε=0.55, CO: N_coord = 9.74 (r < 5.0 Å)
+  ε=0.55, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.6, CC: N_coord = 20.25 (r < 5.0 Å)
+  ε=0.6, CO: N_coord = 9.91 (r < 5.0 Å)
+  ε=0.6, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.65, CC: N_coord = 20.41 (r < 5.0 Å)
+  ε=0.65, CO: N_coord = 10.08 (r < 5.0 Å)
+  ε=0.65, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.7, CC: N_coord = 20.59 (r < 5.0 Å)
+  ε=0.7, CO: N_coord = 10.19 (r < 5.0 Å)
+  ε=0.7, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.75, CC: N_coord = 20.93 (r < 5.0 Å)
+  ε=0.75, CO: N_coord = 10.36 (r < 5.0 Å)
+  ε=0.75, OO: N_coord = 5.26 (r < 3.5 Å)
+  ε=0.8, CC: N_coord = 21.28 (r < 5.0 Å)
+  ε=0.8, CO: N_coord = 10.53 (r < 5.0 Å)
+  ε=0.8, OO: N_coord = 5.27 (r < 3.5 Å)
+  ε=0.85, CC: N_coord = 21.86 (r < 5.0 Å)
+  ε=0.85, CO: N_coord = 10.74 (r < 5.0 Å)
+  ε=0.85, OO: N_coord = 5.28 (r < 3.5 Å)
+  ε=0.9, CC: N_coord = 22.22 (r < 5.0 Å)
+  ε=0.9, CO: N_coord = 10.86 (r < 5.0 Å)
+  ε=0.9, OO: N_coord = 5.29 (r < 3.5 Å)
+  ε=0.95, CC: N_coord = 22.63 (r < 5.0 Å)
+  ε=0.95, CO: N_coord = 11.02 (r < 5.0 Å)
+  ε=0.95, OO: N_coord = 5.30 (r < 3.5 Å)
+  ε=1.0, CC: N_coord = 23.02 (r < 5.0 Å)
+  ε=1.0, CO: N_coord = 11.15 (r < 5.0 Å)
+  ε=1.0, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.05, CC: N_coord = 23.33 (r < 5.0 Å)
+  ε=1.05, CO: N_coord = 11.27 (r < 5.0 Å)
+  ε=1.05, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.1, CC: N_coord = 23.67 (r < 5.0 Å)
+  ε=1.1, CO: N_coord = 11.38 (r < 5.0 Å)
+  ε=1.1, OO: N_coord = 5.32 (r < 3.5 Å)
+  ε=0.25: First CO peak at r=8.90 Å, g(r)=1.09
+  ε=0.3: First CO peak at r=8.90 Å, g(r)=1.10
+  ε=0.35: First CO peak at r=8.90 Å, g(r)=1.11
+  ε=0.4: First CO peak at r=8.74 Å, g(r)=1.11
+  ε=0.45: First CO peak at r=8.82 Å, g(r)=1.12
+  ε=0.5: First CO peak at r=3.49 Å, g(r)=0.82
+  ε=0.55: First CO peak at r=3.49 Å, g(r)=0.85
+  ε=0.6: First CO peak at r=3.49 Å, g(r)=0.88
+  ε=0.65: First CO peak at r=3.49 Å, g(r)=0.91
+  ε=0.7: First CO peak at r=3.49 Å, g(r)=0.94
+  ε=0.75: First CO peak at r=3.49 Å, g(r)=0.97
+  ε=0.8: First CO peak at r=3.49 Å, g(r)=0.99
+  ε=0.85: First CO peak at r=3.49 Å, g(r)=1.02
+  ε=0.9: First CO peak at r=3.49 Å, g(r)=1.04
+  ε=0.95: First CO peak at r=3.41 Å, g(r)=1.06
+  ε=1.0: First CO peak at r=3.49 Å, g(r)=1.09
+  ε=1.05: First CO peak at r=3.41 Å, g(r)=1.11
+  ε=1.1: First CO peak at r=3.41 Å, g(r)=1.13
+
+======================================================================
+GENERATING RDF PLOTS
+======================================================================
+  Saved: 10_rdf_comparison.png
+  Saved: 11_co_rdf_detailed.png
+  Saved: 12_coordination_numbers.png
+
+RDF summary saved to /store/shuvam/learning_solvent_effects/analysis/plots/rdf_analysis_summary.json
+
+======================================================================
+RDF ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+================================================================================
+               COMPREHENSIVE WATER STRUCTURE ANALYSIS
+                         (CUDA-Accelerated)
+================================================================================
+
+Traceback (most recent call last):
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/04_comprehensive_water_structure_CUDA.py", line 868, in <module>
+    main()
+    ~~~~^^
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/04_comprehensive_water_structure_CUDA.py", line 820, in main
+    epsilon_values = epsilon_values_list  # Use the global list defined at top
+                     ^^^^^^^^^^^^^^^^^^^
+NameError: name 'epsilon_values_list' is not defined
+Traceback (most recent call last):
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/05_plot_water_structure.py", line 459, in <module>
+    main()
+    ~~~~^^
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/05_plot_water_structure.py", line 454, in main
+    plotter = WaterStructurePlotter()
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/05_plot_water_structure.py", line 49, in __init__
+    self.epsilon_values = epsilon_values_list  # Use the global list defined at top
+                          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'epsilon_values_list' is not defined
+================================================================================
+MSD VALIDATION AND DIFFUSION COEFFICIENT ANALYSIS
+================================================================================
+
+Traceback (most recent call last):
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py", line 345, in <module>
+    main()
+    ~~~~^^
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py", line 332, in main
+    analyzer = MSDAnalyzer()
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py", line 43, in __init__
+    self.epsilon_values = epsilon_values_list  # Use the global list defined at top
+                          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'epsilon_values_list' is not defined
+================================================================================
+HIGH-PRIORITY ADDITIONAL ANALYSES (FIXED VERSION)
+================================================================================
+Traceback (most recent call last):
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/07_high_priority_additional_analysis.py", line 532, in <module>
+    main()
+    ~~~~^^
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/07_high_priority_additional_analysis.py", line 500, in main
+    analyzer = HighPriorityAnalyzer(base_dir)
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/07_high_priority_additional_analysis.py", line 47, in __init__
+    self.epsilon_values = epsilon_values_list  # Use the global list defined at top
+                          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'epsilon_values_list' is not defined
+======================================================================
+C60 NANOPARTICLE SOLVATION STUDY - COMPREHENSIVE ANALYSIS
+======================================================================
+
+Base directory: /store/shuvam/learning_solvent_effects
+Analysis codes: /store/shuvam/learning_solvent_effects/analysis/codes
+
+======================================================================
+RUNNING: Thermodynamic Properties Analysis
+======================================================================
+
+✓ Completed in 216.0 seconds
+
+======================================================================
+RUNNING: Equilibration & Stability Assessment
+======================================================================
+
+✓ Completed in 60.2 seconds
+
+======================================================================
+RUNNING: Radial Distribution Functions
+======================================================================
+
+✓ Completed in 18.7 seconds
+
+======================================================================
+RUNNING: Comprehensive Water Structure (CUDA)
+======================================================================
+
+✗ ERROR: Analysis failed with exit code 1
+
+======================================================================
+RUNNING: Water Structure Visualization
+======================================================================
+
+✗ ERROR: Analysis failed with exit code 1
+
+======================================================================
+RUNNING: MSD Validation Analysis
+======================================================================
+
+✗ ERROR: Analysis failed with exit code 1
+
+======================================================================
+RUNNING: Additional High-Priority Analysis
+======================================================================
+
+✗ ERROR: Analysis failed with exit code 1
+
+======================================================================
+ANALYSIS SUMMARY
+======================================================================
+  ✓ Success    - Thermodynamic Properties Analysis
+  ✓ Success    - Equilibration & Stability Assessment
+  ✓ Success    - Radial Distribution Functions
+  ✗ Failed     - Comprehensive Water Structure (CUDA)
+  ✗ Failed     - Water Structure Visualization
+  ✗ Failed     - MSD Validation Analysis
+  ✗ Failed     - Additional High-Priority Analysis
+
+Total time: 309.1 seconds (5.2 minutes)
+======================================================================
+
+⚠️  Some analyses failed. Check error messages above.
+======================================================================
+THERMODYNAMIC ANALYSIS - C60 NANOPARTICLE SOLVATION STUDY
+======================================================================
+Loading production thermodynamic data...
+  Loaded ε=0.0: 20000 data points
+  Loaded ε=0.05: 20000 data points
+  Loaded ε=0.1: 20000 data points
+  Loaded ε=0.15: 20000 data points
+  Loaded ε=0.2: 20000 data points
+  Loaded ε=0.25: 20000 data points
+  Loaded ε=0.3: 20000 data points
+  Loaded ε=0.35: 20000 data points
+  Loaded ε=0.4: 20000 data points
+  Loaded ε=0.45: 20000 data points
+  Loaded ε=0.5: 20000 data points
+  Loaded ε=0.55: 10000 data points
+  Loaded ε=0.6: 10000 data points
+  Loaded ε=0.65: 10000 data points
+  Loaded ε=0.7: 10000 data points
+  Loaded ε=0.75: 10000 data points
+  Loaded ε=0.8: 10000 data points
+  Loaded ε=0.85: 10000 data points
+  Loaded ε=0.9: 10000 data points
+  Loaded ε=0.95: 10000 data points
+  Loaded ε=1.0: 10000 data points
+  Loaded ε=1.05: 10000 data points
+  Loaded ε=1.1: 10000 data points
+
+Statistics saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_statistics.csv
+
+======================================================================
+GENERATING PLOTS
+======================================================================
+  Saved: 01_temperature_evolution.png
+  Saved: 02_pressure_analysis.png
+  Saved: 03_density_analysis.png
+  Saved: 04_energy_analysis.png
+  Saved: 05_comparison_matrix.png
+
+Summary JSON saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_summary.json
+
+======================================================================
+ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+EQUILIBRATION AND STABILITY ANALYSIS
+======================================================================
+Loading simulation data from all stages...
+  ε=0.0: Loaded NPT equilibration (500 points)
+  ε=0.0: Loaded production (20000 points)
+  ε=0.05: Loaded NPT equilibration (500 points)
+  ε=0.05: Loaded production (20000 points)
+  ε=0.1: Loaded NPT equilibration (500 points)
+  ε=0.1: Loaded production (20000 points)
+  ε=0.15: Loaded NPT equilibration (500 points)
+  ε=0.15: Loaded production (20000 points)
+  ε=0.2: Loaded NPT equilibration (500 points)
+  ε=0.2: Loaded production (20000 points)
+  ε=0.25: Loaded NPT equilibration (500 points)
+  ε=0.25: Loaded production (20000 points)
+  ε=0.3: Loaded NPT equilibration (500 points)
+  ε=0.3: Loaded production (20000 points)
+  ε=0.35: Loaded NPT equilibration (500 points)
+  ε=0.35: Loaded production (20000 points)
+  ε=0.4: Loaded NPT equilibration (500 points)
+  ε=0.4: Loaded production (20000 points)
+  ε=0.45: Loaded NPT equilibration (500 points)
+  ε=0.45: Loaded production (20000 points)
+  ε=0.5: Loaded NPT equilibration (500 points)
+  ε=0.5: Loaded production (20000 points)
+  ε=0.55: Loaded NPT equilibration (500 points)
+  ε=0.55: Loaded production (10000 points)
+  ε=0.6: Loaded NPT equilibration (500 points)
+  ε=0.6: Loaded production (10000 points)
+  ε=0.65: Loaded NPT equilibration (500 points)
+  ε=0.65: Loaded production (10000 points)
+  ε=0.7: Loaded NPT equilibration (500 points)
+  ε=0.7: Loaded production (10000 points)
+  ε=0.75: Loaded NPT equilibration (500 points)
+  ε=0.75: Loaded production (10000 points)
+  ε=0.8: Loaded NPT equilibration (500 points)
+  ε=0.8: Loaded production (10000 points)
+  ε=0.85: Loaded NPT equilibration (500 points)
+  ε=0.85: Loaded production (10000 points)
+  ε=0.9: Loaded NPT equilibration (500 points)
+  ε=0.9: Loaded production (10000 points)
+  ε=0.95: Loaded NPT equilibration (500 points)
+  ε=0.95: Loaded production (10000 points)
+  ε=1.0: Loaded NPT equilibration (500 points)
+  ε=1.0: Loaded production (10000 points)
+  ε=1.05: Loaded NPT equilibration (500 points)
+  ε=1.05: Loaded production (10000 points)
+  ε=1.1: Loaded NPT equilibration (500 points)
+  ε=1.1: Loaded production (10000 points)
+
+Analyzing equilibration quality...
+  Metrics saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_metrics.csv
+
+======================================================================
+GENERATING EQUILIBRATION PLOTS
+======================================================================
+  Saved: 06_autocorrelation_analysis.png
+  Saved: 07_block_averaging.png
+  Saved: 08_running_averages.png
+  Saved: 09_stability_metrics.png
+
+Equilibration report saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_report.json
+
+======================================================================
+EQUILIBRATION ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+RADIAL DISTRIBUTION FUNCTION ANALYSIS
+======================================================================
+Loading RDF data...
+  ε=0.0, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.0, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.0, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.55, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.55, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.55, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, OO: 150 bins × 100 timesteps (averaged)
+
+Computing coordination numbers...
+  ε=0.0, CC: N_coord = 22.37 (r < 5.0 Å)
+  ε=0.0, CO: N_coord = 17.29 (r < 5.0 Å)
+  ε=0.0, OO: N_coord = 5.09 (r < 3.5 Å)
+  ε=0.05, CC: N_coord = 23.95 (r < 5.0 Å)
+  ε=0.05, CO: N_coord = 5.42 (r < 5.0 Å)
+  ε=0.05, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.1, CC: N_coord = 22.01 (r < 5.0 Å)
+  ε=0.1, CO: N_coord = 6.84 (r < 5.0 Å)
+  ε=0.1, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.15, CC: N_coord = 20.87 (r < 5.0 Å)
+  ε=0.15, CO: N_coord = 7.71 (r < 5.0 Å)
+  ε=0.15, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.2, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.2, CO: N_coord = 8.32 (r < 5.0 Å)
+  ε=0.2, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.25, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.25, CO: N_coord = 8.60 (r < 5.0 Å)
+  ε=0.25, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.3, CC: N_coord = 19.86 (r < 5.0 Å)
+  ε=0.3, CO: N_coord = 8.83 (r < 5.0 Å)
+  ε=0.3, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.35, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.35, CO: N_coord = 9.06 (r < 5.0 Å)
+  ε=0.35, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.4, CC: N_coord = 19.93 (r < 5.0 Å)
+  ε=0.4, CO: N_coord = 9.25 (r < 5.0 Å)
+  ε=0.4, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.45, CC: N_coord = 19.95 (r < 5.0 Å)
+  ε=0.45, CO: N_coord = 9.42 (r < 5.0 Å)
+  ε=0.45, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.5, CC: N_coord = 20.01 (r < 5.0 Å)
+  ε=0.5, CO: N_coord = 9.59 (r < 5.0 Å)
+  ε=0.5, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.55, CC: N_coord = 20.13 (r < 5.0 Å)
+  ε=0.55, CO: N_coord = 9.74 (r < 5.0 Å)
+  ε=0.55, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.6, CC: N_coord = 20.25 (r < 5.0 Å)
+  ε=0.6, CO: N_coord = 9.91 (r < 5.0 Å)
+  ε=0.6, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.65, CC: N_coord = 20.41 (r < 5.0 Å)
+  ε=0.65, CO: N_coord = 10.08 (r < 5.0 Å)
+  ε=0.65, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.7, CC: N_coord = 20.59 (r < 5.0 Å)
+  ε=0.7, CO: N_coord = 10.19 (r < 5.0 Å)
+  ε=0.7, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.75, CC: N_coord = 20.93 (r < 5.0 Å)
+  ε=0.75, CO: N_coord = 10.36 (r < 5.0 Å)
+  ε=0.75, OO: N_coord = 5.26 (r < 3.5 Å)
+  ε=0.8, CC: N_coord = 21.28 (r < 5.0 Å)
+  ε=0.8, CO: N_coord = 10.53 (r < 5.0 Å)
+  ε=0.8, OO: N_coord = 5.27 (r < 3.5 Å)
+  ε=0.85, CC: N_coord = 21.86 (r < 5.0 Å)
+  ε=0.85, CO: N_coord = 10.74 (r < 5.0 Å)
+  ε=0.85, OO: N_coord = 5.28 (r < 3.5 Å)
+  ε=0.9, CC: N_coord = 22.22 (r < 5.0 Å)
+  ε=0.9, CO: N_coord = 10.86 (r < 5.0 Å)
+  ε=0.9, OO: N_coord = 5.29 (r < 3.5 Å)
+  ε=0.95, CC: N_coord = 22.63 (r < 5.0 Å)
+  ε=0.95, CO: N_coord = 11.02 (r < 5.0 Å)
+  ε=0.95, OO: N_coord = 5.30 (r < 3.5 Å)
+  ε=1.0, CC: N_coord = 23.02 (r < 5.0 Å)
+  ε=1.0, CO: N_coord = 11.15 (r < 5.0 Å)
+  ε=1.0, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.05, CC: N_coord = 23.33 (r < 5.0 Å)
+  ε=1.05, CO: N_coord = 11.27 (r < 5.0 Å)
+  ε=1.05, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.1, CC: N_coord = 23.67 (r < 5.0 Å)
+  ε=1.1, CO: N_coord = 11.38 (r < 5.0 Å)
+  ε=1.1, OO: N_coord = 5.32 (r < 3.5 Å)
+  ε=0.25: First CO peak at r=8.90 Å, g(r)=1.09
+  ε=0.3: First CO peak at r=8.90 Å, g(r)=1.10
+  ε=0.35: First CO peak at r=8.90 Å, g(r)=1.11
+  ε=0.4: First CO peak at r=8.74 Å, g(r)=1.11
+  ε=0.45: First CO peak at r=8.82 Å, g(r)=1.12
+  ε=0.5: First CO peak at r=3.49 Å, g(r)=0.82
+  ε=0.55: First CO peak at r=3.49 Å, g(r)=0.85
+  ε=0.6: First CO peak at r=3.49 Å, g(r)=0.88
+  ε=0.65: First CO peak at r=3.49 Å, g(r)=0.91
+  ε=0.7: First CO peak at r=3.49 Å, g(r)=0.94
+  ε=0.75: First CO peak at r=3.49 Å, g(r)=0.97
+  ε=0.8: First CO peak at r=3.49 Å, g(r)=0.99
+  ε=0.85: First CO peak at r=3.49 Å, g(r)=1.02
+  ε=0.9: First CO peak at r=3.49 Å, g(r)=1.04
+  ε=0.95: First CO peak at r=3.41 Å, g(r)=1.06
+  ε=1.0: First CO peak at r=3.49 Å, g(r)=1.09
+  ε=1.05: First CO peak at r=3.41 Å, g(r)=1.11
+  ε=1.1: First CO peak at r=3.41 Å, g(r)=1.13
+
+======================================================================
+GENERATING RDF PLOTS
+======================================================================
+  Saved: 10_rdf_comparison.png
+  Saved: 11_co_rdf_detailed.png
+  Saved: 12_coordination_numbers.png
+
+RDF summary saved to /store/shuvam/learning_solvent_effects/analysis/plots/rdf_analysis_summary.json
+
+======================================================================
+RDF ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+================================================================================
+               COMPREHENSIVE WATER STRUCTURE ANALYSIS
+                         (CUDA-Accelerated)
+================================================================================
+
+WARNING: Trajectory not found for ε=0.00, skipping...
+WARNING: Trajectory not found for ε=0.05, skipping...
+WARNING: Trajectory not found for ε=0.10, skipping...
+WARNING: Trajectory not found for ε=0.15, skipping...
+WARNING: Trajectory not found for ε=0.20, skipping...
+WARNING: Trajectory not found for ε=0.25, skipping...
+WARNING: Trajectory not found for ε=0.30, skipping...
+WARNING: Trajectory not found for ε=0.35, skipping...
+WARNING: Trajectory not found for ε=0.40, skipping...
+WARNING: Trajectory not found for ε=0.45, skipping...
+WARNING: Trajectory not found for ε=0.50, skipping...
+WARNING: Trajectory not found for ε=0.55, skipping...
+WARNING: Trajectory not found for ε=0.60, skipping...
+WARNING: Trajectory not found for ε=0.65, skipping...
+WARNING: Trajectory not found for ε=0.70, skipping...
+WARNING: Trajectory not found for ε=0.75, skipping...
+WARNING: Trajectory not found for ε=0.80, skipping...
+WARNING: Trajectory not found for ε=0.85, skipping...
+WARNING: Trajectory not found for ε=0.90, skipping...
+WARNING: Trajectory not found for ε=0.95, skipping...
+WARNING: Trajectory not found for ε=1.00, skipping...
+WARNING: Trajectory not found for ε=1.05, skipping...
+WARNING: Trajectory not found for ε=1.10, skipping...
+ERROR: No trajectory files found!
+Loading water structure data...
+  Loaded ε=0.00
+  Loaded ε=0.05
+  Loaded ε=0.10
+  Loaded ε=0.15
+  Loaded ε=0.20
+  Loaded ε=0.25
+  Loaded ε=0.30
+  Loaded ε=0.35
+  Loaded ε=0.40
+  Loaded ε=0.45
+  Loaded ε=0.50
+  Warning: No data for ε=0.55
+  Warning: No data for ε=0.60
+  Warning: No data for ε=0.65
+  Warning: No data for ε=0.70
+  Warning: No data for ε=0.75
+  Warning: No data for ε=0.80
+  Warning: No data for ε=0.85
+  Warning: No data for ε=0.90
+  Warning: No data for ε=0.95
+  Warning: No data for ε=1.00
+  Warning: No data for ε=1.05
+  Warning: No data for ε=1.10
+
+================================================================================
+GENERATING WATER STRUCTURE PLOTS
+================================================================================
+
+  Saved: 13_tetrahedral_order_analysis.png
+  Saved: 14_steinhardt_order_parameters.png
+  Saved: 15_shape_parameters_oblate_prolate.png
+  Saved: 16_coordination_hbond_analysis.png
+  Saved: 17_msd_diffusion_analysis.png
+
+================================================================================
+ALL WATER STRUCTURE PLOTS COMPLETE!
+Saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+================================================================================
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:172: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax1.legend(loc='best', ncol=3)
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:212: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax3.legend(loc='best', ncol=2, fontsize=8)
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:216: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+================================================================================
+MSD VALIDATION AND DIFFUSION COEFFICIENT ANALYSIS
+================================================================================
+
+Loading MSD data from LAMMPS...
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.0/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.05/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.10/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.15/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.20/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.25/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.30/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.35/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.40/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.45/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.50/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.55/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.60/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.65/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.70/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.75/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.80/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.85/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.90/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.95/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.00/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.05/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.10/msd_water.dat not found
+
+Calculating diffusion coefficients...
+
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/18_msd_evolution.png
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/msd_evolution_data.csv
+
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/19_diffusion_coefficients.png
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/diffusion_coefficients.csv
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/diffusion_summary.json
+
+================================================================================
+MSD ANALYSIS COMPLETE!
+================================================================================
+
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+================================================================================
+HIGH-PRIORITY ADDITIONAL ANALYSES (FIXED VERSION)
+================================================================================
+Traceback (most recent call last):
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/07_high_priority_additional_analysis.py", line 540, in <module>
+    main()
+    ~~~~^^
+  File "/store/shuvam/learning_solvent_effects/analysis/codes/07_high_priority_additional_analysis.py", line 506, in main
+    base_dir = Path('/store/shuvam/learning_solvent_effects')
+               ^^^^
+NameError: name 'Path' is not defined
+======================================================================
+C60 NANOPARTICLE SOLVATION STUDY - COMPREHENSIVE ANALYSIS
+======================================================================
+
+Base directory: /store/shuvam/learning_solvent_effects
+Analysis codes: /store/shuvam/learning_solvent_effects/analysis/codes
+
+======================================================================
+RUNNING: Thermodynamic Properties Analysis
+======================================================================
+
+✓ Completed in 212.9 seconds
+
+======================================================================
+RUNNING: Equilibration & Stability Assessment
+======================================================================
+
+✓ Completed in 57.1 seconds
+
+======================================================================
+RUNNING: Radial Distribution Functions
+======================================================================
+
+✓ Completed in 13.2 seconds
+
+======================================================================
+RUNNING: Comprehensive Water Structure (CUDA)
+======================================================================
+
+✓ Completed in 2.6 seconds
+
+======================================================================
+RUNNING: Water Structure Visualization
+======================================================================
+
+✓ Completed in 22.6 seconds
+
+======================================================================
+RUNNING: MSD Validation Analysis
+======================================================================
+
+✓ Completed in 5.0 seconds
+
+======================================================================
+RUNNING: Additional High-Priority Analysis
+======================================================================
+
+✗ ERROR: Analysis failed with exit code 1
+
+======================================================================
+ANALYSIS SUMMARY
+======================================================================
+  ✓ Success    - Thermodynamic Properties Analysis
+  ✓ Success    - Equilibration & Stability Assessment
+  ✓ Success    - Radial Distribution Functions
+  ✓ Success    - Comprehensive Water Structure (CUDA)
+  ✓ Success    - Water Structure Visualization
+  ✓ Success    - MSD Validation Analysis
+  ✗ Failed     - Additional High-Priority Analysis
+
+Total time: 315.3 seconds (5.3 minutes)
+======================================================================
+
+⚠️  Some analyses failed. Check error messages above.

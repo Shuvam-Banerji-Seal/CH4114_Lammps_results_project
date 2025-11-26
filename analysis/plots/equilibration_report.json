@@ -1,0 +1,496 @@
+{
+  "analysis_summary": {
+    "purpose": "Assess equilibration quality and statistical reliability",
+    "methods": [
+      "Autocorrelation analysis for correlation times",
+      "Block averaging for error estimation",
+      "Running averages for convergence assessment",
+      "Drift analysis for stability evaluation"
+    ]
+  },
+  "epsilon_metrics": {
+    "eps_0.00": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_K_per_ns": -0.0010430199693575515,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": 0.08295626915171524,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.054,
+        "effective_samples": 1777.0752492719894,
+        "drift_per_ns": -3.706893221517229e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.05": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_K_per_ns": 0.004005455671013647,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666667,
+        "drift_atm_per_ns": -0.13391960058350152,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.062,
+        "effective_samples": 1896.8398060088011,
+        "drift_per_ns": 6.114568972786436e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.10": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_K_per_ns": -0.00025756023514390483,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": 0.0597546618574869,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.09,
+        "effective_samples": 1817.2210846983123,
+        "drift_per_ns": -2.3985339367463322e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.15": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": -0.0008332774160832071,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_atm_per_ns": 0.009472405042918611,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.056,
+        "effective_samples": 1971.812313614225,
+        "drift_per_ns": -1.1010155975025406e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.20": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": 0.0033591988553979824,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_atm_per_ns": 0.04099542736554107,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.184,
+        "effective_samples": 1600.754593106445,
+        "drift_per_ns": 8.578886023947314e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.25": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": 0.0016180908227952206,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": -0.08292195334327124,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.076,
+        "effective_samples": 1794.563855561275,
+        "drift_per_ns": -1.475094494937735e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.30": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": 0.0017513466966283782,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": -0.09451314867615296,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.074,
+        "effective_samples": 1741.7815179787988,
+        "drift_per_ns": -3.808077269770187e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.35": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": -0.0002726195174315694,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": -0.045162287333166434,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.07,
+        "effective_samples": 1648.6929845558232,
+        "drift_per_ns": 5.489267826223166e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.40": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666666,
+        "drift_K_per_ns": 0.0019728412099321046,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": -0.07849860293064383,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.08,
+        "effective_samples": 1724.818784653793,
+        "drift_per_ns": 2.858965807147405e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.45": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_K_per_ns": 0.0021125495617813745,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": -0.008532145366029694,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.256,
+        "effective_samples": 1278.5214528358383,
+        "drift_per_ns": 1.3496049626240115e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.50": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_K_per_ns": 0.0034325663785814216,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 6666.666666666664,
+        "drift_atm_per_ns": 0.051642538280499556,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.054,
+        "effective_samples": 1775.1184281014423,
+        "drift_per_ns": 9.436803653591917e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 20000
+    },
+    "eps_0.55": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.00030696283506961034,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_atm_per_ns": 0.06664989403306297,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.164,
+        "effective_samples": 822.3430989574035,
+        "drift_per_ns": -5.08301057083016e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.60": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.0006492332464922482,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_atm_per_ns": -0.09667028321324647,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.068,
+        "effective_samples": 826.271790616671,
+        "drift_per_ns": 5.933755319337524e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.65": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.005481206202812111,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_atm_per_ns": -0.38968419438343194,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.058,
+        "effective_samples": 994.9469040906408,
+        "drift_per_ns": -6.328783287287802e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.70": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": -0.003503814539038178,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_atm_per_ns": -0.09382131389920698,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.094,
+        "effective_samples": 771.1177699542955,
+        "drift_per_ns": 0.00014074553792745503,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.75": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_K_per_ns": -0.010927561645275663,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_atm_per_ns": 0.40231906455569516,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.064,
+        "effective_samples": 910.0998789885944,
+        "drift_per_ns": -4.728920183289212e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.80": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_K_per_ns": -0.0048528588545286334,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.3333333333317,
+        "drift_atm_per_ns": 0.3304004107321076,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.1,
+        "effective_samples": 861.9598419050543,
+        "drift_per_ns": 5.244744262447451e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.85": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.000901402821013954,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_atm_per_ns": 0.5599458780645852,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.062,
+        "effective_samples": 861.5107870703022,
+        "drift_per_ns": -0.00014161969341619672,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.90": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.005731689789316894,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_atm_per_ns": -0.1059229693438551,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.058,
+        "effective_samples": 866.0651366577227,
+        "drift_per_ns": 1.9538670795387982e-06,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_0.95": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.0009253151672531337,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.3333333333335,
+        "drift_atm_per_ns": -0.02750993678705591,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.072,
+        "effective_samples": 771.3198997251507,
+        "drift_per_ns": 3.349741203497409e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_1.00": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": -0.00201176567611763,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_atm_per_ns": -0.11281911600910718,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.068,
+        "effective_samples": 803.5330546003112,
+        "drift_per_ns": 4.3232141772321234e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_1.05": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_K_per_ns": 0.003056553990565468,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.3333333333317,
+        "drift_atm_per_ns": 0.10562765789731278,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.118,
+        "effective_samples": 717.2742554410272,
+        "drift_per_ns": 0.00017864160202641602,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    },
+    "eps_1.10": {
+      "temperature": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333332,
+        "drift_K_per_ns": 0.005285024914850307,
+        "stability_assessment": "Good"
+      },
+      "pressure": {
+        "correlation_time_ps": 0.002,
+        "effective_samples": 3333.333333333333,
+        "drift_atm_per_ns": -0.007681287315929823,
+        "stability_assessment": "Good"
+      },
+      "density": {
+        "correlation_time_ps": 0.078,
+        "effective_samples": 806.9121818121539,
+        "drift_per_ns": -2.0797740387977338e-05,
+        "stability_assessment": "Good"
+      },
+      "total_samples": 10000
+    }
+  }
+}

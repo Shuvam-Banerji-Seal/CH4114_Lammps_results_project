@@ -1,0 +1,887 @@
+======================================================================
+THERMODYNAMIC ANALYSIS - C60 NANOPARTICLE SOLVATION STUDY
+======================================================================
+Loading production thermodynamic data...
+  Loaded ε=0.0: 20000 data points
+  Loaded ε=0.05: 20000 data points
+  Loaded ε=0.1: 20000 data points
+  Loaded ε=0.15: 20000 data points
+  Loaded ε=0.2: 20000 data points
+  Loaded ε=0.25: 20000 data points
+  Loaded ε=0.3: 20000 data points
+  Loaded ε=0.35: 20000 data points
+  Loaded ε=0.4: 20000 data points
+  Loaded ε=0.45: 20000 data points
+  Loaded ε=0.5: 20000 data points
+  Loaded ε=0.55: 10000 data points
+  Loaded ε=0.6: 10000 data points
+  Loaded ε=0.65: 10000 data points
+  Loaded ε=0.7: 10000 data points
+  Loaded ε=0.75: 10000 data points
+  Loaded ε=0.8: 10000 data points
+  Loaded ε=0.85: 10000 data points
+  Loaded ε=0.9: 10000 data points
+  Loaded ε=0.95: 10000 data points
+  Loaded ε=1.0: 10000 data points
+  Loaded ε=1.05: 10000 data points
+  Loaded ε=1.1: 10000 data points
+
+Statistics saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_statistics.csv
+
+======================================================================
+GENERATING PLOTS
+======================================================================
+  Saved: 01a_temperature_timeseries.png
+  Saved: 01b_temperature_summary.png
+  Saved: 02_pressure_analysis.png
+  Saved: 03_density_analysis.png
+  Saved: 04_energy_analysis.png
+  Saved: 05_comparison_matrix.png
+  Exported CSV: module01_timeseries_data.csv
+  Exported summary: module01_summary_stats.csv
+
+Summary JSON saved to /store/shuvam/learning_solvent_effects/analysis/plots/thermodynamic_summary.json
+
+======================================================================
+ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+EQUILIBRATION AND STABILITY ANALYSIS
+======================================================================
+Loading simulation data from all stages...
+  ε=0.0: Loaded NPT equilibration (500 points)
+  ε=0.0: Loaded production (20000 points)
+  ε=0.05: Loaded NPT equilibration (500 points)
+  ε=0.05: Loaded production (20000 points)
+  ε=0.1: Loaded NPT equilibration (500 points)
+  ε=0.1: Loaded production (20000 points)
+  ε=0.15: Loaded NPT equilibration (500 points)
+  ε=0.15: Loaded production (20000 points)
+  ε=0.2: Loaded NPT equilibration (500 points)
+  ε=0.2: Loaded production (20000 points)
+  ε=0.25: Loaded NPT equilibration (500 points)
+  ε=0.25: Loaded production (20000 points)
+  ε=0.3: Loaded NPT equilibration (500 points)
+  ε=0.3: Loaded production (20000 points)
+  ε=0.35: Loaded NPT equilibration (500 points)
+  ε=0.35: Loaded production (20000 points)
+  ε=0.4: Loaded NPT equilibration (500 points)
+  ε=0.4: Loaded production (20000 points)
+  ε=0.45: Loaded NPT equilibration (500 points)
+  ε=0.45: Loaded production (20000 points)
+  ε=0.5: Loaded NPT equilibration (500 points)
+  ε=0.5: Loaded production (20000 points)
+  ε=0.55: Loaded NPT equilibration (500 points)
+  ε=0.55: Loaded production (10000 points)
+  ε=0.6: Loaded NPT equilibration (500 points)
+  ε=0.6: Loaded production (10000 points)
+  ε=0.65: Loaded NPT equilibration (500 points)
+  ε=0.65: Loaded production (10000 points)
+  ε=0.7: Loaded NPT equilibration (500 points)
+  ε=0.7: Loaded production (10000 points)
+  ε=0.75: Loaded NPT equilibration (500 points)
+  ε=0.75: Loaded production (10000 points)
+  ε=0.8: Loaded NPT equilibration (500 points)
+  ε=0.8: Loaded production (10000 points)
+  ε=0.85: Loaded NPT equilibration (500 points)
+  ε=0.85: Loaded production (10000 points)
+  ε=0.9: Loaded NPT equilibration (500 points)
+  ε=0.9: Loaded production (10000 points)
+  ε=0.95: Loaded NPT equilibration (500 points)
+  ε=0.95: Loaded production (10000 points)
+  ε=1.0: Loaded NPT equilibration (500 points)
+  ε=1.0: Loaded production (10000 points)
+  ε=1.05: Loaded NPT equilibration (500 points)
+  ε=1.05: Loaded production (10000 points)
+  ε=1.1: Loaded NPT equilibration (500 points)
+  ε=1.1: Loaded production (10000 points)
+
+Analyzing equilibration quality...
+  Metrics saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_metrics.csv
+
+======================================================================
+GENERATING EQUILIBRATION PLOTS
+======================================================================
+  Saved: 06_autocorrelation_analysis.png
+  Saved: 07_block_averaging.png
+  Saved: 08_running_averages.png
+  Saved: 09_stability_metrics.png
+
+Equilibration report saved to /store/shuvam/learning_solvent_effects/analysis/plots/equilibration_report.json
+
+======================================================================
+EQUILIBRATION ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+======================================================================
+RADIAL DISTRIBUTION FUNCTION ANALYSIS
+======================================================================
+Loading RDF data...
+  ε=0.0, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.0, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.0, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.05, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.05, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.1, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.1, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.15, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.15, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.2, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.2, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.25, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.25, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.3, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.3, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.35, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.35, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.4, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.4, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.45, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.45, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CC: 150 bins × 200 timesteps (averaged)
+  ε=0.5, CO: 150 bins × 200 timesteps (averaged)
+  ε=0.5, OO: 150 bins × 200 timesteps (averaged)
+  ε=0.55, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.55, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.55, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.6, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.6, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.65, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.65, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.7, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.7, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.75, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.75, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.8, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.8, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.85, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.85, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.9, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.9, OO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CC: 150 bins × 100 timesteps (averaged)
+  ε=0.95, CO: 150 bins × 100 timesteps (averaged)
+  ε=0.95, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.0, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.0, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.05, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.05, OO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CC: 150 bins × 100 timesteps (averaged)
+  ε=1.1, CO: 150 bins × 100 timesteps (averaged)
+  ε=1.1, OO: 150 bins × 100 timesteps (averaged)
+
+Computing coordination numbers...
+  ε=0.0, CC: N_coord = 22.37 (r < 5.0 Å)
+  ε=0.0, CO: N_coord = 17.29 (r < 5.0 Å)
+  ε=0.0, OO: N_coord = 5.09 (r < 3.5 Å)
+  ε=0.05, CC: N_coord = 23.95 (r < 5.0 Å)
+  ε=0.05, CO: N_coord = 5.42 (r < 5.0 Å)
+  ε=0.05, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.1, CC: N_coord = 22.01 (r < 5.0 Å)
+  ε=0.1, CO: N_coord = 6.84 (r < 5.0 Å)
+  ε=0.1, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.15, CC: N_coord = 20.87 (r < 5.0 Å)
+  ε=0.15, CO: N_coord = 7.71 (r < 5.0 Å)
+  ε=0.15, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.2, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.2, CO: N_coord = 8.32 (r < 5.0 Å)
+  ε=0.2, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.25, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.25, CO: N_coord = 8.60 (r < 5.0 Å)
+  ε=0.25, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.3, CC: N_coord = 19.86 (r < 5.0 Å)
+  ε=0.3, CO: N_coord = 8.83 (r < 5.0 Å)
+  ε=0.3, OO: N_coord = 5.21 (r < 3.5 Å)
+  ε=0.35, CC: N_coord = 19.89 (r < 5.0 Å)
+  ε=0.35, CO: N_coord = 9.06 (r < 5.0 Å)
+  ε=0.35, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.4, CC: N_coord = 19.93 (r < 5.0 Å)
+  ε=0.4, CO: N_coord = 9.25 (r < 5.0 Å)
+  ε=0.4, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.45, CC: N_coord = 19.95 (r < 5.0 Å)
+  ε=0.45, CO: N_coord = 9.42 (r < 5.0 Å)
+  ε=0.45, OO: N_coord = 5.22 (r < 3.5 Å)
+  ε=0.5, CC: N_coord = 20.01 (r < 5.0 Å)
+  ε=0.5, CO: N_coord = 9.59 (r < 5.0 Å)
+  ε=0.5, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.55, CC: N_coord = 20.13 (r < 5.0 Å)
+  ε=0.55, CO: N_coord = 9.74 (r < 5.0 Å)
+  ε=0.55, OO: N_coord = 5.23 (r < 3.5 Å)
+  ε=0.6, CC: N_coord = 20.25 (r < 5.0 Å)
+  ε=0.6, CO: N_coord = 9.91 (r < 5.0 Å)
+  ε=0.6, OO: N_coord = 5.24 (r < 3.5 Å)
+  ε=0.65, CC: N_coord = 20.41 (r < 5.0 Å)
+  ε=0.65, CO: N_coord = 10.08 (r < 5.0 Å)
+  ε=0.65, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.7, CC: N_coord = 20.59 (r < 5.0 Å)
+  ε=0.7, CO: N_coord = 10.19 (r < 5.0 Å)
+  ε=0.7, OO: N_coord = 5.25 (r < 3.5 Å)
+  ε=0.75, CC: N_coord = 20.93 (r < 5.0 Å)
+  ε=0.75, CO: N_coord = 10.36 (r < 5.0 Å)
+  ε=0.75, OO: N_coord = 5.26 (r < 3.5 Å)
+  ε=0.8, CC: N_coord = 21.28 (r < 5.0 Å)
+  ε=0.8, CO: N_coord = 10.53 (r < 5.0 Å)
+  ε=0.8, OO: N_coord = 5.27 (r < 3.5 Å)
+  ε=0.85, CC: N_coord = 21.86 (r < 5.0 Å)
+  ε=0.85, CO: N_coord = 10.74 (r < 5.0 Å)
+  ε=0.85, OO: N_coord = 5.28 (r < 3.5 Å)
+  ε=0.9, CC: N_coord = 22.22 (r < 5.0 Å)
+  ε=0.9, CO: N_coord = 10.86 (r < 5.0 Å)
+  ε=0.9, OO: N_coord = 5.29 (r < 3.5 Å)
+  ε=0.95, CC: N_coord = 22.63 (r < 5.0 Å)
+  ε=0.95, CO: N_coord = 11.02 (r < 5.0 Å)
+  ε=0.95, OO: N_coord = 5.30 (r < 3.5 Å)
+  ε=1.0, CC: N_coord = 23.02 (r < 5.0 Å)
+  ε=1.0, CO: N_coord = 11.15 (r < 5.0 Å)
+  ε=1.0, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.05, CC: N_coord = 23.33 (r < 5.0 Å)
+  ε=1.05, CO: N_coord = 11.27 (r < 5.0 Å)
+  ε=1.05, OO: N_coord = 5.31 (r < 3.5 Å)
+  ε=1.1, CC: N_coord = 23.67 (r < 5.0 Å)
+  ε=1.1, CO: N_coord = 11.38 (r < 5.0 Å)
+  ε=1.1, OO: N_coord = 5.32 (r < 3.5 Å)
+  ε=0.25: First CO peak at r=8.90 Å, g(r)=1.09
+  ε=0.3: First CO peak at r=8.90 Å, g(r)=1.10
+  ε=0.35: First CO peak at r=8.90 Å, g(r)=1.11
+  ε=0.4: First CO peak at r=8.74 Å, g(r)=1.11
+  ε=0.45: First CO peak at r=8.82 Å, g(r)=1.12
+  ε=0.5: First CO peak at r=3.49 Å, g(r)=0.82
+  ε=0.55: First CO peak at r=3.49 Å, g(r)=0.85
+  ε=0.6: First CO peak at r=3.49 Å, g(r)=0.88
+  ε=0.65: First CO peak at r=3.49 Å, g(r)=0.91
+  ε=0.7: First CO peak at r=3.49 Å, g(r)=0.94
+  ε=0.75: First CO peak at r=3.49 Å, g(r)=0.97
+  ε=0.8: First CO peak at r=3.49 Å, g(r)=0.99
+  ε=0.85: First CO peak at r=3.49 Å, g(r)=1.02
+  ε=0.9: First CO peak at r=3.49 Å, g(r)=1.04
+  ε=0.95: First CO peak at r=3.41 Å, g(r)=1.06
+  ε=1.0: First CO peak at r=3.49 Å, g(r)=1.09
+  ε=1.05: First CO peak at r=3.41 Å, g(r)=1.11
+  ε=1.1: First CO peak at r=3.41 Å, g(r)=1.13
+
+======================================================================
+GENERATING RDF PLOTS
+======================================================================
+  Saved: 10_rdf_comparison.png
+  Saved: 11_co_rdf_detailed.png
+  Saved: 12_coordination_numbers.png
+
+RDF summary saved to /store/shuvam/learning_solvent_effects/analysis/plots/rdf_analysis_summary.json
+
+======================================================================
+RDF ANALYSIS COMPLETE!
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+======================================================================
+================================================================================
+               COMPREHENSIVE WATER STRUCTURE ANALYSIS
+                         (CUDA-Accelerated)
+================================================================================
+
+WARNING: Trajectory not found for ε=0.00, skipping...
+WARNING: Trajectory not found for ε=0.05, skipping...
+WARNING: Trajectory not found for ε=0.10, skipping...
+WARNING: Trajectory not found for ε=0.15, skipping...
+WARNING: Trajectory not found for ε=0.20, skipping...
+WARNING: Trajectory not found for ε=0.25, skipping...
+WARNING: Trajectory not found for ε=0.30, skipping...
+WARNING: Trajectory not found for ε=0.35, skipping...
+WARNING: Trajectory not found for ε=0.40, skipping...
+WARNING: Trajectory not found for ε=0.45, skipping...
+WARNING: Trajectory not found for ε=0.50, skipping...
+WARNING: Trajectory not found for ε=0.55, skipping...
+WARNING: Trajectory not found for ε=0.60, skipping...
+WARNING: Trajectory not found for ε=0.65, skipping...
+WARNING: Trajectory not found for ε=0.70, skipping...
+WARNING: Trajectory not found for ε=0.75, skipping...
+WARNING: Trajectory not found for ε=0.80, skipping...
+WARNING: Trajectory not found for ε=0.85, skipping...
+WARNING: Trajectory not found for ε=0.90, skipping...
+WARNING: Trajectory not found for ε=0.95, skipping...
+WARNING: Trajectory not found for ε=1.00, skipping...
+WARNING: Trajectory not found for ε=1.05, skipping...
+WARNING: Trajectory not found for ε=1.10, skipping...
+ERROR: No trajectory files found!
+Loading water structure data...
+  Loaded ε=0.00
+  Loaded ε=0.05
+  Loaded ε=0.10
+  Loaded ε=0.15
+  Loaded ε=0.20
+  Loaded ε=0.25
+  Loaded ε=0.30
+  Loaded ε=0.35
+  Loaded ε=0.40
+  Loaded ε=0.45
+  Loaded ε=0.50
+  Warning: No data for ε=0.55
+  Warning: No data for ε=0.60
+  Warning: No data for ε=0.65
+  Warning: No data for ε=0.70
+  Warning: No data for ε=0.75
+  Warning: No data for ε=0.80
+  Warning: No data for ε=0.85
+  Warning: No data for ε=0.90
+  Warning: No data for ε=0.95
+  Warning: No data for ε=1.00
+  Warning: No data for ε=1.05
+  Warning: No data for ε=1.10
+
+================================================================================
+GENERATING WATER STRUCTURE PLOTS
+================================================================================
+
+  Saved: 13_tetrahedral_order_analysis.png
+  Saved: 14_steinhardt_order_parameters.png
+  Saved: 15_shape_parameters_oblate_prolate.png
+  Saved: 16_coordination_hbond_analysis.png
+  Saved: 17_msd_diffusion_analysis.png
+
+================================================================================
+ALL WATER STRUCTURE PLOTS COMPLETE!
+Saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+================================================================================
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:180: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax1.legend(loc='best', ncol=3)
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:220: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax3.legend(loc='best', ncol=2, fontsize=8)
+/store/shuvam/learning_solvent_effects/analysis/codes/06_msd_validation.py:224: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+================================================================================
+MSD VALIDATION AND DIFFUSION COEFFICIENT ANALYSIS
+================================================================================
+
+Loading MSD data from LAMMPS...
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.0/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.05/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.10/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.15/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.20/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.25/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.30/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.35/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.40/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.45/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.50/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.55/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.60/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.65/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.70/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.75/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.80/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.85/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.90/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_0.95/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.00/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.05/msd_water.dat not found
+  Warning: /store/shuvam/learning_solvent_effects/epsilon_1.10/msd_water.dat not found
+
+Calculating diffusion coefficients...
+
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/18_msd_evolution.png
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/msd_evolution_data.csv
+
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/19_diffusion_coefficients.png
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/diffusion_coefficients.csv
+Saved: /store/shuvam/learning_solvent_effects/analysis/plots/diffusion_summary.json
+
+================================================================================
+MSD ANALYSIS COMPLETE!
+================================================================================
+
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+================================================================================
+HIGH-PRIORITY ADDITIONAL ANALYSES (FIXED VERSION)
+================================================================================
+Loading trajectory files...
+  ✓ ε=0.0: 2000 frames, 5541 atoms
+  ✓ ε=0.05: 2000 frames, 5541 atoms
+  ✓ ε=0.1: 2000 frames, 5541 atoms
+  ✓ ε=0.15: 2000 frames, 5541 atoms
+  ✓ ε=0.2: 2000 frames, 5541 atoms
+  ✓ ε=0.25: 2000 frames, 5541 atoms
+  ✓ ε=0.3: 2000 frames, 5541 atoms
+  ✓ ε=0.35: 2000 frames, 5541 atoms
+  ✓ ε=0.4: 2000 frames, 5541 atoms
+  ✓ ε=0.45: 2000 frames, 5541 atoms
+  ✓ ε=0.5: 2000 frames, 5541 atoms
+  ✓ ε=0.55: 1000 frames, 5541 atoms
+  ✓ ε=0.6: 1000 frames, 5541 atoms
+  ✓ ε=0.65: 1000 frames, 5541 atoms
+  ✓ ε=0.7: 1000 frames, 5541 atoms
+  ✓ ε=0.75: 1000 frames, 5541 atoms
+  ✓ ε=0.8: 1000 frames, 5541 atoms
+  ✓ ε=0.85: 1000 frames, 5541 atoms
+  ✓ ε=0.9: 1000 frames, 5541 atoms
+  ✓ ε=0.95: 1000 frames, 5541 atoms
+  ✓ ε=1.0: 1000 frames, 5541 atoms
+  ✓ ε=1.05: 1000 frames, 5541 atoms
+  ✓ ε=1.1: 1000 frames, 5541 atoms
+
+================================================================================
+ANALYSIS #2: C60-C60 DISTANCE TIME SERIES
+================================================================================
+
+[ε=0.0] Processing C60 distances...
+ε=0.0:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.0:   4%|▍         | 8/200 [00:00<00:02, 73.45it/s]ε=0.0:   8%|▊         | 16/200 [00:00<00:02, 73.71it/s]ε=0.0:  12%|█▏        | 24/200 [00:00<00:02, 73.96it/s]ε=0.0:  16%|█▌        | 32/200 [00:00<00:02, 74.04it/s]ε=0.0:  20%|██        | 40/200 [00:00<00:02, 74.08it/s]ε=0.0:  24%|██▍       | 48/200 [00:00<00:02, 74.11it/s]ε=0.0:  28%|██▊       | 56/200 [00:00<00:01, 74.15it/s]ε=0.0:  32%|███▏      | 64/200 [00:00<00:01, 74.26it/s]ε=0.0:  36%|███▌      | 72/200 [00:00<00:01, 74.30it/s]ε=0.0:  40%|████      | 80/200 [00:01<00:01, 74.25it/s]ε=0.0:  44%|████▍     | 88/200 [00:01<00:01, 74.18it/s]ε=0.0:  48%|████▊     | 96/200 [00:01<00:01, 74.16it/s]ε=0.0:  52%|█████▏    | 104/200 [00:01<00:01, 74.20it/s]ε=0.0:  56%|█████▌    | 112/200 [00:01<00:01, 74.21it/s]ε=0.0:  60%|██████    | 120/200 [00:01<00:01, 74.17it/s]ε=0.0:  64%|██████▍   | 128/200 [00:01<00:00, 74.26it/s]ε=0.0:  68%|██████▊   | 136/200 [00:01<00:00, 74.24it/s]ε=0.0:  72%|███████▏  | 144/200 [00:01<00:00, 74.30it/s]ε=0.0:  76%|███████▌  | 152/200 [00:02<00:00, 74.37it/s]ε=0.0:  80%|████████  | 160/200 [00:02<00:00, 74.34it/s]ε=0.0:  84%|████████▍ | 168/200 [00:02<00:00, 74.27it/s]ε=0.0:  88%|████████▊ | 176/200 [00:02<00:00, 74.24it/s]ε=0.0:  92%|█████████▏| 184/200 [00:02<00:00, 74.27it/s]ε=0.0:  96%|█████████▌| 192/200 [00:02<00:00, 74.25it/s]ε=0.0: 100%|██████████| 200/200 [00:02<00:00, 74.23it/s]ε=0.0: 100%|██████████| 200/200 [00:02<00:00, 73.82it/s]
+  Mean distances: d12=9.2, d13=9.2, d23=9.2 Å
+  Contact probability (d<10Å): 96.0%
+
+[ε=0.05] Processing C60 distances...
+ε=0.05:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.05:   4%|▍         | 8/200 [00:00<00:02, 73.45it/s]ε=0.05:   8%|▊         | 16/200 [00:00<00:02, 73.49it/s]ε=0.05:  12%|█▏        | 24/200 [00:00<00:02, 73.41it/s]ε=0.05:  16%|█▌        | 32/200 [00:00<00:02, 73.29it/s]ε=0.05:  20%|██        | 40/200 [00:00<00:02, 73.28it/s]ε=0.05:  24%|██▍       | 48/200 [00:00<00:02, 73.35it/s]ε=0.05:  28%|██▊       | 56/200 [00:00<00:01, 73.35it/s]ε=0.05:  32%|███▏      | 64/200 [00:00<00:01, 73.26it/s]ε=0.05:  36%|███▌      | 72/200 [00:00<00:01, 73.30it/s]ε=0.05:  40%|████      | 80/200 [00:01<00:01, 73.35it/s]ε=0.05:  44%|████▍     | 88/200 [00:01<00:01, 73.50it/s]ε=0.05:  48%|████▊     | 96/200 [00:01<00:01, 73.48it/s]ε=0.05:  52%|█████▏    | 104/200 [00:01<00:01, 73.37it/s]ε=0.05:  56%|█████▌    | 112/200 [00:01<00:01, 73.25it/s]ε=0.05:  60%|██████    | 120/200 [00:01<00:01, 73.38it/s]ε=0.05:  64%|██████▍   | 128/200 [00:01<00:00, 73.39it/s]ε=0.05:  68%|██████▊   | 136/200 [00:01<00:00, 73.39it/s]ε=0.05:  72%|███████▏  | 144/200 [00:01<00:00, 73.39it/s]ε=0.05:  76%|███████▌  | 152/200 [00:02<00:00, 73.33it/s]ε=0.05:  80%|████████  | 160/200 [00:02<00:00, 73.43it/s]ε=0.05:  84%|████████▍ | 168/200 [00:02<00:00, 73.47it/s]ε=0.05:  88%|████████▊ | 176/200 [00:02<00:00, 73.44it/s]ε=0.05:  92%|█████████▏| 184/200 [00:02<00:00, 73.47it/s]ε=0.05:  96%|█████████▌| 192/200 [00:02<00:00, 73.44it/s]ε=0.05: 100%|██████████| 200/200 [00:02<00:00, 73.50it/s]ε=0.05: 100%|██████████| 200/200 [00:02<00:00, 73.02it/s]
+  Mean distances: d12=8.9, d13=8.9, d23=8.9 Å
+  Contact probability (d<10Å): 99.8%
+
+[ε=0.1] Processing C60 distances...
+ε=0.1:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.1:   4%|▍         | 8/200 [00:00<00:02, 74.03it/s]ε=0.1:   8%|▊         | 16/200 [00:00<00:02, 73.87it/s]ε=0.1:  12%|█▏        | 24/200 [00:00<00:02, 73.87it/s]ε=0.1:  16%|█▌        | 32/200 [00:00<00:02, 73.98it/s]ε=0.1:  20%|██        | 40/200 [00:00<00:02, 73.92it/s]ε=0.1:  24%|██▍       | 48/200 [00:00<00:02, 73.86it/s]ε=0.1:  28%|██▊       | 56/200 [00:00<00:01, 73.82it/s]ε=0.1:  32%|███▏      | 64/200 [00:00<00:01, 73.80it/s]ε=0.1:  36%|███▌      | 72/200 [00:00<00:01, 73.69it/s]ε=0.1:  40%|████      | 80/200 [00:01<00:01, 73.65it/s]ε=0.1:  44%|████▍     | 88/200 [00:01<00:01, 73.63it/s]ε=0.1:  48%|████▊     | 96/200 [00:01<00:01, 73.58it/s]ε=0.1:  52%|█████▏    | 104/200 [00:01<00:01, 73.66it/s]ε=0.1:  56%|█████▌    | 112/200 [00:01<00:01, 73.75it/s]ε=0.1:  60%|██████    | 120/200 [00:01<00:01, 73.82it/s]ε=0.1:  64%|██████▍   | 128/200 [00:01<00:00, 73.91it/s]ε=0.1:  68%|██████▊   | 136/200 [00:01<00:00, 73.90it/s]ε=0.1:  72%|███████▏  | 144/200 [00:01<00:00, 73.87it/s]ε=0.1:  76%|███████▌  | 152/200 [00:02<00:00, 73.94it/s]ε=0.1:  80%|████████  | 160/200 [00:02<00:00, 73.85it/s]ε=0.1:  84%|████████▍ | 168/200 [00:02<00:00, 73.48it/s]ε=0.1:  88%|████████▊ | 176/200 [00:02<00:00, 73.45it/s]ε=0.1:  92%|█████████▏| 184/200 [00:02<00:00, 73.54it/s]ε=0.1:  96%|█████████▌| 192/200 [00:02<00:00, 73.63it/s]ε=0.1: 100%|██████████| 200/200 [00:02<00:00, 73.75it/s]ε=0.1: 100%|██████████| 200/200 [00:02<00:00, 73.37it/s]
+  Mean distances: d12=14.1, d13=18.1, d23=9.0 Å
+  Contact probability (d<10Å): 55.8%
+
+[ε=0.15] Processing C60 distances...
+ε=0.15:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.15:   4%|▍         | 8/200 [00:00<00:02, 73.75it/s]ε=0.15:   8%|▊         | 16/200 [00:00<00:02, 74.00it/s]ε=0.15:  12%|█▏        | 24/200 [00:00<00:02, 74.08it/s]ε=0.15:  16%|█▌        | 32/200 [00:00<00:02, 74.10it/s]ε=0.15:  20%|██        | 40/200 [00:00<00:02, 74.22it/s]ε=0.15:  24%|██▍       | 48/200 [00:00<00:02, 74.19it/s]ε=0.15:  28%|██▊       | 56/200 [00:00<00:01, 74.22it/s]ε=0.15:  32%|███▏      | 64/200 [00:00<00:01, 74.09it/s]ε=0.15:  36%|███▌      | 72/200 [00:00<00:01, 74.09it/s]ε=0.15:  40%|████      | 80/200 [00:01<00:01, 74.14it/s]ε=0.15:  44%|████▍     | 88/200 [00:01<00:01, 74.09it/s]ε=0.15:  48%|████▊     | 96/200 [00:01<00:01, 74.01it/s]ε=0.15:  52%|█████▏    | 104/200 [00:01<00:01, 74.11it/s]ε=0.15:  56%|█████▌    | 112/200 [00:01<00:01, 74.09it/s]ε=0.15:  60%|██████    | 120/200 [00:01<00:01, 74.06it/s]ε=0.15:  64%|██████▍   | 128/200 [00:01<00:00, 74.09it/s]ε=0.15:  68%|██████▊   | 136/200 [00:01<00:00, 74.04it/s]ε=0.15:  72%|███████▏  | 144/200 [00:01<00:00, 74.06it/s]ε=0.15:  76%|███████▌  | 152/200 [00:02<00:00, 74.02it/s]ε=0.15:  80%|████████  | 160/200 [00:02<00:00, 74.03it/s]ε=0.15:  84%|████████▍ | 168/200 [00:02<00:00, 74.03it/s]ε=0.15:  88%|████████▊ | 176/200 [00:02<00:00, 74.03it/s]ε=0.15:  92%|█████████▏| 184/200 [00:02<00:00, 74.05it/s]ε=0.15:  96%|█████████▌| 192/200 [00:02<00:00, 74.00it/s]ε=0.15: 100%|██████████| 200/200 [00:02<00:00, 74.05it/s]ε=0.15: 100%|██████████| 200/200 [00:02<00:00, 73.69it/s]
+  Mean distances: d12=18.3, d13=9.4, d23=19.0 Å
+  Contact probability (d<10Å): 30.7%
+
+[ε=0.2] Processing C60 distances...
+ε=0.2:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.2:   4%|▍         | 8/200 [00:00<00:02, 73.83it/s]ε=0.2:   8%|▊         | 16/200 [00:00<00:02, 74.06it/s]ε=0.2:  12%|█▏        | 24/200 [00:00<00:02, 74.07it/s]ε=0.2:  16%|█▌        | 32/200 [00:00<00:02, 74.07it/s]ε=0.2:  20%|██        | 40/200 [00:00<00:02, 74.10it/s]ε=0.2:  24%|██▍       | 48/200 [00:00<00:02, 74.17it/s]ε=0.2:  28%|██▊       | 56/200 [00:00<00:01, 74.17it/s]ε=0.2:  32%|███▏      | 64/200 [00:00<00:01, 74.15it/s]ε=0.2:  36%|███▌      | 72/200 [00:00<00:01, 74.15it/s]ε=0.2:  40%|████      | 80/200 [00:01<00:01, 74.11it/s]ε=0.2:  44%|████▍     | 88/200 [00:01<00:01, 74.18it/s]ε=0.2:  48%|████▊     | 96/200 [00:01<00:01, 74.17it/s]ε=0.2:  52%|█████▏    | 104/200 [00:01<00:01, 74.14it/s]ε=0.2:  56%|█████▌    | 112/200 [00:01<00:01, 74.19it/s]ε=0.2:  60%|██████    | 120/200 [00:01<00:01, 74.24it/s]ε=0.2:  64%|██████▍   | 128/200 [00:01<00:00, 74.20it/s]ε=0.2:  68%|██████▊   | 136/200 [00:01<00:00, 74.18it/s]ε=0.2:  72%|███████▏  | 144/200 [00:01<00:00, 74.21it/s]ε=0.2:  76%|███████▌  | 152/200 [00:02<00:00, 74.22it/s]ε=0.2:  80%|████████  | 160/200 [00:02<00:00, 74.35it/s]ε=0.2:  84%|████████▍ | 168/200 [00:02<00:00, 74.41it/s]ε=0.2:  88%|████████▊ | 176/200 [00:02<00:00, 74.32it/s]ε=0.2:  92%|█████████▏| 184/200 [00:02<00:00, 74.33it/s]ε=0.2:  96%|█████████▌| 192/200 [00:02<00:00, 74.27it/s]ε=0.2: 100%|██████████| 200/200 [00:02<00:00, 74.31it/s]ε=0.2: 100%|██████████| 200/200 [00:02<00:00, 73.83it/s]
+  Mean distances: d12=18.4, d13=19.6, d23=22.5 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.25] Processing C60 distances...
+ε=0.25:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.25:   4%|▍         | 8/200 [00:00<00:02, 73.13it/s]ε=0.25:   8%|▊         | 16/200 [00:00<00:02, 73.68it/s]ε=0.25:  12%|█▏        | 24/200 [00:00<00:02, 73.78it/s]ε=0.25:  16%|█▌        | 32/200 [00:00<00:02, 74.00it/s]ε=0.25:  20%|██        | 40/200 [00:00<00:02, 74.09it/s]ε=0.25:  24%|██▍       | 48/200 [00:00<00:02, 74.09it/s]ε=0.25:  28%|██▊       | 56/200 [00:00<00:01, 74.12it/s]ε=0.25:  32%|███▏      | 64/200 [00:00<00:01, 74.17it/s]ε=0.25:  36%|███▌      | 72/200 [00:00<00:01, 74.23it/s]ε=0.25:  40%|████      | 80/200 [00:01<00:01, 74.19it/s]ε=0.25:  44%|████▍     | 88/200 [00:01<00:01, 74.23it/s]ε=0.25:  48%|████▊     | 96/200 [00:01<00:01, 74.22it/s]ε=0.25:  52%|█████▏    | 104/200 [00:01<00:01, 74.22it/s]ε=0.25:  56%|█████▌    | 112/200 [00:01<00:01, 74.23it/s]ε=0.25:  60%|██████    | 120/200 [00:01<00:01, 74.23it/s]ε=0.25:  64%|██████▍   | 128/200 [00:01<00:00, 74.25it/s]ε=0.25:  68%|██████▊   | 136/200 [00:01<00:00, 74.19it/s]ε=0.25:  72%|███████▏  | 144/200 [00:01<00:00, 74.25it/s]ε=0.25:  76%|███████▌  | 152/200 [00:02<00:00, 74.30it/s]ε=0.25:  80%|████████  | 160/200 [00:02<00:00, 74.27it/s]ε=0.25:  84%|████████▍ | 168/200 [00:02<00:00, 74.23it/s]ε=0.25:  88%|████████▊ | 176/200 [00:02<00:00, 74.31it/s]ε=0.25:  92%|█████████▏| 184/200 [00:02<00:00, 74.29it/s]ε=0.25:  96%|█████████▌| 192/200 [00:02<00:00, 74.23it/s]ε=0.25: 100%|██████████| 200/200 [00:02<00:00, 74.29it/s]ε=0.25: 100%|██████████| 200/200 [00:02<00:00, 73.80it/s]
+  Mean distances: d12=20.7, d13=18.8, d23=19.3 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.3] Processing C60 distances...
+ε=0.3:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.3:   4%|▍         | 8/200 [00:00<00:02, 73.40it/s]ε=0.3:   8%|▊         | 16/200 [00:00<00:02, 73.76it/s]ε=0.3:  12%|█▏        | 24/200 [00:00<00:02, 73.85it/s]ε=0.3:  16%|█▌        | 32/200 [00:00<00:02, 73.78it/s]ε=0.3:  20%|██        | 40/200 [00:00<00:02, 73.76it/s]ε=0.3:  24%|██▍       | 48/200 [00:00<00:02, 73.75it/s]ε=0.3:  28%|██▊       | 56/200 [00:00<00:01, 73.85it/s]ε=0.3:  32%|███▏      | 64/200 [00:00<00:01, 73.88it/s]ε=0.3:  36%|███▌      | 72/200 [00:00<00:01, 73.79it/s]ε=0.3:  40%|████      | 80/200 [00:01<00:01, 73.77it/s]ε=0.3:  44%|████▍     | 88/200 [00:01<00:01, 73.83it/s]ε=0.3:  48%|████▊     | 96/200 [00:01<00:01, 73.84it/s]ε=0.3:  52%|█████▏    | 104/200 [00:01<00:01, 73.84it/s]ε=0.3:  56%|█████▌    | 112/200 [00:01<00:01, 74.03it/s]ε=0.3:  60%|██████    | 120/200 [00:01<00:01, 73.97it/s]ε=0.3:  64%|██████▍   | 128/200 [00:01<00:00, 73.91it/s]ε=0.3:  68%|██████▊   | 136/200 [00:01<00:00, 73.96it/s]ε=0.3:  72%|███████▏  | 144/200 [00:01<00:00, 73.90it/s]ε=0.3:  76%|███████▌  | 152/200 [00:02<00:00, 73.84it/s]ε=0.3:  80%|████████  | 160/200 [00:02<00:00, 73.84it/s]ε=0.3:  84%|████████▍ | 168/200 [00:02<00:00, 73.92it/s]ε=0.3:  88%|████████▊ | 176/200 [00:02<00:00, 73.89it/s]ε=0.3:  92%|█████████▏| 184/200 [00:02<00:00, 73.87it/s]ε=0.3:  96%|█████████▌| 192/200 [00:02<00:00, 73.92it/s]ε=0.3: 100%|██████████| 200/200 [00:02<00:00, 73.94it/s]ε=0.3: 100%|██████████| 200/200 [00:02<00:00, 73.49it/s]
+  Mean distances: d12=17.5, d13=20.1, d23=19.4 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.35] Processing C60 distances...
+ε=0.35:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.35:   4%|▍         | 8/200 [00:00<00:02, 72.88it/s]ε=0.35:   8%|▊         | 16/200 [00:00<00:02, 72.77it/s]ε=0.35:  12%|█▏        | 24/200 [00:00<00:02, 72.77it/s]ε=0.35:  16%|█▌        | 32/200 [00:00<00:02, 72.90it/s]ε=0.35:  20%|██        | 40/200 [00:00<00:02, 72.93it/s]ε=0.35:  24%|██▍       | 48/200 [00:00<00:02, 73.00it/s]ε=0.35:  28%|██▊       | 56/200 [00:00<00:01, 72.95it/s]ε=0.35:  32%|███▏      | 64/200 [00:00<00:01, 72.91it/s]ε=0.35:  36%|███▌      | 72/200 [00:00<00:01, 72.93it/s]ε=0.35:  40%|████      | 80/200 [00:01<00:01, 73.04it/s]ε=0.35:  44%|████▍     | 88/200 [00:01<00:01, 73.18it/s]ε=0.35:  48%|████▊     | 96/200 [00:01<00:01, 73.22it/s]ε=0.35:  52%|█████▏    | 104/200 [00:01<00:01, 72.98it/s]ε=0.35:  56%|█████▌    | 112/200 [00:01<00:01, 72.95it/s]ε=0.35:  60%|██████    | 120/200 [00:01<00:01, 73.06it/s]ε=0.35:  64%|██████▍   | 128/200 [00:01<00:00, 73.13it/s]ε=0.35:  68%|██████▊   | 136/200 [00:01<00:00, 73.15it/s]ε=0.35:  72%|███████▏  | 144/200 [00:01<00:00, 73.18it/s]ε=0.35:  76%|███████▌  | 152/200 [00:02<00:00, 73.29it/s]ε=0.35:  80%|████████  | 160/200 [00:02<00:00, 73.28it/s]ε=0.35:  84%|████████▍ | 168/200 [00:02<00:00, 73.12it/s]ε=0.35:  88%|████████▊ | 176/200 [00:02<00:00, 73.13it/s]ε=0.35:  92%|█████████▏| 184/200 [00:02<00:00, 73.18it/s]ε=0.35:  96%|█████████▌| 192/200 [00:02<00:00, 73.18it/s]ε=0.35: 100%|██████████| 200/200 [00:02<00:00, 73.18it/s]ε=0.35: 100%|██████████| 200/200 [00:02<00:00, 72.70it/s]
+  Mean distances: d12=18.5, d13=19.0, d23=18.8 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.4] Processing C60 distances...
+ε=0.4:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.4:   4%|▍         | 8/200 [00:00<00:02, 74.10it/s]ε=0.4:   8%|▊         | 16/200 [00:00<00:02, 74.19it/s]ε=0.4:  12%|█▏        | 24/200 [00:00<00:02, 74.11it/s]ε=0.4:  16%|█▌        | 32/200 [00:00<00:02, 74.19it/s]ε=0.4:  20%|██        | 40/200 [00:00<00:02, 74.21it/s]ε=0.4:  24%|██▍       | 48/200 [00:00<00:02, 74.26it/s]ε=0.4:  28%|██▊       | 56/200 [00:00<00:01, 74.24it/s]ε=0.4:  32%|███▏      | 64/200 [00:00<00:01, 74.38it/s]ε=0.4:  36%|███▌      | 72/200 [00:00<00:01, 74.36it/s]ε=0.4:  40%|████      | 80/200 [00:01<00:01, 74.47it/s]ε=0.4:  44%|████▍     | 88/200 [00:01<00:01, 74.34it/s]ε=0.4:  48%|████▊     | 96/200 [00:01<00:01, 74.33it/s]ε=0.4:  52%|█████▏    | 104/200 [00:01<00:01, 74.34it/s]ε=0.4:  56%|█████▌    | 112/200 [00:01<00:01, 74.39it/s]ε=0.4:  60%|██████    | 120/200 [00:01<00:01, 74.44it/s]ε=0.4:  64%|██████▍   | 128/200 [00:01<00:00, 74.34it/s]ε=0.4:  68%|██████▊   | 136/200 [00:01<00:00, 74.36it/s]ε=0.4:  72%|███████▏  | 144/200 [00:01<00:00, 74.39it/s]ε=0.4:  76%|███████▌  | 152/200 [00:02<00:00, 74.39it/s]ε=0.4:  80%|████████  | 160/200 [00:02<00:00, 74.41it/s]ε=0.4:  84%|████████▍ | 168/200 [00:02<00:00, 74.41it/s]ε=0.4:  88%|████████▊ | 176/200 [00:02<00:00, 74.37it/s]ε=0.4:  92%|█████████▏| 184/200 [00:02<00:00, 74.34it/s]ε=0.4:  96%|█████████▌| 192/200 [00:02<00:00, 74.44it/s]ε=0.4: 100%|██████████| 200/200 [00:02<00:00, 74.49it/s]ε=0.4: 100%|██████████| 200/200 [00:02<00:00, 73.98it/s]
+  Mean distances: d12=17.1, d13=18.3, d23=17.8 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.45] Processing C60 distances...
+ε=0.45:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.45:   4%|▍         | 8/200 [00:00<00:02, 74.20it/s]ε=0.45:   8%|▊         | 16/200 [00:00<00:02, 74.30it/s]ε=0.45:  12%|█▏        | 24/200 [00:00<00:02, 74.30it/s]ε=0.45:  16%|█▌        | 32/200 [00:00<00:02, 74.38it/s]ε=0.45:  20%|██        | 40/200 [00:00<00:02, 74.41it/s]ε=0.45:  24%|██▍       | 48/200 [00:00<00:02, 74.56it/s]ε=0.45:  28%|██▊       | 56/200 [00:00<00:01, 74.56it/s]ε=0.45:  32%|███▏      | 64/200 [00:00<00:01, 74.60it/s]ε=0.45:  36%|███▌      | 72/200 [00:00<00:01, 74.60it/s]ε=0.45:  40%|████      | 80/200 [00:01<00:01, 74.62it/s]ε=0.45:  44%|████▍     | 88/200 [00:01<00:01, 74.51it/s]ε=0.45:  48%|████▊     | 96/200 [00:01<00:01, 74.62it/s]ε=0.45:  52%|█████▏    | 104/200 [00:01<00:01, 74.73it/s]ε=0.45:  56%|█████▌    | 112/200 [00:01<00:01, 74.69it/s]ε=0.45:  60%|██████    | 120/200 [00:01<00:01, 74.63it/s]ε=0.45:  64%|██████▍   | 128/200 [00:01<00:00, 74.69it/s]ε=0.45:  68%|██████▊   | 136/200 [00:01<00:00, 74.69it/s]ε=0.45:  72%|███████▏  | 144/200 [00:01<00:00, 74.51it/s]ε=0.45:  76%|███████▌  | 152/200 [00:02<00:00, 74.48it/s]ε=0.45:  80%|████████  | 160/200 [00:02<00:00, 74.50it/s]ε=0.45:  84%|████████▍ | 168/200 [00:02<00:00, 74.49it/s]ε=0.45:  88%|████████▊ | 176/200 [00:02<00:00, 74.55it/s]ε=0.45:  92%|█████████▏| 184/200 [00:02<00:00, 74.52it/s]ε=0.45:  96%|█████████▌| 192/200 [00:02<00:00, 74.58it/s]ε=0.45: 100%|██████████| 200/200 [00:02<00:00, 74.59it/s]ε=0.45: 100%|██████████| 200/200 [00:02<00:00, 74.17it/s]
+  Mean distances: d12=18.9, d13=22.9, d23=17.5 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.5] Processing C60 distances...
+ε=0.5:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.5:   4%|▍         | 8/200 [00:00<00:02, 74.24it/s]ε=0.5:   8%|▊         | 16/200 [00:00<00:02, 74.21it/s]ε=0.5:  12%|█▏        | 24/200 [00:00<00:02, 74.34it/s]ε=0.5:  16%|█▌        | 32/200 [00:00<00:02, 74.44it/s]ε=0.5:  20%|██        | 40/200 [00:00<00:02, 74.37it/s]ε=0.5:  24%|██▍       | 48/200 [00:00<00:02, 74.41it/s]ε=0.5:  28%|██▊       | 56/200 [00:00<00:01, 74.45it/s]ε=0.5:  32%|███▏      | 64/200 [00:00<00:01, 74.47it/s]ε=0.5:  36%|███▌      | 72/200 [00:00<00:01, 74.48it/s]ε=0.5:  40%|████      | 80/200 [00:01<00:01, 74.48it/s]ε=0.5:  44%|████▍     | 88/200 [00:01<00:01, 74.43it/s]ε=0.5:  48%|████▊     | 96/200 [00:01<00:01, 74.41it/s]ε=0.5:  52%|█████▏    | 104/200 [00:01<00:01, 74.37it/s]ε=0.5:  56%|█████▌    | 112/200 [00:01<00:01, 74.46it/s]ε=0.5:  60%|██████    | 120/200 [00:01<00:01, 74.48it/s]ε=0.5:  64%|██████▍   | 128/200 [00:01<00:00, 74.43it/s]ε=0.5:  68%|██████▊   | 136/200 [00:01<00:00, 74.40it/s]ε=0.5:  72%|███████▏  | 144/200 [00:01<00:00, 74.30it/s]ε=0.5:  76%|███████▌  | 152/200 [00:02<00:00, 74.28it/s]ε=0.5:  80%|████████  | 160/200 [00:02<00:00, 74.39it/s]ε=0.5:  84%|████████▍ | 168/200 [00:02<00:00, 74.29it/s]ε=0.5:  88%|████████▊ | 176/200 [00:02<00:00, 74.19it/s]ε=0.5:  92%|█████████▏| 184/200 [00:02<00:00, 74.22it/s]ε=0.5:  96%|█████████▌| 192/200 [00:02<00:00, 74.17it/s]ε=0.5: 100%|██████████| 200/200 [00:02<00:00, 74.17it/s]ε=0.5: 100%|██████████| 200/200 [00:02<00:00, 73.96it/s]
+  Mean distances: d12=16.9, d13=20.2, d23=16.7 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.55] Processing C60 distances...
+ε=0.55:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.55:   8%|▊         | 8/100 [00:00<00:01, 73.48it/s]ε=0.55:  16%|█▌        | 16/100 [00:00<00:01, 73.77it/s]ε=0.55:  24%|██▍       | 24/100 [00:00<00:01, 73.82it/s]ε=0.55:  32%|███▏      | 32/100 [00:00<00:00, 73.93it/s]ε=0.55:  40%|████      | 40/100 [00:00<00:00, 73.98it/s]ε=0.55:  48%|████▊     | 48/100 [00:00<00:00, 73.93it/s]ε=0.55:  56%|█████▌    | 56/100 [00:00<00:00, 74.00it/s]ε=0.55:  64%|██████▍   | 64/100 [00:00<00:00, 74.01it/s]ε=0.55:  72%|███████▏  | 72/100 [00:00<00:00, 74.01it/s]ε=0.55:  80%|████████  | 80/100 [00:01<00:00, 73.96it/s]ε=0.55:  88%|████████▊ | 88/100 [00:01<00:00, 73.98it/s]ε=0.55:  96%|█████████▌| 96/100 [00:01<00:00, 73.93it/s]ε=0.55: 100%|██████████| 100/100 [00:01<00:00, 73.18it/s]
+  Mean distances: d12=20.4, d13=18.3, d23=15.9 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.6] Processing C60 distances...
+ε=0.6:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.6:   8%|▊         | 8/100 [00:00<00:01, 74.06it/s]ε=0.6:  16%|█▌        | 16/100 [00:00<00:01, 74.25it/s]ε=0.6:  24%|██▍       | 24/100 [00:00<00:01, 74.16it/s]ε=0.6:  32%|███▏      | 32/100 [00:00<00:00, 74.05it/s]ε=0.6:  40%|████      | 40/100 [00:00<00:00, 74.18it/s]ε=0.6:  48%|████▊     | 48/100 [00:00<00:00, 74.16it/s]ε=0.6:  56%|█████▌    | 56/100 [00:00<00:00, 73.95it/s]ε=0.6:  64%|██████▍   | 64/100 [00:00<00:00, 73.84it/s]ε=0.6:  72%|███████▏  | 72/100 [00:00<00:00, 73.78it/s]ε=0.6:  80%|████████  | 80/100 [00:01<00:00, 73.89it/s]ε=0.6:  88%|████████▊ | 88/100 [00:01<00:00, 73.84it/s]ε=0.6:  96%|█████████▌| 96/100 [00:01<00:00, 73.85it/s]ε=0.6: 100%|██████████| 100/100 [00:01<00:00, 73.21it/s]
+  Mean distances: d12=17.2, d13=21.0, d23=13.5 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.65] Processing C60 distances...
+ε=0.65:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.65:   8%|▊         | 8/100 [00:00<00:01, 73.53it/s]ε=0.65:  16%|█▌        | 16/100 [00:00<00:01, 73.56it/s]ε=0.65:  24%|██▍       | 24/100 [00:00<00:01, 73.36it/s]ε=0.65:  32%|███▏      | 32/100 [00:00<00:00, 73.53it/s]ε=0.65:  40%|████      | 40/100 [00:00<00:00, 73.44it/s]ε=0.65:  48%|████▊     | 48/100 [00:00<00:00, 73.43it/s]ε=0.65:  56%|█████▌    | 56/100 [00:00<00:00, 73.56it/s]ε=0.65:  64%|██████▍   | 64/100 [00:00<00:00, 73.46it/s]ε=0.65:  72%|███████▏  | 72/100 [00:00<00:00, 73.43it/s]ε=0.65:  80%|████████  | 80/100 [00:01<00:00, 73.47it/s]ε=0.65:  88%|████████▊ | 88/100 [00:01<00:00, 73.34it/s]ε=0.65:  96%|█████████▌| 96/100 [00:01<00:00, 73.20it/s]ε=0.65: 100%|██████████| 100/100 [00:01<00:00, 72.64it/s]
+  Mean distances: d12=19.0, d13=16.4, d23=14.7 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.7] Processing C60 distances...
+ε=0.7:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.7:   8%|▊         | 8/100 [00:00<00:01, 73.36it/s]ε=0.7:  16%|█▌        | 16/100 [00:00<00:01, 73.31it/s]ε=0.7:  24%|██▍       | 24/100 [00:00<00:01, 73.26it/s]ε=0.7:  32%|███▏      | 32/100 [00:00<00:00, 73.49it/s]ε=0.7:  40%|████      | 40/100 [00:00<00:00, 73.47it/s]ε=0.7:  48%|████▊     | 48/100 [00:00<00:00, 73.47it/s]ε=0.7:  56%|█████▌    | 56/100 [00:00<00:00, 73.47it/s]ε=0.7:  64%|██████▍   | 64/100 [00:00<00:00, 73.49it/s]ε=0.7:  72%|███████▏  | 72/100 [00:00<00:00, 73.45it/s]ε=0.7:  80%|████████  | 80/100 [00:01<00:00, 73.59it/s]ε=0.7:  88%|████████▊ | 88/100 [00:01<00:00, 73.58it/s]ε=0.7:  96%|█████████▌| 96/100 [00:01<00:00, 73.44it/s]ε=0.7: 100%|██████████| 100/100 [00:01<00:00, 72.74it/s]
+  Mean distances: d12=17.8, d13=16.1, d23=22.5 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.75] Processing C60 distances...
+ε=0.75:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.75:   8%|▊         | 8/100 [00:00<00:01, 73.32it/s]ε=0.75:  16%|█▌        | 16/100 [00:00<00:01, 73.49it/s]ε=0.75:  24%|██▍       | 24/100 [00:00<00:01, 73.50it/s]ε=0.75:  32%|███▏      | 32/100 [00:00<00:00, 73.53it/s]ε=0.75:  40%|████      | 40/100 [00:00<00:00, 73.50it/s]ε=0.75:  48%|████▊     | 48/100 [00:00<00:00, 73.55it/s]ε=0.75:  56%|█████▌    | 56/100 [00:00<00:00, 73.52it/s]ε=0.75:  64%|██████▍   | 64/100 [00:00<00:00, 73.49it/s]ε=0.75:  72%|███████▏  | 72/100 [00:00<00:00, 73.37it/s]ε=0.75:  80%|████████  | 80/100 [00:01<00:00, 73.34it/s]ε=0.75:  88%|████████▊ | 88/100 [00:01<00:00, 73.30it/s]ε=0.75:  96%|█████████▌| 96/100 [00:01<00:00, 73.27it/s]ε=0.75: 100%|██████████| 100/100 [00:01<00:00, 72.63it/s]
+  Mean distances: d12=14.8, d13=15.5, d23=18.2 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.8] Processing C60 distances...
+ε=0.8:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.8:   8%|▊         | 8/100 [00:00<00:01, 73.33it/s]ε=0.8:  16%|█▌        | 16/100 [00:00<00:01, 73.41it/s]ε=0.8:  24%|██▍       | 24/100 [00:00<00:01, 73.03it/s]ε=0.8:  32%|███▏      | 32/100 [00:00<00:00, 73.29it/s]ε=0.8:  40%|████      | 40/100 [00:00<00:00, 73.54it/s]ε=0.8:  48%|████▊     | 48/100 [00:00<00:00, 73.66it/s]ε=0.8:  56%|█████▌    | 56/100 [00:00<00:00, 73.83it/s]ε=0.8:  64%|██████▍   | 64/100 [00:00<00:00, 73.84it/s]ε=0.8:  72%|███████▏  | 72/100 [00:00<00:00, 73.92it/s]ε=0.8:  80%|████████  | 80/100 [00:01<00:00, 73.97it/s]ε=0.8:  88%|████████▊ | 88/100 [00:01<00:00, 73.94it/s]ε=0.8:  96%|█████████▌| 96/100 [00:01<00:00, 73.94it/s]ε=0.8: 100%|██████████| 100/100 [00:01<00:00, 72.98it/s]
+  Mean distances: d12=14.2, d13=17.7, d23=16.0 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.85] Processing C60 distances...
+ε=0.85:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.85:   8%|▊         | 8/100 [00:00<00:01, 73.48it/s]ε=0.85:  16%|█▌        | 16/100 [00:00<00:01, 73.62it/s]ε=0.85:  24%|██▍       | 24/100 [00:00<00:01, 73.77it/s]ε=0.85:  32%|███▏      | 32/100 [00:00<00:00, 73.80it/s]ε=0.85:  40%|████      | 40/100 [00:00<00:00, 73.93it/s]ε=0.85:  48%|████▊     | 48/100 [00:00<00:00, 73.85it/s]ε=0.85:  56%|█████▌    | 56/100 [00:00<00:00, 73.95it/s]ε=0.85:  64%|██████▍   | 64/100 [00:00<00:00, 73.96it/s]ε=0.85:  72%|███████▏  | 72/100 [00:00<00:00, 73.92it/s]ε=0.85:  80%|████████  | 80/100 [00:01<00:00, 73.91it/s]ε=0.85:  88%|████████▊ | 88/100 [00:01<00:00, 73.88it/s]ε=0.85:  96%|█████████▌| 96/100 [00:01<00:00, 73.85it/s]ε=0.85: 100%|██████████| 100/100 [00:01<00:00, 73.09it/s]
+  Mean distances: d12=14.2, d13=12.2, d23=15.6 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.9] Processing C60 distances...
+ε=0.9:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.9:   8%|▊         | 8/100 [00:00<00:01, 73.72it/s]ε=0.9:  16%|█▌        | 16/100 [00:00<00:01, 73.25it/s]ε=0.9:  24%|██▍       | 24/100 [00:00<00:01, 73.05it/s]ε=0.9:  32%|███▏      | 32/100 [00:00<00:00, 73.07it/s]ε=0.9:  40%|████      | 40/100 [00:00<00:00, 72.98it/s]ε=0.9:  48%|████▊     | 48/100 [00:00<00:00, 72.95it/s]ε=0.9:  56%|█████▌    | 56/100 [00:00<00:00, 73.01it/s]ε=0.9:  64%|██████▍   | 64/100 [00:00<00:00, 73.02it/s]ε=0.9:  72%|███████▏  | 72/100 [00:00<00:00, 73.20it/s]ε=0.9:  80%|████████  | 80/100 [00:01<00:00, 73.21it/s]ε=0.9:  88%|████████▊ | 88/100 [00:01<00:00, 73.26it/s]ε=0.9:  96%|█████████▌| 96/100 [00:01<00:00, 73.26it/s]ε=0.9: 100%|██████████| 100/100 [00:01<00:00, 72.42it/s]
+  Mean distances: d12=13.3, d13=14.8, d23=15.2 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=0.95] Processing C60 distances...
+ε=0.95:   0%|          | 0/100 [00:00<?, ?it/s]ε=0.95:   8%|▊         | 8/100 [00:00<00:01, 74.20it/s]ε=0.95:  16%|█▌        | 16/100 [00:00<00:01, 74.19it/s]ε=0.95:  24%|██▍       | 24/100 [00:00<00:01, 74.03it/s]ε=0.95:  32%|███▏      | 32/100 [00:00<00:00, 73.96it/s]ε=0.95:  40%|████      | 40/100 [00:00<00:00, 73.82it/s]ε=0.95:  48%|████▊     | 48/100 [00:00<00:00, 73.74it/s]ε=0.95:  56%|█████▌    | 56/100 [00:00<00:00, 73.77it/s]ε=0.95:  64%|██████▍   | 64/100 [00:00<00:00, 73.81it/s]ε=0.95:  72%|███████▏  | 72/100 [00:00<00:00, 73.93it/s]ε=0.95:  80%|████████  | 80/100 [00:01<00:00, 73.98it/s]ε=0.95:  88%|████████▊ | 88/100 [00:01<00:00, 73.94it/s]ε=0.95:  96%|█████████▌| 96/100 [00:01<00:00, 74.05it/s]ε=0.95: 100%|██████████| 100/100 [00:01<00:00, 73.17it/s]
+  Mean distances: d12=15.6, d13=14.6, d23=12.6 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=1.0] Processing C60 distances...
+ε=1.0:   0%|          | 0/100 [00:00<?, ?it/s]ε=1.0:   8%|▊         | 8/100 [00:00<00:01, 74.10it/s]ε=1.0:  16%|█▌        | 16/100 [00:00<00:01, 73.92it/s]ε=1.0:  24%|██▍       | 24/100 [00:00<00:01, 73.79it/s]ε=1.0:  32%|███▏      | 32/100 [00:00<00:00, 73.86it/s]ε=1.0:  40%|████      | 40/100 [00:00<00:00, 73.94it/s]ε=1.0:  48%|████▊     | 48/100 [00:00<00:00, 73.93it/s]ε=1.0:  56%|█████▌    | 56/100 [00:00<00:00, 73.91it/s]ε=1.0:  64%|██████▍   | 64/100 [00:00<00:00, 73.86it/s]ε=1.0:  72%|███████▏  | 72/100 [00:00<00:00, 73.92it/s]ε=1.0:  80%|████████  | 80/100 [00:01<00:00, 73.78it/s]ε=1.0:  88%|████████▊ | 88/100 [00:01<00:00, 73.87it/s]ε=1.0:  96%|█████████▌| 96/100 [00:01<00:00, 73.81it/s]ε=1.0: 100%|██████████| 100/100 [00:01<00:00, 73.11it/s]
+  Mean distances: d12=12.0, d13=14.5, d23=14.4 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=1.05] Processing C60 distances...
+ε=1.05:   0%|          | 0/100 [00:00<?, ?it/s]ε=1.05:   8%|▊         | 8/100 [00:00<00:01, 74.20it/s]ε=1.05:  16%|█▌        | 16/100 [00:00<00:01, 74.20it/s]ε=1.05:  24%|██▍       | 24/100 [00:00<00:01, 74.24it/s]ε=1.05:  32%|███▏      | 32/100 [00:00<00:00, 74.23it/s]ε=1.05:  40%|████      | 40/100 [00:00<00:00, 74.31it/s]ε=1.05:  48%|████▊     | 48/100 [00:00<00:00, 74.42it/s]ε=1.05:  56%|█████▌    | 56/100 [00:00<00:00, 74.41it/s]ε=1.05:  64%|██████▍   | 64/100 [00:00<00:00, 74.47it/s]ε=1.05:  72%|███████▏  | 72/100 [00:00<00:00, 74.46it/s]ε=1.05:  80%|████████  | 80/100 [00:01<00:00, 74.38it/s]ε=1.05:  88%|████████▊ | 88/100 [00:01<00:00, 74.41it/s]ε=1.05:  96%|█████████▌| 96/100 [00:01<00:00, 74.35it/s]ε=1.05: 100%|██████████| 100/100 [00:01<00:00, 73.57it/s]
+  Mean distances: d12=12.0, d13=14.9, d23=14.8 Å
+  Contact probability (d<10Å): 0.0%
+
+[ε=1.1] Processing C60 distances...
+ε=1.1:   0%|          | 0/100 [00:00<?, ?it/s]ε=1.1:   8%|▊         | 8/100 [00:00<00:01, 74.48it/s]ε=1.1:  16%|█▌        | 16/100 [00:00<00:01, 74.57it/s]ε=1.1:  24%|██▍       | 24/100 [00:00<00:01, 74.51it/s]ε=1.1:  32%|███▏      | 32/100 [00:00<00:00, 74.47it/s]ε=1.1:  40%|████      | 40/100 [00:00<00:00, 74.58it/s]ε=1.1:  48%|████▊     | 48/100 [00:00<00:00, 74.61it/s]ε=1.1:  56%|█████▌    | 56/100 [00:00<00:00, 74.56it/s]ε=1.1:  64%|██████▍   | 64/100 [00:00<00:00, 74.50it/s]ε=1.1:  72%|███████▏  | 72/100 [00:00<00:00, 74.52it/s]ε=1.1:  80%|████████  | 80/100 [00:01<00:00, 74.49it/s]ε=1.1:  88%|████████▊ | 88/100 [00:01<00:00, 74.43it/s]ε=1.1:  96%|█████████▌| 96/100 [00:01<00:00, 74.43it/s]ε=1.1: 100%|██████████| 100/100 [00:01<00:00, 73.74it/s]
+  Mean distances: d12=11.8, d13=14.6, d23=14.3 Å
+  Contact probability (d<10Å): 0.0%
+
+✓ Summary saved to c60_distances_summary.csv
+
+================================================================================
+ANALYSIS #3: C60 TRANSLATIONAL DIFFUSION
+================================================================================
+
+[ε=0.0] Computing C60 MSD...
+ε=0.0:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.0:   2%|▏         | 8/400 [00:00<00:05, 74.36it/s]ε=0.0:   4%|▍         | 16/400 [00:00<00:05, 74.22it/s]ε=0.0:   6%|▌         | 24/400 [00:00<00:05, 74.36it/s]ε=0.0:   8%|▊         | 32/400 [00:00<00:04, 74.36it/s]ε=0.0:  10%|█         | 40/400 [00:00<00:04, 74.43it/s]ε=0.0:  12%|█▏        | 48/400 [00:00<00:04, 74.55it/s]ε=0.0:  14%|█▍        | 56/400 [00:00<00:04, 74.68it/s]ε=0.0:  16%|█▌        | 64/400 [00:00<00:04, 74.70it/s]ε=0.0:  18%|█▊        | 72/400 [00:00<00:04, 74.64it/s]ε=0.0:  20%|██        | 80/400 [00:01<00:04, 74.65it/s]ε=0.0:  22%|██▏       | 88/400 [00:01<00:04, 74.67it/s]ε=0.0:  24%|██▍       | 96/400 [00:01<00:04, 74.67it/s]ε=0.0:  26%|██▌       | 104/400 [00:01<00:03, 74.66it/s]ε=0.0:  28%|██▊       | 112/400 [00:01<00:03, 74.71it/s]ε=0.0:  30%|███       | 120/400 [00:01<00:03, 74.73it/s]ε=0.0:  32%|███▏      | 128/400 [00:01<00:03, 74.68it/s]ε=0.0:  34%|███▍      | 136/400 [00:01<00:03, 74.80it/s]ε=0.0:  36%|███▌      | 144/400 [00:01<00:03, 74.88it/s]ε=0.0:  38%|███▊      | 152/400 [00:02<00:03, 74.84it/s]ε=0.0:  40%|████      | 160/400 [00:02<00:03, 74.68it/s]ε=0.0:  42%|████▏     | 168/400 [00:02<00:03, 74.73it/s]ε=0.0:  44%|████▍     | 176/400 [00:02<00:02, 74.76it/s]ε=0.0:  46%|████▌     | 184/400 [00:02<00:02, 74.72it/s]ε=0.0:  48%|████▊     | 192/400 [00:02<00:02, 74.77it/s]ε=0.0:  50%|█████     | 200/400 [00:02<00:02, 74.74it/s]ε=0.0:  52%|█████▏    | 208/400 [00:02<00:02, 74.85it/s]ε=0.0:  54%|█████▍    | 216/400 [00:02<00:02, 74.78it/s]ε=0.0:  56%|█████▌    | 224/400 [00:02<00:02, 74.89it/s]ε=0.0:  58%|█████▊    | 232/400 [00:03<00:02, 74.83it/s]ε=0.0:  60%|██████    | 240/400 [00:03<00:02, 74.84it/s]ε=0.0:  62%|██████▏   | 248/400 [00:03<00:02, 74.88it/s]ε=0.0:  64%|██████▍   | 256/400 [00:03<00:01, 74.85it/s]ε=0.0:  66%|██████▌   | 264/400 [00:03<00:01, 74.77it/s]ε=0.0:  68%|██████▊   | 272/400 [00:03<00:01, 74.74it/s]ε=0.0:  70%|███████   | 280/400 [00:03<00:01, 74.87it/s]ε=0.0:  72%|███████▏  | 288/400 [00:03<00:01, 74.83it/s]ε=0.0:  74%|███████▍  | 296/400 [00:03<00:01, 74.82it/s]ε=0.0:  76%|███████▌  | 304/400 [00:04<00:01, 74.61it/s]ε=0.0:  78%|███████▊  | 312/400 [00:04<00:01, 74.69it/s]ε=0.0:  80%|████████  | 320/400 [00:04<00:01, 74.62it/s]ε=0.0:  82%|████████▏ | 328/400 [00:04<00:00, 74.59it/s]ε=0.0:  84%|████████▍ | 336/400 [00:04<00:00, 74.54it/s]ε=0.0:  86%|████████▌ | 344/400 [00:04<00:00, 74.54it/s]ε=0.0:  88%|████████▊ | 352/400 [00:04<00:00, 74.59it/s]ε=0.0:  90%|█████████ | 360/400 [00:04<00:00, 74.49it/s]ε=0.0:  92%|█████████▏| 368/400 [00:04<00:00, 74.39it/s]ε=0.0:  94%|█████████▍| 376/400 [00:05<00:00, 74.41it/s]ε=0.0:  96%|█████████▌| 384/400 [00:05<00:00, 74.42it/s]ε=0.0:  98%|█████████▊| 392/400 [00:05<00:00, 74.44it/s]ε=0.0: 100%|██████████| 400/400 [00:05<00:00, 74.47it/s]ε=0.0: 100%|██████████| 400/400 [00:05<00:00, 74.47it/s]
+  D_C60 = 48.9584 Å²/ps = 4.90e-04 cm²/s
+
+[ε=0.05] Computing C60 MSD...
+ε=0.05:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.05:   2%|▏         | 8/400 [00:00<00:05, 72.05it/s]ε=0.05:   4%|▍         | 16/400 [00:00<00:05, 72.22it/s]ε=0.05:   6%|▌         | 24/400 [00:00<00:05, 72.25it/s]ε=0.05:   8%|▊         | 32/400 [00:00<00:05, 72.36it/s]ε=0.05:  10%|█         | 40/400 [00:00<00:04, 72.41it/s]ε=0.05:  12%|█▏        | 48/400 [00:00<00:04, 72.44it/s]ε=0.05:  14%|█▍        | 56/400 [00:00<00:04, 72.56it/s]ε=0.05:  16%|█▌        | 64/400 [00:00<00:04, 72.62it/s]ε=0.05:  18%|█▊        | 72/400 [00:00<00:04, 72.62it/s]ε=0.05:  20%|██        | 80/400 [00:01<00:04, 72.66it/s]ε=0.05:  22%|██▏       | 88/400 [00:01<00:04, 72.72it/s]ε=0.05:  24%|██▍       | 96/400 [00:01<00:04, 72.73it/s]ε=0.05:  26%|██▌       | 104/400 [00:01<00:04, 72.84it/s]ε=0.05:  28%|██▊       | 112/400 [00:01<00:03, 72.85it/s]ε=0.05:  30%|███       | 120/400 [00:01<00:03, 72.95it/s]ε=0.05:  32%|███▏      | 128/400 [00:01<00:03, 72.95it/s]ε=0.05:  34%|███▍      | 136/400 [00:01<00:03, 72.98it/s]ε=0.05:  36%|███▌      | 144/400 [00:01<00:03, 72.99it/s]ε=0.05:  38%|███▊      | 152/400 [00:02<00:03, 73.07it/s]ε=0.05:  40%|████      | 160/400 [00:02<00:03, 72.92it/s]ε=0.05:  42%|████▏     | 168/400 [00:02<00:03, 72.74it/s]ε=0.05:  44%|████▍     | 176/400 [00:02<00:03, 72.69it/s]ε=0.05:  46%|████▌     | 184/400 [00:02<00:02, 72.65it/s]ε=0.05:  48%|████▊     | 192/400 [00:02<00:02, 72.56it/s]ε=0.05:  50%|█████     | 200/400 [00:02<00:02, 72.52it/s]ε=0.05:  52%|█████▏    | 208/400 [00:02<00:02, 72.56it/s]ε=0.05:  54%|█████▍    | 216/400 [00:02<00:02, 72.60it/s]ε=0.05:  56%|█████▌    | 224/400 [00:03<00:02, 72.57it/s]ε=0.05:  58%|█████▊    | 232/400 [00:03<00:02, 72.58it/s]ε=0.05:  60%|██████    | 240/400 [00:03<00:02, 72.62it/s]ε=0.05:  62%|██████▏   | 248/400 [00:03<00:02, 72.63it/s]ε=0.05:  64%|██████▍   | 256/400 [00:03<00:01, 72.60it/s]ε=0.05:  66%|██████▌   | 264/400 [00:03<00:01, 72.61it/s]ε=0.05:  68%|██████▊   | 272/400 [00:03<00:01, 72.62it/s]ε=0.05:  70%|███████   | 280/400 [00:03<00:01, 72.64it/s]ε=0.05:  72%|███████▏  | 288/400 [00:03<00:01, 72.69it/s]ε=0.05:  74%|███████▍  | 296/400 [00:04<00:01, 72.65it/s]ε=0.05:  76%|███████▌  | 304/400 [00:04<00:01, 72.62it/s]ε=0.05:  78%|███████▊  | 312/400 [00:04<00:01, 72.65it/s]ε=0.05:  80%|████████  | 320/400 [00:04<00:01, 72.62it/s]ε=0.05:  82%|████████▏ | 328/400 [00:04<00:00, 72.58it/s]ε=0.05:  84%|████████▍ | 336/400 [00:04<00:00, 72.53it/s]ε=0.05:  86%|████████▌ | 344/400 [00:04<00:00, 72.49it/s]ε=0.05:  88%|████████▊ | 352/400 [00:04<00:00, 72.48it/s]ε=0.05:  90%|█████████ | 360/400 [00:04<00:00, 72.47it/s]ε=0.05:  92%|█████████▏| 368/400 [00:05<00:00, 72.40it/s]ε=0.05:  94%|█████████▍| 376/400 [00:05<00:00, 72.46it/s]ε=0.05:  96%|█████████▌| 384/400 [00:05<00:00, 72.51it/s]ε=0.05:  98%|█████████▊| 392/400 [00:05<00:00, 72.50it/s]ε=0.05: 100%|██████████| 400/400 [00:05<00:00, 72.46it/s]ε=0.05: 100%|██████████| 400/400 [00:05<00:00, 72.43it/s]
+  D_C60 = 0.0244 Å²/ps = 2.44e-07 cm²/s
+
+[ε=0.1] Computing C60 MSD...
+ε=0.1:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.1:   2%|▏         | 8/400 [00:00<00:05, 72.49it/s]ε=0.1:   4%|▍         | 16/400 [00:00<00:05, 72.35it/s]ε=0.1:   6%|▌         | 24/400 [00:00<00:05, 72.40it/s]ε=0.1:   8%|▊         | 32/400 [00:00<00:05, 72.42it/s]ε=0.1:  10%|█         | 40/400 [00:00<00:04, 72.47it/s]ε=0.1:  12%|█▏        | 48/400 [00:00<00:04, 72.50it/s]ε=0.1:  14%|█▍        | 56/400 [00:00<00:04, 72.42it/s]ε=0.1:  16%|█▌        | 64/400 [00:00<00:04, 72.25it/s]ε=0.1:  18%|█▊        | 72/400 [00:00<00:04, 72.07it/s]ε=0.1:  20%|██        | 80/400 [00:01<00:04, 71.97it/s]ε=0.1:  22%|██▏       | 88/400 [00:01<00:04, 71.82it/s]ε=0.1:  24%|██▍       | 96/400 [00:01<00:04, 71.65it/s]ε=0.1:  26%|██▌       | 104/400 [00:01<00:04, 71.78it/s]ε=0.1:  28%|██▊       | 112/400 [00:01<00:04, 71.93it/s]ε=0.1:  30%|███       | 120/400 [00:01<00:03, 71.99it/s]ε=0.1:  32%|███▏      | 128/400 [00:01<00:03, 72.06it/s]ε=0.1:  34%|███▍      | 136/400 [00:01<00:03, 72.06it/s]ε=0.1:  36%|███▌      | 144/400 [00:01<00:03, 72.16it/s]ε=0.1:  38%|███▊      | 152/400 [00:02<00:03, 72.07it/s]ε=0.1:  40%|████      | 160/400 [00:02<00:03, 71.91it/s]ε=0.1:  42%|████▏     | 168/400 [00:02<00:03, 71.81it/s]ε=0.1:  44%|████▍     | 176/400 [00:02<00:03, 71.76it/s]ε=0.1:  46%|████▌     | 184/400 [00:02<00:03, 71.70it/s]ε=0.1:  48%|████▊     | 192/400 [00:02<00:02, 71.66it/s]ε=0.1:  50%|█████     | 200/400 [00:02<00:02, 71.69it/s]ε=0.1:  52%|█████▏    | 208/400 [00:02<00:02, 71.69it/s]ε=0.1:  54%|█████▍    | 216/400 [00:03<00:02, 71.89it/s]ε=0.1:  56%|█████▌    | 224/400 [00:03<00:02, 72.03it/s]ε=0.1:  58%|█████▊    | 232/400 [00:03<00:02, 72.11it/s]ε=0.1:  60%|██████    | 240/400 [00:03<00:02, 72.11it/s]ε=0.1:  62%|██████▏   | 248/400 [00:03<00:02, 72.16it/s]ε=0.1:  64%|██████▍   | 256/400 [00:03<00:01, 72.21it/s]ε=0.1:  66%|██████▌   | 264/400 [00:03<00:01, 72.27it/s]ε=0.1:  68%|██████▊   | 272/400 [00:03<00:01, 72.37it/s]ε=0.1:  70%|███████   | 280/400 [00:03<00:01, 72.44it/s]ε=0.1:  72%|███████▏  | 288/400 [00:03<00:01, 72.48it/s]ε=0.1:  74%|███████▍  | 296/400 [00:04<00:01, 72.46it/s]ε=0.1:  76%|███████▌  | 304/400 [00:04<00:01, 72.41it/s]ε=0.1:  78%|███████▊  | 312/400 [00:04<00:01, 72.48it/s]ε=0.1:  80%|████████  | 320/400 [00:04<00:01, 72.56it/s]ε=0.1:  82%|████████▏ | 328/400 [00:04<00:00, 72.28it/s]ε=0.1:  84%|████████▍ | 336/400 [00:04<00:00, 72.10it/s]ε=0.1:  86%|████████▌ | 344/400 [00:04<00:00, 72.11it/s]ε=0.1:  88%|████████▊ | 352/400 [00:04<00:00, 72.16it/s]ε=0.1:  90%|█████████ | 360/400 [00:04<00:00, 72.21it/s]ε=0.1:  92%|█████████▏| 368/400 [00:05<00:00, 72.18it/s]ε=0.1:  94%|█████████▍| 376/400 [00:05<00:00, 72.17it/s]ε=0.1:  96%|█████████▌| 384/400 [00:05<00:00, 72.11it/s]ε=0.1:  98%|█████████▊| 392/400 [00:05<00:00, 72.23it/s]ε=0.1: 100%|██████████| 400/400 [00:05<00:00, 72.31it/s]ε=0.1: 100%|██████████| 400/400 [00:05<00:00, 71.95it/s]
+  D_C60 = 0.0274 Å²/ps = 2.74e-07 cm²/s
+
+[ε=0.15] Computing C60 MSD...
+ε=0.15:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.15:   2%|▏         | 8/400 [00:00<00:05, 72.97it/s]ε=0.15:   4%|▍         | 16/400 [00:00<00:05, 72.95it/s]ε=0.15:   6%|▌         | 24/400 [00:00<00:05, 73.14it/s]ε=0.15:   8%|▊         | 32/400 [00:00<00:05, 73.10it/s]ε=0.15:  10%|█         | 40/400 [00:00<00:04, 73.10it/s]ε=0.15:  12%|█▏        | 48/400 [00:00<00:04, 73.22it/s]ε=0.15:  14%|█▍        | 56/400 [00:00<00:04, 73.21it/s]ε=0.15:  16%|█▌        | 64/400 [00:00<00:04, 73.26it/s]ε=0.15:  18%|█▊        | 72/400 [00:00<00:04, 73.23it/s]ε=0.15:  20%|██        | 80/400 [00:01<00:04, 73.13it/s]ε=0.15:  22%|██▏       | 88/400 [00:01<00:04, 73.02it/s]ε=0.15:  24%|██▍       | 96/400 [00:01<00:04, 73.06it/s]ε=0.15:  26%|██▌       | 104/400 [00:01<00:04, 73.23it/s]ε=0.15:  28%|██▊       | 112/400 [00:01<00:03, 73.50it/s]ε=0.15:  30%|███       | 120/400 [00:01<00:03, 73.51it/s]ε=0.15:  32%|███▏      | 128/400 [00:01<00:03, 73.47it/s]ε=0.15:  34%|███▍      | 136/400 [00:01<00:03, 73.40it/s]ε=0.15:  36%|███▌      | 144/400 [00:01<00:03, 73.39it/s]ε=0.15:  38%|███▊      | 152/400 [00:02<00:03, 73.36it/s]ε=0.15:  40%|████      | 160/400 [00:02<00:03, 73.29it/s]ε=0.15:  42%|████▏     | 168/400 [00:02<00:03, 73.14it/s]ε=0.15:  44%|████▍     | 176/400 [00:02<00:03, 73.11it/s]ε=0.15:  46%|████▌     | 184/400 [00:02<00:02, 73.15it/s]ε=0.15:  48%|████▊     | 192/400 [00:02<00:02, 73.11it/s]ε=0.15:  50%|█████     | 200/400 [00:02<00:02, 73.07it/s]ε=0.15:  52%|█████▏    | 208/400 [00:02<00:02, 73.15it/s]ε=0.15:  54%|█████▍    | 216/400 [00:02<00:02, 73.00it/s]ε=0.15:  56%|█████▌    | 224/400 [00:03<00:02, 73.04it/s]ε=0.15:  58%|█████▊    | 232/400 [00:03<00:02, 73.02it/s]ε=0.15:  60%|██████    | 240/400 [00:03<00:02, 72.96it/s]ε=0.15:  62%|██████▏   | 248/400 [00:03<00:02, 72.95it/s]ε=0.15:  64%|██████▍   | 256/400 [00:03<00:01, 73.03it/s]ε=0.15:  66%|██████▌   | 264/400 [00:03<00:01, 73.11it/s]ε=0.15:  68%|██████▊   | 272/400 [00:03<00:01, 73.16it/s]ε=0.15:  70%|███████   | 280/400 [00:03<00:01, 73.08it/s]ε=0.15:  72%|███████▏  | 288/400 [00:03<00:01, 73.07it/s]ε=0.15:  74%|███████▍  | 296/400 [00:04<00:01, 73.02it/s]ε=0.15:  76%|███████▌  | 304/400 [00:04<00:01, 72.96it/s]ε=0.15:  78%|███████▊  | 312/400 [00:04<00:01, 72.92it/s]ε=0.15:  80%|████████  | 320/400 [00:04<00:01, 72.93it/s]ε=0.15:  82%|████████▏ | 328/400 [00:04<00:00, 73.04it/s]ε=0.15:  84%|████████▍ | 336/400 [00:04<00:00, 73.14it/s]ε=0.15:  86%|████████▌ | 344/400 [00:04<00:00, 73.24it/s]ε=0.15:  88%|████████▊ | 352/400 [00:04<00:00, 73.35it/s]ε=0.15:  90%|█████████ | 360/400 [00:04<00:00, 73.37it/s]ε=0.15:  92%|█████████▏| 368/400 [00:05<00:00, 73.21it/s]ε=0.15:  94%|█████████▍| 376/400 [00:05<00:00, 73.25it/s]ε=0.15:  96%|█████████▌| 384/400 [00:05<00:00, 73.14it/s]ε=0.15:  98%|█████████▊| 392/400 [00:05<00:00, 73.08it/s]ε=0.15: 100%|██████████| 400/400 [00:05<00:00, 73.09it/s]ε=0.15: 100%|██████████| 400/400 [00:05<00:00, 72.96it/s]
+  D_C60 = 0.0542 Å²/ps = 5.42e-07 cm²/s
+
+[ε=0.2] Computing C60 MSD...
+ε=0.2:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.2:   2%|▏         | 8/400 [00:00<00:05, 73.32it/s]ε=0.2:   4%|▍         | 16/400 [00:00<00:05, 73.42it/s]ε=0.2:   6%|▌         | 24/400 [00:00<00:05, 73.43it/s]ε=0.2:   8%|▊         | 32/400 [00:00<00:05, 73.39it/s]ε=0.2:  10%|█         | 40/400 [00:00<00:04, 73.34it/s]ε=0.2:  12%|█▏        | 48/400 [00:00<00:04, 73.34it/s]ε=0.2:  14%|█▍        | 56/400 [00:00<00:04, 73.16it/s]ε=0.2:  16%|█▌        | 64/400 [00:00<00:04, 72.98it/s]ε=0.2:  18%|█▊        | 72/400 [00:00<00:04, 72.94it/s]ε=0.2:  20%|██        | 80/400 [00:01<00:04, 72.81it/s]ε=0.2:  22%|██▏       | 88/400 [00:01<00:04, 72.66it/s]ε=0.2:  24%|██▍       | 96/400 [00:01<00:04, 72.65it/s]ε=0.2:  26%|██▌       | 104/400 [00:01<00:04, 72.75it/s]ε=0.2:  28%|██▊       | 112/400 [00:01<00:03, 72.81it/s]ε=0.2:  30%|███       | 120/400 [00:01<00:03, 72.83it/s]ε=0.2:  32%|███▏      | 128/400 [00:01<00:03, 72.71it/s]ε=0.2:  34%|███▍      | 136/400 [00:01<00:03, 72.76it/s]ε=0.2:  36%|███▌      | 144/400 [00:01<00:03, 72.76it/s]ε=0.2:  38%|███▊      | 152/400 [00:02<00:03, 72.83it/s]ε=0.2:  40%|████      | 160/400 [00:02<00:03, 72.86it/s]ε=0.2:  42%|████▏     | 168/400 [00:02<00:03, 72.68it/s]ε=0.2:  44%|████▍     | 176/400 [00:02<00:03, 72.65it/s]ε=0.2:  46%|████▌     | 184/400 [00:02<00:02, 72.63it/s]ε=0.2:  48%|████▊     | 192/400 [00:02<00:02, 72.63it/s]ε=0.2:  50%|█████     | 200/400 [00:02<00:02, 72.69it/s]ε=0.2:  52%|█████▏    | 208/400 [00:02<00:02, 72.78it/s]ε=0.2:  54%|█████▍    | 216/400 [00:02<00:02, 72.83it/s]ε=0.2:  56%|█████▌    | 224/400 [00:03<00:02, 72.81it/s]ε=0.2:  58%|█████▊    | 232/400 [00:03<00:02, 72.83it/s]ε=0.2:  60%|██████    | 240/400 [00:03<00:02, 72.96it/s]ε=0.2:  62%|██████▏   | 248/400 [00:03<00:02, 73.02it/s]ε=0.2:  64%|██████▍   | 256/400 [00:03<00:01, 73.04it/s]ε=0.2:  66%|██████▌   | 264/400 [00:03<00:01, 73.08it/s]ε=0.2:  68%|██████▊   | 272/400 [00:03<00:01, 73.14it/s]ε=0.2:  70%|███████   | 280/400 [00:03<00:01, 73.19it/s]ε=0.2:  72%|███████▏  | 288/400 [00:03<00:01, 73.12it/s]ε=0.2:  74%|███████▍  | 296/400 [00:04<00:01, 73.04it/s]ε=0.2:  76%|███████▌  | 304/400 [00:04<00:01, 73.05it/s]ε=0.2:  78%|███████▊  | 312/400 [00:04<00:01, 72.97it/s]ε=0.2:  80%|████████  | 320/400 [00:04<00:01, 72.91it/s]ε=0.2:  82%|████████▏ | 328/400 [00:04<00:00, 72.86it/s]ε=0.2:  84%|████████▍ | 336/400 [00:04<00:00, 72.79it/s]ε=0.2:  86%|████████▌ | 344/400 [00:04<00:00, 72.94it/s]ε=0.2:  88%|████████▊ | 352/400 [00:04<00:00, 72.93it/s]ε=0.2:  90%|█████████ | 360/400 [00:04<00:00, 72.80it/s]ε=0.2:  92%|█████████▏| 368/400 [00:05<00:00, 72.72it/s]ε=0.2:  94%|█████████▍| 376/400 [00:05<00:00, 72.74it/s]ε=0.2:  96%|█████████▌| 384/400 [00:05<00:00, 72.78it/s]ε=0.2:  98%|█████████▊| 392/400 [00:05<00:00, 72.84it/s]ε=0.2: 100%|██████████| 400/400 [00:05<00:00, 72.84it/s]ε=0.2: 100%|██████████| 400/400 [00:05<00:00, 72.71it/s]
+  D_C60 = 0.0228 Å²/ps = 2.28e-07 cm²/s
+
+[ε=0.25] Computing C60 MSD...
+ε=0.25:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.25:   2%|▏         | 8/400 [00:00<00:05, 73.63it/s]ε=0.25:   4%|▍         | 16/400 [00:00<00:05, 73.50it/s]ε=0.25:   6%|▌         | 24/400 [00:00<00:05, 73.55it/s]ε=0.25:   8%|▊         | 32/400 [00:00<00:04, 73.61it/s]ε=0.25:  10%|█         | 40/400 [00:00<00:04, 73.64it/s]ε=0.25:  12%|█▏        | 48/400 [00:00<00:04, 73.71it/s]ε=0.25:  14%|█▍        | 56/400 [00:00<00:04, 73.42it/s]ε=0.25:  16%|█▌        | 64/400 [00:00<00:04, 73.15it/s]ε=0.25:  18%|█▊        | 72/400 [00:00<00:04, 72.89it/s]ε=0.25:  20%|██        | 80/400 [00:01<00:04, 72.77it/s]ε=0.25:  22%|██▏       | 88/400 [00:01<00:04, 72.78it/s]ε=0.25:  24%|██▍       | 96/400 [00:01<00:04, 72.86it/s]ε=0.25:  26%|██▌       | 104/400 [00:01<00:04, 73.00it/s]ε=0.25:  28%|██▊       | 112/400 [00:01<00:03, 73.02it/s]ε=0.25:  30%|███       | 120/400 [00:01<00:03, 72.99it/s]ε=0.25:  32%|███▏      | 128/400 [00:01<00:03, 73.01it/s]ε=0.25:  34%|███▍      | 136/400 [00:01<00:03, 73.04it/s]ε=0.25:  36%|███▌      | 144/400 [00:01<00:03, 73.22it/s]ε=0.25:  38%|███▊      | 152/400 [00:02<00:03, 73.19it/s]ε=0.25:  40%|████      | 160/400 [00:02<00:03, 73.09it/s]ε=0.25:  42%|████▏     | 168/400 [00:02<00:03, 73.09it/s]ε=0.25:  44%|████▍     | 176/400 [00:02<00:03, 73.06it/s]ε=0.25:  46%|████▌     | 184/400 [00:02<00:02, 73.10it/s]ε=0.25:  48%|████▊     | 192/400 [00:02<00:02, 73.11it/s]ε=0.25:  50%|█████     | 200/400 [00:02<00:02, 73.02it/s]ε=0.25:  52%|█████▏    | 208/400 [00:02<00:02, 73.05it/s]ε=0.25:  54%|█████▍    | 216/400 [00:02<00:02, 73.05it/s]ε=0.25:  56%|█████▌    | 224/400 [00:03<00:02, 73.09it/s]ε=0.25:  58%|█████▊    | 232/400 [00:03<00:02, 73.17it/s]ε=0.25:  60%|██████    | 240/400 [00:03<00:02, 73.11it/s]ε=0.25:  62%|██████▏   | 248/400 [00:03<00:02, 72.99it/s]ε=0.25:  64%|██████▍   | 256/400 [00:03<00:01, 72.93it/s]ε=0.25:  66%|██████▌   | 264/400 [00:03<00:01, 72.93it/s]ε=0.25:  68%|██████▊   | 272/400 [00:03<00:01, 72.94it/s]ε=0.25:  70%|███████   | 280/400 [00:03<00:01, 72.99it/s]ε=0.25:  72%|███████▏  | 288/400 [00:03<00:01, 73.12it/s]ε=0.25:  74%|███████▍  | 296/400 [00:04<00:01, 73.13it/s]ε=0.25:  76%|███████▌  | 304/400 [00:04<00:01, 73.27it/s]ε=0.25:  78%|███████▊  | 312/400 [00:04<00:01, 73.24it/s]ε=0.25:  80%|████████  | 320/400 [00:04<00:01, 73.26it/s]ε=0.25:  82%|████████▏ | 328/400 [00:04<00:00, 73.15it/s]ε=0.25:  84%|████████▍ | 336/400 [00:04<00:00, 73.11it/s]ε=0.25:  86%|████████▌ | 344/400 [00:04<00:00, 73.08it/s]ε=0.25:  88%|████████▊ | 352/400 [00:04<00:00, 73.04it/s]ε=0.25:  90%|█████████ | 360/400 [00:04<00:00, 73.04it/s]ε=0.25:  92%|█████████▏| 368/400 [00:05<00:00, 72.84it/s]ε=0.25:  94%|█████████▍| 376/400 [00:05<00:00, 72.73it/s]ε=0.25:  96%|█████████▌| 384/400 [00:05<00:00, 72.66it/s]ε=0.25:  98%|█████████▊| 392/400 [00:05<00:00, 72.65it/s]ε=0.25: 100%|██████████| 400/400 [00:05<00:00, 72.57it/s]ε=0.25: 100%|██████████| 400/400 [00:05<00:00, 72.86it/s]
+  D_C60 = 0.0253 Å²/ps = 2.53e-07 cm²/s
+
+[ε=0.3] Computing C60 MSD...
+ε=0.3:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.3:   2%|▏         | 8/400 [00:00<00:05, 73.35it/s]ε=0.3:   4%|▍         | 16/400 [00:00<00:05, 73.31it/s]ε=0.3:   6%|▌         | 24/400 [00:00<00:05, 73.34it/s]ε=0.3:   8%|▊         | 32/400 [00:00<00:05, 73.39it/s]ε=0.3:  10%|█         | 40/400 [00:00<00:04, 73.38it/s]ε=0.3:  12%|█▏        | 48/400 [00:00<00:04, 73.43it/s]ε=0.3:  14%|█▍        | 56/400 [00:00<00:04, 73.27it/s]ε=0.3:  16%|█▌        | 64/400 [00:00<00:04, 73.04it/s]ε=0.3:  18%|█▊        | 72/400 [00:00<00:04, 72.90it/s]ε=0.3:  20%|██        | 80/400 [00:01<00:04, 72.76it/s]ε=0.3:  22%|██▏       | 88/400 [00:01<00:04, 72.71it/s]ε=0.3:  24%|██▍       | 96/400 [00:01<00:04, 72.77it/s]ε=0.3:  26%|██▌       | 104/400 [00:01<00:04, 72.80it/s]ε=0.3:  28%|██▊       | 112/400 [00:01<00:03, 72.81it/s]ε=0.3:  30%|███       | 120/400 [00:01<00:03, 72.78it/s]ε=0.3:  32%|███▏      | 128/400 [00:01<00:03, 72.72it/s]ε=0.3:  34%|███▍      | 136/400 [00:01<00:03, 72.78it/s]ε=0.3:  36%|███▌      | 144/400 [00:01<00:03, 72.73it/s]ε=0.3:  38%|███▊      | 152/400 [00:02<00:03, 72.69it/s]ε=0.3:  40%|████      | 160/400 [00:02<00:03, 72.58it/s]ε=0.3:  42%|████▏     | 168/400 [00:02<00:03, 72.51it/s]ε=0.3:  44%|████▍     | 176/400 [00:02<00:03, 72.45it/s]ε=0.3:  46%|████▌     | 184/400 [00:02<00:02, 72.39it/s]ε=0.3:  48%|████▊     | 192/400 [00:02<00:02, 72.48it/s]ε=0.3:  50%|█████     | 200/400 [00:02<00:02, 72.64it/s]ε=0.3:  52%|█████▏    | 208/400 [00:02<00:02, 72.69it/s]ε=0.3:  54%|█████▍    | 216/400 [00:02<00:02, 72.69it/s]ε=0.3:  56%|█████▌    | 224/400 [00:03<00:02, 72.72it/s]ε=0.3:  58%|█████▊    | 232/400 [00:03<00:02, 72.69it/s]ε=0.3:  60%|██████    | 240/400 [00:03<00:02, 72.70it/s]ε=0.3:  62%|██████▏   | 248/400 [00:03<00:02, 72.66it/s]ε=0.3:  64%|██████▍   | 256/400 [00:03<00:01, 72.79it/s]ε=0.3:  66%|██████▌   | 264/400 [00:03<00:01, 72.83it/s]ε=0.3:  68%|██████▊   | 272/400 [00:03<00:01, 72.76it/s]ε=0.3:  70%|███████   | 280/400 [00:03<00:01, 72.80it/s]ε=0.3:  72%|███████▏  | 288/400 [00:03<00:01, 72.86it/s]ε=0.3:  74%|███████▍  | 296/400 [00:04<00:01, 72.84it/s]ε=0.3:  76%|███████▌  | 304/400 [00:04<00:01, 72.81it/s]ε=0.3:  78%|███████▊  | 312/400 [00:04<00:01, 72.83it/s]ε=0.3:  80%|████████  | 320/400 [00:04<00:01, 72.86it/s]ε=0.3:  82%|████████▏ | 328/400 [00:04<00:00, 72.88it/s]ε=0.3:  84%|████████▍ | 336/400 [00:04<00:00, 72.81it/s]ε=0.3:  86%|████████▌ | 344/400 [00:04<00:00, 72.79it/s]ε=0.3:  88%|████████▊ | 352/400 [00:04<00:00, 72.79it/s]ε=0.3:  90%|█████████ | 360/400 [00:04<00:00, 72.75it/s]ε=0.3:  92%|█████████▏| 368/400 [00:05<00:00, 72.75it/s]ε=0.3:  94%|█████████▍| 376/400 [00:05<00:00, 72.73it/s]ε=0.3:  96%|█████████▌| 384/400 [00:05<00:00, 72.73it/s]ε=0.3:  98%|█████████▊| 392/400 [00:05<00:00, 72.72it/s]ε=0.3: 100%|██████████| 400/400 [00:05<00:00, 72.68it/s]ε=0.3: 100%|██████████| 400/400 [00:05<00:00, 72.61it/s]
+  D_C60 = 0.0272 Å²/ps = 2.72e-07 cm²/s
+
+[ε=0.35] Computing C60 MSD...
+ε=0.35:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.35:   2%|▏         | 8/400 [00:00<00:05, 73.81it/s]ε=0.35:   4%|▍         | 16/400 [00:00<00:05, 73.59it/s]ε=0.35:   6%|▌         | 24/400 [00:00<00:05, 73.48it/s]ε=0.35:   8%|▊         | 32/400 [00:00<00:05, 73.54it/s]ε=0.35:  10%|█         | 40/400 [00:00<00:04, 73.27it/s]ε=0.35:  12%|█▏        | 48/400 [00:00<00:04, 72.93it/s]ε=0.35:  14%|█▍        | 56/400 [00:00<00:04, 72.86it/s]ε=0.35:  16%|█▌        | 64/400 [00:00<00:04, 72.76it/s]ε=0.35:  18%|█▊        | 72/400 [00:00<00:04, 72.67it/s]ε=0.35:  20%|██        | 80/400 [00:01<00:04, 72.67it/s]ε=0.35:  22%|██▏       | 88/400 [00:01<00:04, 72.73it/s]ε=0.35:  24%|██▍       | 96/400 [00:01<00:04, 72.83it/s]ε=0.35:  26%|██▌       | 104/400 [00:01<00:04, 72.84it/s]ε=0.35:  28%|██▊       | 112/400 [00:01<00:03, 72.90it/s]ε=0.35:  30%|███       | 120/400 [00:01<00:03, 72.68it/s]ε=0.35:  32%|███▏      | 128/400 [00:01<00:03, 72.72it/s]ε=0.35:  34%|███▍      | 136/400 [00:01<00:03, 72.49it/s]ε=0.35:  36%|███▌      | 144/400 [00:01<00:03, 72.59it/s]ε=0.35:  38%|███▊      | 152/400 [00:02<00:03, 72.68it/s]ε=0.35:  40%|████      | 160/400 [00:02<00:03, 72.76it/s]ε=0.35:  42%|████▏     | 168/400 [00:02<00:03, 72.76it/s]ε=0.35:  44%|████▍     | 176/400 [00:02<00:03, 72.78it/s]ε=0.35:  46%|████▌     | 184/400 [00:02<00:02, 72.96it/s]ε=0.35:  48%|████▊     | 192/400 [00:02<00:02, 72.92it/s]ε=0.35:  50%|█████     | 200/400 [00:02<00:02, 72.97it/s]ε=0.35:  52%|█████▏    | 208/400 [00:02<00:02, 72.95it/s]ε=0.35:  54%|█████▍    | 216/400 [00:02<00:02, 72.94it/s]ε=0.35:  56%|█████▌    | 224/400 [00:03<00:02, 72.94it/s]ε=0.35:  58%|█████▊    | 232/400 [00:03<00:02, 72.96it/s]ε=0.35:  60%|██████    | 240/400 [00:03<00:02, 72.94it/s]ε=0.35:  62%|██████▏   | 248/400 [00:03<00:02, 72.97it/s]ε=0.35:  64%|██████▍   | 256/400 [00:03<00:01, 72.96it/s]ε=0.35:  66%|██████▌   | 264/400 [00:03<00:01, 72.97it/s]ε=0.35:  68%|██████▊   | 272/400 [00:03<00:01, 73.06it/s]ε=0.35:  70%|███████   | 280/400 [00:03<00:01, 73.17it/s]ε=0.35:  72%|███████▏  | 288/400 [00:03<00:01, 73.20it/s]ε=0.35:  74%|███████▍  | 296/400 [00:04<00:01, 73.17it/s]ε=0.35:  76%|███████▌  | 304/400 [00:04<00:01, 73.10it/s]ε=0.35:  78%|███████▊  | 312/400 [00:04<00:01, 58.83it/s]ε=0.35:  80%|████████  | 320/400 [00:04<00:01, 62.49it/s]ε=0.35:  82%|████████▏ | 328/400 [00:04<00:01, 65.27it/s]ε=0.35:  84%|████████▍ | 336/400 [00:04<00:00, 67.52it/s]ε=0.35:  86%|████████▌ | 344/400 [00:04<00:00, 69.14it/s]ε=0.35:  88%|████████▊ | 352/400 [00:04<00:00, 70.40it/s]ε=0.35:  90%|█████████ | 360/400 [00:05<00:00, 71.11it/s]ε=0.35:  92%|█████████▏| 368/400 [00:05<00:00, 71.68it/s]ε=0.35:  94%|█████████▍| 376/400 [00:05<00:00, 72.04it/s]ε=0.35:  96%|█████████▌| 384/400 [00:05<00:00, 72.31it/s]ε=0.35:  98%|█████████▊| 392/400 [00:05<00:00, 72.47it/s]ε=0.35: 100%|██████████| 400/400 [00:05<00:00, 72.62it/s]ε=0.35: 100%|██████████| 400/400 [00:05<00:00, 71.62it/s]
+  D_C60 = 0.0372 Å²/ps = 3.72e-07 cm²/s
+
+[ε=0.4] Computing C60 MSD...
+ε=0.4:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.4:   2%|▏         | 8/400 [00:00<00:05, 73.60it/s]ε=0.4:   4%|▍         | 16/400 [00:00<00:05, 73.43it/s]ε=0.4:   6%|▌         | 24/400 [00:00<00:05, 73.34it/s]ε=0.4:   8%|▊         | 32/400 [00:00<00:05, 73.28it/s]ε=0.4:  10%|█         | 40/400 [00:00<00:04, 73.29it/s]ε=0.4:  12%|█▏        | 48/400 [00:00<00:04, 73.31it/s]ε=0.4:  14%|█▍        | 56/400 [00:00<00:04, 73.14it/s]ε=0.4:  16%|█▌        | 64/400 [00:00<00:04, 72.83it/s]ε=0.4:  18%|█▊        | 72/400 [00:00<00:04, 72.57it/s]ε=0.4:  20%|██        | 80/400 [00:01<00:04, 72.48it/s]ε=0.4:  22%|██▏       | 88/400 [00:01<00:04, 72.48it/s]ε=0.4:  24%|██▍       | 96/400 [00:01<00:04, 72.63it/s]ε=0.4:  26%|██▌       | 104/400 [00:01<00:04, 72.72it/s]ε=0.4:  28%|██▊       | 112/400 [00:01<00:03, 72.67it/s]ε=0.4:  30%|███       | 120/400 [00:01<00:03, 72.67it/s]ε=0.4:  32%|███▏      | 128/400 [00:01<00:03, 72.70it/s]ε=0.4:  34%|███▍      | 136/400 [00:01<00:03, 72.61it/s]ε=0.4:  36%|███▌      | 144/400 [00:01<00:03, 72.50it/s]ε=0.4:  38%|███▊      | 152/400 [00:02<00:03, 72.56it/s]ε=0.4:  40%|████      | 160/400 [00:02<00:03, 72.64it/s]ε=0.4:  42%|████▏     | 168/400 [00:02<00:03, 72.72it/s]ε=0.4:  44%|████▍     | 176/400 [00:02<00:03, 71.55it/s]ε=0.4:  46%|████▌     | 184/400 [00:02<00:03, 71.88it/s]ε=0.4:  48%|████▊     | 192/400 [00:02<00:02, 72.07it/s]ε=0.4:  50%|█████     | 200/400 [00:02<00:02, 72.17it/s]ε=0.4:  52%|█████▏    | 208/400 [00:02<00:02, 72.23it/s]ε=0.4:  54%|█████▍    | 216/400 [00:02<00:02, 72.26it/s]ε=0.4:  56%|█████▌    | 224/400 [00:03<00:02, 72.23it/s]ε=0.4:  58%|█████▊    | 232/400 [00:03<00:02, 72.29it/s]ε=0.4:  60%|██████    | 240/400 [00:03<00:02, 72.31it/s]ε=0.4:  62%|██████▏   | 248/400 [00:03<00:02, 72.55it/s]ε=0.4:  64%|██████▍   | 256/400 [00:03<00:01, 72.51it/s]ε=0.4:  66%|██████▌   | 264/400 [00:03<00:01, 72.55it/s]ε=0.4:  68%|██████▊   | 272/400 [00:03<00:01, 72.55it/s]ε=0.4:  70%|███████   | 280/400 [00:03<00:01, 72.51it/s]ε=0.4:  72%|███████▏  | 288/400 [00:03<00:01, 72.53it/s]ε=0.4:  74%|███████▍  | 296/400 [00:04<00:01, 72.52it/s]ε=0.4:  76%|███████▌  | 304/400 [00:04<00:01, 72.60it/s]ε=0.4:  78%|███████▊  | 312/400 [00:04<00:01, 72.53it/s]ε=0.4:  80%|████████  | 320/400 [00:04<00:01, 72.58it/s]ε=0.4:  82%|████████▏ | 328/400 [00:04<00:00, 72.70it/s]ε=0.4:  84%|████████▍ | 336/400 [00:04<00:00, 72.66it/s]ε=0.4:  86%|████████▌ | 344/400 [00:04<00:00, 72.61it/s]ε=0.4:  88%|████████▊ | 352/400 [00:04<00:00, 71.95it/s]ε=0.4:  90%|█████████ | 360/400 [00:04<00:00, 72.15it/s]ε=0.4:  92%|█████████▏| 368/400 [00:05<00:00, 72.32it/s]ε=0.4:  94%|█████████▍| 376/400 [00:05<00:00, 72.48it/s]ε=0.4:  96%|█████████▌| 384/400 [00:05<00:00, 72.63it/s]ε=0.4:  98%|█████████▊| 392/400 [00:05<00:00, 72.28it/s]ε=0.4: 100%|██████████| 400/400 [00:05<00:00, 72.47it/s]ε=0.4: 100%|██████████| 400/400 [00:05<00:00, 72.35it/s]
+  D_C60 = 0.0173 Å²/ps = 1.73e-07 cm²/s
+
+[ε=0.45] Computing C60 MSD...
+ε=0.45:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.45:   2%|▏         | 8/400 [00:00<00:05, 70.90it/s]ε=0.45:   4%|▍         | 16/400 [00:00<00:06, 59.16it/s]ε=0.45:   6%|▌         | 24/400 [00:00<00:05, 64.42it/s]ε=0.45:   8%|▊         | 32/400 [00:00<00:05, 67.20it/s]ε=0.45:  10%|█         | 40/400 [00:00<00:05, 68.82it/s]ε=0.45:  12%|█▏        | 47/400 [00:00<00:05, 65.92it/s]ε=0.45:  14%|█▎        | 54/400 [00:00<00:05, 57.98it/s]ε=0.45:  15%|█▌        | 60/400 [00:01<00:10, 33.55it/s]ε=0.45:  17%|█▋        | 67/400 [00:01<00:08, 39.55it/s]ε=0.45:  18%|█▊        | 74/400 [00:01<00:07, 44.46it/s]ε=0.45:  20%|██        | 81/400 [00:01<00:06, 49.91it/s]ε=0.45:  22%|██▏       | 87/400 [00:01<00:06, 44.81it/s]ε=0.45:  24%|██▎       | 94/400 [00:01<00:06, 50.08it/s]ε=0.45:  25%|██▌       | 101/400 [00:01<00:05, 52.84it/s]ε=0.45:  27%|██▋       | 107/400 [00:02<00:05, 52.95it/s]ε=0.45:  28%|██▊       | 114/400 [00:02<00:05, 56.82it/s]ε=0.45:  30%|███       | 120/400 [00:02<00:04, 56.97it/s]ε=0.45:  32%|███▏      | 128/400 [00:02<00:04, 61.30it/s]ε=0.45:  34%|███▍      | 136/400 [00:02<00:04, 64.46it/s]ε=0.45:  36%|███▌      | 144/400 [00:02<00:03, 66.60it/s]ε=0.45:  38%|███▊      | 152/400 [00:02<00:03, 68.23it/s]ε=0.45:  40%|████      | 160/400 [00:02<00:03, 69.15it/s]ε=0.45:  42%|████▏     | 168/400 [00:02<00:03, 70.03it/s]ε=0.45:  44%|████▍     | 176/400 [00:03<00:03, 70.68it/s]ε=0.45:  46%|████▌     | 184/400 [00:03<00:03, 71.18it/s]ε=0.45:  48%|████▊     | 192/400 [00:03<00:02, 71.49it/s]ε=0.45:  50%|█████     | 200/400 [00:03<00:02, 71.74it/s]ε=0.45:  52%|█████▏    | 208/400 [00:03<00:02, 71.91it/s]ε=0.45:  54%|█████▍    | 216/400 [00:03<00:02, 72.02it/s]ε=0.45:  56%|█████▌    | 224/400 [00:03<00:02, 72.12it/s]ε=0.45:  58%|█████▊    | 232/400 [00:03<00:02, 72.12it/s]ε=0.45:  60%|██████    | 240/400 [00:03<00:02, 72.23it/s]ε=0.45:  62%|██████▏   | 248/400 [00:04<00:02, 72.33it/s]ε=0.45:  64%|██████▍   | 256/400 [00:04<00:01, 72.31it/s]ε=0.45:  66%|██████▌   | 264/400 [00:04<00:01, 72.31it/s]ε=0.45:  68%|██████▊   | 272/400 [00:04<00:01, 72.19it/s]ε=0.45:  70%|███████   | 280/400 [00:04<00:01, 72.14it/s]ε=0.45:  72%|███████▏  | 288/400 [00:04<00:01, 71.93it/s]ε=0.45:  74%|███████▍  | 296/400 [00:04<00:01, 71.97it/s]ε=0.45:  76%|███████▌  | 304/400 [00:04<00:01, 71.97it/s]ε=0.45:  78%|███████▊  | 312/400 [00:04<00:01, 71.91it/s]ε=0.45:  80%|████████  | 320/400 [00:05<00:01, 71.93it/s]ε=0.45:  82%|████████▏ | 328/400 [00:05<00:01, 71.85it/s]ε=0.45:  84%|████████▍ | 336/400 [00:05<00:00, 71.90it/s]ε=0.45:  86%|████████▌ | 344/400 [00:05<00:00, 71.95it/s]ε=0.45:  88%|████████▊ | 352/400 [00:05<00:00, 72.03it/s]ε=0.45:  90%|█████████ | 360/400 [00:05<00:00, 72.00it/s]ε=0.45:  92%|█████████▏| 368/400 [00:05<00:00, 71.71it/s]ε=0.45:  94%|█████████▍| 376/400 [00:05<00:00, 71.59it/s]ε=0.45:  96%|█████████▌| 384/400 [00:05<00:00, 71.49it/s]ε=0.45:  98%|█████████▊| 392/400 [00:06<00:00, 71.32it/s]ε=0.45: 100%|██████████| 400/400 [00:06<00:00, 71.38it/s]ε=0.45: 100%|██████████| 400/400 [00:06<00:00, 64.66it/s]
+  D_C60 = 0.0195 Å²/ps = 1.95e-07 cm²/s
+
+[ε=0.5] Computing C60 MSD...
+ε=0.5:   0%|          | 0/400 [00:00<?, ?it/s]ε=0.5:   2%|▏         | 8/400 [00:00<00:05, 73.41it/s]ε=0.5:   4%|▍         | 16/400 [00:00<00:05, 73.16it/s]ε=0.5:   6%|▌         | 24/400 [00:00<00:05, 73.17it/s]ε=0.5:   8%|▊         | 32/400 [00:00<00:05, 73.05it/s]ε=0.5:  10%|█         | 40/400 [00:00<00:04, 73.08it/s]ε=0.5:  12%|█▏        | 48/400 [00:00<00:04, 73.08it/s]ε=0.5:  14%|█▍        | 56/400 [00:00<00:04, 73.13it/s]ε=0.5:  16%|█▌        | 64/400 [00:00<00:04, 73.21it/s]ε=0.5:  18%|█▊        | 72/400 [00:00<00:04, 73.18it/s]ε=0.5:  20%|██        | 80/400 [00:01<00:04, 73.14it/s]ε=0.5:  22%|██▏       | 88/400 [00:01<00:04, 73.22it/s]ε=0.5:  24%|██▍       | 96/400 [00:01<00:04, 73.25it/s]ε=0.5:  26%|██▌       | 104/400 [00:01<00:04, 73.05it/s]ε=0.5:  28%|██▊       | 112/400 [00:01<00:03, 73.06it/s]ε=0.5:  30%|███       | 120/400 [00:01<00:03, 72.92it/s]ε=0.5:  32%|███▏      | 128/400 [00:01<00:03, 72.83it/s]ε=0.5:  34%|███▍      | 136/400 [00:01<00:03, 72.78it/s]ε=0.5:  36%|███▌      | 144/400 [00:01<00:03, 72.77it/s]ε=0.5:  38%|███▊      | 152/400 [00:02<00:03, 72.90it/s]ε=0.5:  40%|████      | 160/400 [00:02<00:03, 72.95it/s]ε=0.5:  42%|████▏     | 168/400 [00:02<00:03, 73.08it/s]ε=0.5:  44%|████▍     | 176/400 [00:02<00:03, 73.19it/s]ε=0.5:  46%|████▌     | 184/400 [00:02<00:02, 73.26it/s]ε=0.5:  48%|████▊     | 192/400 [00:02<00:02, 73.27it/s]ε=0.5:  50%|█████     | 200/400 [00:02<00:02, 73.28it/s]ε=0.5:  52%|█████▏    | 208/400 [00:02<00:02, 73.29it/s]ε=0.5:  54%|█████▍    | 216/400 [00:02<00:02, 73.30it/s]ε=0.5:  56%|█████▌    | 224/400 [00:03<00:02, 73.26it/s]ε=0.5:  58%|█████▊    | 232/400 [00:03<00:02, 73.18it/s]ε=0.5:  60%|██████    | 240/400 [00:03<00:02, 73.14it/s]ε=0.5:  62%|██████▏   | 248/400 [00:03<00:02, 73.17it/s]ε=0.5:  64%|██████▍   | 256/400 [00:03<00:01, 73.24it/s]ε=0.5:  66%|██████▌   | 264/400 [00:03<00:01, 73.26it/s]ε=0.5:  68%|██████▊   | 272/400 [00:03<00:01, 73.18it/s]ε=0.5:  70%|███████   | 280/400 [00:03<00:01, 73.23it/s]ε=0.5:  72%|███████▏  | 288/400 [00:03<00:01, 73.11it/s]ε=0.5:  74%|███████▍  | 296/400 [00:04<00:01, 73.19it/s]ε=0.5:  76%|███████▌  | 304/400 [00:04<00:01, 73.17it/s]ε=0.5:  78%|███████▊  | 312/400 [00:04<00:01, 73.12it/s]ε=0.5:  80%|████████  | 320/400 [00:04<00:01, 73.11it/s]ε=0.5:  82%|████████▏ | 328/400 [00:04<00:00, 73.11it/s]ε=0.5:  84%|████████▍ | 336/400 [00:04<00:00, 72.88it/s]ε=0.5:  86%|████████▌ | 344/400 [00:04<00:00, 72.89it/s]ε=0.5:  88%|████████▊ | 352/400 [00:04<00:00, 72.80it/s]ε=0.5:  90%|█████████ | 360/400 [00:04<00:00, 72.64it/s]ε=0.5:  92%|█████████▏| 368/400 [00:05<00:00, 72.63it/s]ε=0.5:  94%|█████████▍| 376/400 [00:05<00:00, 72.69it/s]ε=0.5:  96%|█████████▌| 384/400 [00:05<00:00, 72.68it/s]ε=0.5:  98%|█████████▊| 392/400 [00:05<00:00, 72.71it/s]ε=0.5: 100%|██████████| 400/400 [00:05<00:00, 72.77it/s]ε=0.5: 100%|██████████| 400/400 [00:05<00:00, 72.86it/s]
+  D_C60 = 0.0335 Å²/ps = 3.35e-07 cm²/s
+
+[ε=0.55] Computing C60 MSD...
+ε=0.55:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.55:   4%|▍         | 8/200 [00:00<00:02, 74.10it/s]ε=0.55:   8%|▊         | 16/200 [00:00<00:02, 74.06it/s]ε=0.55:  12%|█▏        | 24/200 [00:00<00:02, 74.09it/s]ε=0.55:  16%|█▌        | 32/200 [00:00<00:02, 74.11it/s]ε=0.55:  20%|██        | 40/200 [00:00<00:02, 74.13it/s]ε=0.55:  24%|██▍       | 48/200 [00:00<00:02, 74.00it/s]ε=0.55:  28%|██▊       | 56/200 [00:00<00:01, 73.78it/s]ε=0.55:  32%|███▏      | 64/200 [00:00<00:01, 73.57it/s]ε=0.55:  36%|███▌      | 72/200 [00:00<00:01, 73.44it/s]ε=0.55:  40%|████      | 80/200 [00:01<00:01, 73.42it/s]ε=0.55:  44%|████▍     | 88/200 [00:01<00:01, 73.63it/s]ε=0.55:  48%|████▊     | 96/200 [00:01<00:01, 73.53it/s]ε=0.55:  52%|█████▏    | 104/200 [00:01<00:01, 73.21it/s]ε=0.55:  56%|█████▌    | 112/200 [00:01<00:01, 73.10it/s]ε=0.55:  60%|██████    | 120/200 [00:01<00:01, 73.14it/s]ε=0.55:  64%|██████▍   | 128/200 [00:01<00:00, 73.10it/s]ε=0.55:  68%|██████▊   | 136/200 [00:01<00:00, 73.06it/s]ε=0.55:  72%|███████▏  | 144/200 [00:01<00:00, 73.12it/s]ε=0.55:  76%|███████▌  | 152/200 [00:02<00:00, 73.16it/s]ε=0.55:  80%|████████  | 160/200 [00:02<00:00, 73.16it/s]ε=0.55:  84%|████████▍ | 168/200 [00:02<00:00, 73.11it/s]ε=0.55:  88%|████████▊ | 176/200 [00:02<00:00, 73.06it/s]ε=0.55:  92%|█████████▏| 184/200 [00:02<00:00, 72.98it/s]ε=0.55:  96%|█████████▌| 192/200 [00:02<00:00, 73.15it/s]ε=0.55: 100%|██████████| 200/200 [00:02<00:00, 73.25it/s]ε=0.55: 100%|██████████| 200/200 [00:02<00:00, 73.01it/s]
+  D_C60 = 0.0235 Å²/ps = 2.35e-07 cm²/s
+
+[ε=0.6] Computing C60 MSD...
+ε=0.6:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.6:   4%|▍         | 8/200 [00:00<00:02, 74.44it/s]ε=0.6:   8%|▊         | 16/200 [00:00<00:02, 74.20it/s]ε=0.6:  12%|█▏        | 24/200 [00:00<00:02, 73.99it/s]ε=0.6:  16%|█▌        | 32/200 [00:00<00:02, 73.94it/s]ε=0.6:  20%|██        | 40/200 [00:00<00:02, 73.92it/s]ε=0.6:  24%|██▍       | 48/200 [00:00<00:02, 73.84it/s]ε=0.6:  28%|██▊       | 56/200 [00:00<00:01, 73.55it/s]ε=0.6:  32%|███▏      | 64/200 [00:00<00:01, 72.99it/s]ε=0.6:  36%|███▌      | 72/200 [00:00<00:01, 72.60it/s]ε=0.6:  40%|████      | 80/200 [00:01<00:01, 72.26it/s]ε=0.6:  44%|████▍     | 88/200 [00:01<00:01, 72.10it/s]ε=0.6:  48%|████▊     | 96/200 [00:01<00:01, 71.87it/s]ε=0.6:  52%|█████▏    | 104/200 [00:01<00:01, 71.66it/s]ε=0.6:  56%|█████▌    | 112/200 [00:01<00:01, 71.51it/s]ε=0.6:  60%|██████    | 120/200 [00:01<00:01, 71.44it/s]ε=0.6:  64%|██████▍   | 128/200 [00:01<00:01, 71.31it/s]ε=0.6:  68%|██████▊   | 136/200 [00:01<00:00, 71.22it/s]ε=0.6:  72%|███████▏  | 144/200 [00:01<00:00, 71.16it/s]ε=0.6:  76%|███████▌  | 152/200 [00:02<00:00, 71.18it/s]ε=0.6:  80%|████████  | 160/200 [00:02<00:00, 71.16it/s]ε=0.6:  84%|████████▍ | 168/200 [00:02<00:00, 71.29it/s]ε=0.6:  88%|████████▊ | 176/200 [00:02<00:00, 71.44it/s]ε=0.6:  92%|█████████▏| 184/200 [00:02<00:00, 71.57it/s]ε=0.6:  96%|█████████▌| 192/200 [00:02<00:00, 71.69it/s]ε=0.6: 100%|██████████| 200/200 [00:02<00:00, 71.71it/s]ε=0.6: 100%|██████████| 200/200 [00:02<00:00, 71.74it/s]
+  D_C60 = 0.0461 Å²/ps = 4.61e-07 cm²/s
+
+[ε=0.65] Computing C60 MSD...
+ε=0.65:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.65:   4%|▍         | 8/200 [00:00<00:02, 73.90it/s]ε=0.65:   8%|▊         | 16/200 [00:00<00:02, 73.91it/s]ε=0.65:  12%|█▏        | 24/200 [00:00<00:02, 73.88it/s]ε=0.65:  16%|█▌        | 32/200 [00:00<00:02, 73.84it/s]ε=0.65:  20%|██        | 40/200 [00:00<00:02, 73.73it/s]ε=0.65:  24%|██▍       | 48/200 [00:00<00:02, 73.70it/s]ε=0.65:  28%|██▊       | 56/200 [00:00<00:01, 73.50it/s]ε=0.65:  32%|███▏      | 64/200 [00:00<00:01, 73.27it/s]ε=0.65:  36%|███▌      | 72/200 [00:00<00:01, 73.18it/s]ε=0.65:  40%|████      | 80/200 [00:01<00:01, 73.09it/s]ε=0.65:  44%|████▍     | 88/200 [00:01<00:01, 73.07it/s]ε=0.65:  48%|████▊     | 96/200 [00:01<00:01, 72.97it/s]ε=0.65:  52%|█████▏    | 104/200 [00:01<00:01, 72.86it/s]ε=0.65:  56%|█████▌    | 112/200 [00:01<00:01, 72.65it/s]ε=0.65:  60%|██████    | 120/200 [00:01<00:01, 72.63it/s]ε=0.65:  64%|██████▍   | 128/200 [00:01<00:00, 72.59it/s]ε=0.65:  68%|██████▊   | 136/200 [00:01<00:00, 72.54it/s]ε=0.65:  72%|███████▏  | 144/200 [00:01<00:00, 72.54it/s]ε=0.65:  76%|███████▌  | 152/200 [00:02<00:00, 72.54it/s]ε=0.65:  80%|████████  | 160/200 [00:02<00:00, 72.49it/s]ε=0.65:  84%|████████▍ | 168/200 [00:02<00:00, 72.54it/s]ε=0.65:  88%|████████▊ | 176/200 [00:02<00:00, 72.54it/s]ε=0.65:  92%|█████████▏| 184/200 [00:02<00:00, 72.60it/s]ε=0.65:  96%|█████████▌| 192/200 [00:02<00:00, 72.68it/s]ε=0.65: 100%|██████████| 200/200 [00:02<00:00, 72.72it/s]ε=0.65: 100%|██████████| 200/200 [00:02<00:00, 72.57it/s]
+  D_C60 = 0.0318 Å²/ps = 3.18e-07 cm²/s
+
+[ε=0.7] Computing C60 MSD...
+ε=0.7:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.7:   4%|▍         | 8/200 [00:00<00:02, 73.26it/s]ε=0.7:   8%|▊         | 16/200 [00:00<00:02, 73.38it/s]ε=0.7:  12%|█▏        | 24/200 [00:00<00:02, 73.26it/s]ε=0.7:  16%|█▌        | 32/200 [00:00<00:02, 73.29it/s]ε=0.7:  20%|██        | 40/200 [00:00<00:02, 73.29it/s]ε=0.7:  24%|██▍       | 48/200 [00:00<00:02, 73.33it/s]ε=0.7:  28%|██▊       | 56/200 [00:00<00:01, 73.05it/s]ε=0.7:  32%|███▏      | 64/200 [00:00<00:01, 72.87it/s]ε=0.7:  36%|███▌      | 72/200 [00:00<00:01, 72.82it/s]ε=0.7:  40%|████      | 80/200 [00:01<00:01, 72.77it/s]ε=0.7:  44%|████▍     | 88/200 [00:01<00:01, 72.88it/s]ε=0.7:  48%|████▊     | 96/200 [00:01<00:01, 73.01it/s]ε=0.7:  52%|█████▏    | 104/200 [00:01<00:01, 72.91it/s]ε=0.7:  56%|█████▌    | 112/200 [00:01<00:01, 72.89it/s]ε=0.7:  60%|██████    | 120/200 [00:01<00:01, 72.92it/s]ε=0.7:  64%|██████▍   | 128/200 [00:01<00:00, 72.97it/s]ε=0.7:  68%|██████▊   | 136/200 [00:01<00:00, 72.87it/s]ε=0.7:  72%|███████▏  | 144/200 [00:01<00:00, 72.91it/s]ε=0.7:  76%|███████▌  | 152/200 [00:02<00:00, 72.94it/s]ε=0.7:  80%|████████  | 160/200 [00:02<00:00, 72.99it/s]ε=0.7:  84%|████████▍ | 168/200 [00:02<00:00, 73.05it/s]ε=0.7:  88%|████████▊ | 176/200 [00:02<00:00, 73.11it/s]ε=0.7:  92%|█████████▏| 184/200 [00:02<00:00, 73.10it/s]ε=0.7:  96%|█████████▌| 192/200 [00:02<00:00, 73.04it/s]ε=0.7: 100%|██████████| 200/200 [00:02<00:00, 72.98it/s]ε=0.7: 100%|██████████| 200/200 [00:02<00:00, 72.64it/s]
+  D_C60 = 0.0201 Å²/ps = 2.01e-07 cm²/s
+
+[ε=0.75] Computing C60 MSD...
+ε=0.75:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.75:   4%|▍         | 8/200 [00:00<00:02, 73.40it/s]ε=0.75:   8%|▊         | 16/200 [00:00<00:02, 73.33it/s]ε=0.75:  12%|█▏        | 24/200 [00:00<00:02, 73.13it/s]ε=0.75:  16%|█▌        | 32/200 [00:00<00:02, 73.16it/s]ε=0.75:  20%|██        | 40/200 [00:00<00:02, 73.21it/s]ε=0.75:  24%|██▍       | 48/200 [00:00<00:02, 73.08it/s]ε=0.75:  28%|██▊       | 56/200 [00:00<00:01, 72.99it/s]ε=0.75:  32%|███▏      | 64/200 [00:00<00:01, 72.73it/s]ε=0.75:  36%|███▌      | 72/200 [00:00<00:01, 72.70it/s]ε=0.75:  40%|████      | 80/200 [00:01<00:01, 72.76it/s]ε=0.75:  44%|████▍     | 88/200 [00:01<00:01, 73.02it/s]ε=0.75:  48%|████▊     | 96/200 [00:01<00:01, 73.12it/s]ε=0.75:  52%|█████▏    | 104/200 [00:01<00:01, 72.96it/s]ε=0.75:  56%|█████▌    | 112/200 [00:01<00:01, 72.76it/s]ε=0.75:  60%|██████    | 120/200 [00:01<00:01, 72.76it/s]ε=0.75:  64%|██████▍   | 128/200 [00:01<00:00, 72.56it/s]ε=0.75:  68%|██████▊   | 136/200 [00:01<00:00, 72.49it/s]ε=0.75:  72%|███████▏  | 144/200 [00:01<00:00, 72.51it/s]ε=0.75:  76%|███████▌  | 152/200 [00:02<00:00, 72.42it/s]ε=0.75:  80%|████████  | 160/200 [00:02<00:00, 72.45it/s]ε=0.75:  84%|████████▍ | 168/200 [00:02<00:00, 72.36it/s]ε=0.75:  88%|████████▊ | 176/200 [00:02<00:00, 72.40it/s]ε=0.75:  92%|█████████▏| 184/200 [00:02<00:00, 72.33it/s]ε=0.75:  96%|█████████▌| 192/200 [00:02<00:00, 72.36it/s]ε=0.75: 100%|██████████| 200/200 [00:02<00:00, 72.28it/s]ε=0.75: 100%|██████████| 200/200 [00:02<00:00, 72.32it/s]
+  D_C60 = 0.0308 Å²/ps = 3.08e-07 cm²/s
+
+[ε=0.8] Computing C60 MSD...
+ε=0.8:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.8:   4%|▍         | 8/200 [00:00<00:02, 73.79it/s]ε=0.8:   8%|▊         | 16/200 [00:00<00:02, 73.58it/s]ε=0.8:  12%|█▏        | 24/200 [00:00<00:02, 73.50it/s]ε=0.8:  16%|█▌        | 32/200 [00:00<00:02, 73.50it/s]ε=0.8:  20%|██        | 40/200 [00:00<00:02, 73.41it/s]ε=0.8:  24%|██▍       | 48/200 [00:00<00:02, 73.37it/s]ε=0.8:  28%|██▊       | 56/200 [00:00<00:01, 73.29it/s]ε=0.8:  32%|███▏      | 64/200 [00:00<00:01, 73.06it/s]ε=0.8:  36%|███▌      | 72/200 [00:00<00:01, 72.93it/s]ε=0.8:  40%|████      | 80/200 [00:01<00:01, 72.77it/s]ε=0.8:  44%|████▍     | 88/200 [00:01<00:01, 72.78it/s]ε=0.8:  48%|████▊     | 96/200 [00:01<00:01, 72.79it/s]ε=0.8:  52%|█████▏    | 104/200 [00:01<00:01, 72.67it/s]ε=0.8:  56%|█████▌    | 112/200 [00:01<00:01, 72.65it/s]ε=0.8:  60%|██████    | 120/200 [00:01<00:01, 72.46it/s]ε=0.8:  64%|██████▍   | 128/200 [00:01<00:00, 72.47it/s]ε=0.8:  68%|██████▊   | 136/200 [00:01<00:00, 72.48it/s]ε=0.8:  72%|███████▏  | 144/200 [00:01<00:00, 72.40it/s]ε=0.8:  76%|███████▌  | 152/200 [00:02<00:00, 72.25it/s]ε=0.8:  80%|████████  | 160/200 [00:02<00:00, 72.16it/s]ε=0.8:  84%|████████▍ | 168/200 [00:02<00:00, 71.95it/s]ε=0.8:  88%|████████▊ | 176/200 [00:02<00:00, 72.01it/s]ε=0.8:  92%|█████████▏| 184/200 [00:02<00:00, 71.84it/s]ε=0.8:  96%|█████████▌| 192/200 [00:02<00:00, 71.85it/s]ε=0.8: 100%|██████████| 200/200 [00:02<00:00, 71.85it/s]ε=0.8: 100%|██████████| 200/200 [00:02<00:00, 72.18it/s]
+  D_C60 = 0.0276 Å²/ps = 2.76e-07 cm²/s
+
+[ε=0.85] Computing C60 MSD...
+ε=0.85:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.85:   4%|▍         | 8/200 [00:00<00:02, 74.26it/s]ε=0.85:   8%|▊         | 16/200 [00:00<00:02, 74.11it/s]ε=0.85:  12%|█▏        | 24/200 [00:00<00:02, 74.03it/s]ε=0.85:  16%|█▌        | 32/200 [00:00<00:02, 74.07it/s]ε=0.85:  20%|██        | 40/200 [00:00<00:02, 74.04it/s]ε=0.85:  24%|██▍       | 48/200 [00:00<00:02, 74.04it/s]ε=0.85:  28%|██▊       | 56/200 [00:00<00:01, 73.62it/s]ε=0.85:  32%|███▏      | 64/200 [00:00<00:01, 73.35it/s]ε=0.85:  36%|███▌      | 72/200 [00:00<00:01, 73.18it/s]ε=0.85:  40%|████      | 80/200 [00:01<00:01, 73.10it/s]ε=0.85:  44%|████▍     | 88/200 [00:01<00:01, 73.01it/s]ε=0.85:  48%|████▊     | 96/200 [00:01<00:01, 72.91it/s]ε=0.85:  52%|█████▏    | 104/200 [00:01<00:01, 72.84it/s]ε=0.85:  56%|█████▌    | 112/200 [00:01<00:01, 72.79it/s]ε=0.85:  60%|██████    | 120/200 [00:01<00:01, 72.73it/s]ε=0.85:  64%|██████▍   | 128/200 [00:01<00:00, 72.72it/s]ε=0.85:  68%|██████▊   | 136/200 [00:01<00:00, 72.67it/s]ε=0.85:  72%|███████▏  | 144/200 [00:01<00:00, 72.65it/s]ε=0.85:  76%|███████▌  | 152/200 [00:02<00:00, 72.70it/s]ε=0.85:  80%|████████  | 160/200 [00:02<00:00, 72.73it/s]ε=0.85:  84%|████████▍ | 168/200 [00:02<00:00, 72.58it/s]ε=0.85:  88%|████████▊ | 176/200 [00:02<00:00, 72.60it/s]ε=0.85:  92%|█████████▏| 184/200 [00:02<00:00, 72.55it/s]ε=0.85:  96%|█████████▌| 192/200 [00:02<00:00, 72.59it/s]ε=0.85: 100%|██████████| 200/200 [00:02<00:00, 72.66it/s]ε=0.85: 100%|██████████| 200/200 [00:02<00:00, 72.64it/s]
+  D_C60 = 0.0213 Å²/ps = 2.13e-07 cm²/s
+
+[ε=0.9] Computing C60 MSD...
+ε=0.9:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.9:   4%|▍         | 8/200 [00:00<00:02, 73.43it/s]ε=0.9:   8%|▊         | 16/200 [00:00<00:02, 73.53it/s]ε=0.9:  12%|█▏        | 24/200 [00:00<00:02, 73.35it/s]ε=0.9:  16%|█▌        | 32/200 [00:00<00:02, 73.46it/s]ε=0.9:  20%|██        | 40/200 [00:00<00:02, 73.51it/s]ε=0.9:  24%|██▍       | 48/200 [00:00<00:02, 73.45it/s]ε=0.9:  28%|██▊       | 56/200 [00:00<00:01, 73.17it/s]ε=0.9:  32%|███▏      | 64/200 [00:00<00:01, 72.48it/s]ε=0.9:  36%|███▌      | 72/200 [00:00<00:01, 72.23it/s]ε=0.9:  40%|████      | 80/200 [00:01<00:01, 72.00it/s]ε=0.9:  44%|████▍     | 88/200 [00:01<00:01, 71.90it/s]ε=0.9:  48%|████▊     | 96/200 [00:01<00:01, 71.69it/s]ε=0.9:  52%|█████▏    | 104/200 [00:01<00:01, 71.47it/s]ε=0.9:  56%|█████▌    | 112/200 [00:01<00:01, 71.33it/s]ε=0.9:  60%|██████    | 120/200 [00:01<00:01, 71.28it/s]ε=0.9:  64%|██████▍   | 128/200 [00:01<00:01, 71.16it/s]ε=0.9:  68%|██████▊   | 136/200 [00:01<00:00, 71.23it/s]ε=0.9:  72%|███████▏  | 144/200 [00:01<00:00, 71.20it/s]ε=0.9:  76%|███████▌  | 152/200 [00:02<00:00, 71.15it/s]ε=0.9:  80%|████████  | 160/200 [00:02<00:00, 71.29it/s]ε=0.9:  84%|████████▍ | 168/200 [00:02<00:00, 71.35it/s]ε=0.9:  88%|████████▊ | 176/200 [00:02<00:00, 71.37it/s]ε=0.9:  92%|█████████▏| 184/200 [00:02<00:00, 71.19it/s]ε=0.9:  96%|█████████▌| 192/200 [00:02<00:00, 71.14it/s]ε=0.9: 100%|██████████| 200/200 [00:02<00:00, 71.10it/s]ε=0.9: 100%|██████████| 200/200 [00:02<00:00, 71.45it/s]
+  D_C60 = 0.0169 Å²/ps = 1.69e-07 cm²/s
+
+[ε=0.95] Computing C60 MSD...
+ε=0.95:   0%|          | 0/200 [00:00<?, ?it/s]ε=0.95:   4%|▍         | 8/200 [00:00<00:02, 72.70it/s]ε=0.95:   8%|▊         | 16/200 [00:00<00:02, 73.12it/s]ε=0.95:  12%|█▏        | 24/200 [00:00<00:02, 73.15it/s]ε=0.95:  16%|█▌        | 32/200 [00:00<00:02, 73.10it/s]ε=0.95:  20%|██        | 40/200 [00:00<00:02, 73.10it/s]ε=0.95:  24%|██▍       | 48/200 [00:00<00:02, 73.12it/s]ε=0.95:  28%|██▊       | 56/200 [00:00<00:01, 73.16it/s]ε=0.95:  32%|███▏      | 64/200 [00:00<00:01, 73.12it/s]ε=0.95:  36%|███▌      | 72/200 [00:00<00:01, 73.09it/s]ε=0.95:  40%|████      | 80/200 [00:01<00:01, 73.06it/s]ε=0.95:  44%|████▍     | 88/200 [00:01<00:01, 72.82it/s]ε=0.95:  48%|████▊     | 96/200 [00:01<00:01, 72.71it/s]ε=0.95:  52%|█████▏    | 104/200 [00:01<00:01, 72.48it/s]ε=0.95:  56%|█████▌    | 112/200 [00:01<00:01, 72.48it/s]ε=0.95:  60%|██████    | 120/200 [00:01<00:01, 72.40it/s]ε=0.95:  64%|██████▍   | 128/200 [00:01<00:00, 72.38it/s]ε=0.95:  68%|██████▊   | 136/200 [00:01<00:00, 72.42it/s]ε=0.95:  72%|███████▏  | 144/200 [00:01<00:00, 72.35it/s]ε=0.95:  76%|███████▌  | 152/200 [00:02<00:00, 72.37it/s]ε=0.95:  80%|████████  | 160/200 [00:02<00:00, 72.35it/s]ε=0.95:  84%|████████▍ | 168/200 [00:02<00:00, 72.33it/s]ε=0.95:  88%|████████▊ | 176/200 [00:02<00:00, 72.41it/s]ε=0.95:  92%|█████████▏| 184/200 [00:02<00:00, 72.42it/s]ε=0.95:  96%|█████████▌| 192/200 [00:02<00:00, 72.51it/s]ε=0.95: 100%|██████████| 200/200 [00:02<00:00, 72.57it/s]ε=0.95: 100%|██████████| 200/200 [00:02<00:00, 72.30it/s]
+  D_C60 = 0.0052 Å²/ps = 5.15e-08 cm²/s
+
+[ε=1.0] Computing C60 MSD...
+ε=1.0:   0%|          | 0/200 [00:00<?, ?it/s]ε=1.0:   4%|▍         | 8/200 [00:00<00:02, 73.14it/s]ε=1.0:   8%|▊         | 16/200 [00:00<00:02, 73.16it/s]ε=1.0:  12%|█▏        | 24/200 [00:00<00:02, 73.34it/s]ε=1.0:  16%|█▌        | 32/200 [00:00<00:02, 73.44it/s]ε=1.0:  20%|██        | 40/200 [00:00<00:02, 73.40it/s]ε=1.0:  24%|██▍       | 48/200 [00:00<00:02, 73.28it/s]ε=1.0:  28%|██▊       | 56/200 [00:00<00:01, 72.93it/s]ε=1.0:  32%|███▏      | 64/200 [00:00<00:01, 72.83it/s]ε=1.0:  36%|███▌      | 72/200 [00:00<00:01, 72.67it/s]ε=1.0:  40%|████      | 80/200 [00:01<00:01, 72.59it/s]ε=1.0:  44%|████▍     | 88/200 [00:01<00:01, 72.52it/s]ε=1.0:  48%|████▊     | 96/200 [00:01<00:01, 72.56it/s]ε=1.0:  52%|█████▏    | 104/200 [00:01<00:01, 72.47it/s]ε=1.0:  56%|█████▌    | 112/200 [00:01<00:01, 72.47it/s]ε=1.0:  60%|██████    | 120/200 [00:01<00:01, 72.52it/s]ε=1.0:  64%|██████▍   | 128/200 [00:01<00:00, 72.53it/s]ε=1.0:  68%|██████▊   | 136/200 [00:01<00:00, 72.54it/s]ε=1.0:  72%|███████▏  | 144/200 [00:01<00:00, 72.55it/s]ε=1.0:  76%|███████▌  | 152/200 [00:02<00:00, 72.47it/s]ε=1.0:  80%|████████  | 160/200 [00:02<00:00, 72.50it/s]ε=1.0:  84%|████████▍ | 168/200 [00:02<00:00, 72.45it/s]ε=1.0:  88%|████████▊ | 176/200 [00:02<00:00, 72.47it/s]ε=1.0:  92%|█████████▏| 184/200 [00:02<00:00, 72.48it/s]ε=1.0:  96%|█████████▌| 192/200 [00:02<00:00, 72.67it/s]ε=1.0: 100%|██████████| 200/200 [00:02<00:00, 72.74it/s]ε=1.0: 100%|██████████| 200/200 [00:02<00:00, 72.33it/s]
+  D_C60 = 0.0096 Å²/ps = 9.57e-08 cm²/s
+
+[ε=1.05] Computing C60 MSD...
+ε=1.05:   0%|          | 0/200 [00:00<?, ?it/s]ε=1.05:   4%|▍         | 8/200 [00:00<00:02, 73.92it/s]ε=1.05:   8%|▊         | 16/200 [00:00<00:02, 74.34it/s]ε=1.05:  12%|█▏        | 24/200 [00:00<00:02, 74.27it/s]ε=1.05:  16%|█▌        | 32/200 [00:00<00:02, 74.39it/s]ε=1.05:  20%|██        | 40/200 [00:00<00:02, 74.32it/s]ε=1.05:  24%|██▍       | 48/200 [00:00<00:02, 74.28it/s]ε=1.05:  28%|██▊       | 56/200 [00:00<00:01, 73.96it/s]ε=1.05:  32%|███▏      | 64/200 [00:00<00:01, 73.69it/s]ε=1.05:  36%|███▌      | 72/200 [00:00<00:01, 73.61it/s]ε=1.05:  40%|████      | 80/200 [00:01<00:01, 73.49it/s]ε=1.05:  44%|████▍     | 88/200 [00:01<00:01, 73.18it/s]ε=1.05:  48%|████▊     | 96/200 [00:01<00:01, 73.11it/s]ε=1.05:  52%|█████▏    | 104/200 [00:01<00:01, 72.90it/s]ε=1.05:  56%|█████▌    | 112/200 [00:01<00:01, 72.75it/s]ε=1.05:  60%|██████    | 120/200 [00:01<00:01, 72.63it/s]ε=1.05:  64%|██████▍   | 128/200 [00:01<00:00, 72.65it/s]ε=1.05:  68%|██████▊   | 136/200 [00:01<00:00, 72.60it/s]ε=1.05:  72%|███████▏  | 144/200 [00:01<00:00, 72.47it/s]ε=1.05:  76%|███████▌  | 152/200 [00:02<00:00, 72.44it/s]ε=1.05:  80%|████████  | 160/200 [00:02<00:00, 72.50it/s]ε=1.05:  84%|████████▍ | 168/200 [00:02<00:00, 72.46it/s]ε=1.05:  88%|████████▊ | 176/200 [00:02<00:00, 72.49it/s]ε=1.05:  92%|█████████▏| 184/200 [00:02<00:00, 72.57it/s]ε=1.05:  96%|█████████▌| 192/200 [00:02<00:00, 72.51it/s]ε=1.05: 100%|██████████| 200/200 [00:02<00:00, 72.58it/s]ε=1.05: 100%|██████████| 200/200 [00:02<00:00, 72.69it/s]
+  D_C60 = 0.0087 Å²/ps = 8.68e-08 cm²/s
+
+[ε=1.1] Computing C60 MSD...
+ε=1.1:   0%|          | 0/200 [00:00<?, ?it/s]ε=1.1:   4%|▍         | 8/200 [00:00<00:02, 73.91it/s]ε=1.1:   8%|▊         | 16/200 [00:00<00:02, 73.99it/s]ε=1.1:  12%|█▏        | 24/200 [00:00<00:02, 74.17it/s]ε=1.1:  16%|█▌        | 32/200 [00:00<00:02, 73.95it/s]ε=1.1:  20%|██        | 40/200 [00:00<00:02, 74.00it/s]ε=1.1:  24%|██▍       | 48/200 [00:00<00:02, 73.92it/s]ε=1.1:  28%|██▊       | 56/200 [00:00<00:01, 73.68it/s]ε=1.1:  32%|███▏      | 64/200 [00:00<00:01, 73.46it/s]ε=1.1:  36%|███▌      | 72/200 [00:00<00:01, 73.39it/s]ε=1.1:  40%|████      | 80/200 [00:01<00:01, 73.27it/s]ε=1.1:  44%|████▍     | 88/200 [00:01<00:01, 73.12it/s]ε=1.1:  48%|████▊     | 96/200 [00:01<00:01, 72.95it/s]ε=1.1:  52%|█████▏    | 104/200 [00:01<00:01, 72.83it/s]ε=1.1:  56%|█████▌    | 112/200 [00:01<00:01, 72.54it/s]ε=1.1:  60%|██████    | 120/200 [00:01<00:01, 72.41it/s]ε=1.1:  64%|██████▍   | 128/200 [00:01<00:00, 72.25it/s]ε=1.1:  68%|██████▊   | 136/200 [00:01<00:00, 72.25it/s]ε=1.1:  72%|███████▏  | 144/200 [00:01<00:00, 72.24it/s]ε=1.1:  76%|███████▌  | 152/200 [00:02<00:00, 72.35it/s]ε=1.1:  80%|████████  | 160/200 [00:02<00:00, 72.51it/s]ε=1.1:  84%|████████▍ | 168/200 [00:02<00:00, 72.55it/s]ε=1.1:  88%|████████▊ | 176/200 [00:02<00:00, 72.68it/s]ε=1.1:  92%|█████████▏| 184/200 [00:02<00:00, 72.83it/s]ε=1.1:  96%|█████████▌| 192/200 [00:02<00:00, 72.74it/s]ε=1.1: 100%|██████████| 200/200 [00:02<00:00, 72.61it/s]ε=1.1: 100%|██████████| 200/200 [00:02<00:00, 72.57it/s]
+  D_C60 = 0.0060 Å²/ps = 5.96e-08 cm²/s
+
+✓ Diffusion coefficients saved
+
+================================================================================
+ANALYSIS #4 & #5: THERMODYNAMIC RESPONSE FUNCTIONS
+================================================================================
+
+[ε=0.0] Computing response functions...
+  Data points: 20000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.45 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.05] Computing response functions...
+  Data points: 20000
+  C_v = 0.0061 kcal/(mol·K·atom)
+  κ_T = 0.45 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.1] Computing response functions...
+  Data points: 20000
+  C_v = 0.0062 kcal/(mol·K·atom)
+  κ_T = 0.43 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.15] Computing response functions...
+  Data points: 20000
+  C_v = 0.0062 kcal/(mol·K·atom)
+  κ_T = 0.42 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.2] Computing response functions...
+  Data points: 20000
+  C_v = 0.0061 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.25] Computing response functions...
+  Data points: 20000
+  C_v = 0.0061 kcal/(mol·K·atom)
+  κ_T = 0.42 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.3] Computing response functions...
+  Data points: 20000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.35] Computing response functions...
+  Data points: 20000
+  C_v = 0.0059 kcal/(mol·K·atom)
+  κ_T = 0.42 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.4] Computing response functions...
+  Data points: 20000
+  C_v = 0.0062 kcal/(mol·K·atom)
+  κ_T = 0.40 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.45] Computing response functions...
+  Data points: 20000
+  C_v = 0.0061 kcal/(mol·K·atom)
+  κ_T = 0.40 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.5] Computing response functions...
+  Data points: 20000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.38 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.55] Computing response functions...
+  Data points: 10000
+  C_v = 0.0058 kcal/(mol·K·atom)
+  κ_T = 0.39 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.6] Computing response functions...
+  Data points: 10000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.65] Computing response functions...
+  Data points: 10000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.39 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.7] Computing response functions...
+  Data points: 10000
+  C_v = 0.0059 kcal/(mol·K·atom)
+  κ_T = 0.40 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.75] Computing response functions...
+  Data points: 10000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.8] Computing response functions...
+  Data points: 10000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.39 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.85] Computing response functions...
+  Data points: 10000
+  C_v = 0.0059 kcal/(mol·K·atom)
+  κ_T = 0.40 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.9] Computing response functions...
+  Data points: 10000
+  C_v = 0.0060 kcal/(mol·K·atom)
+  κ_T = 0.42 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=0.95] Computing response functions...
+  Data points: 10000
+  C_v = 0.0062 kcal/(mol·K·atom)
+  κ_T = 0.42 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=1.0] Computing response functions...
+  Data points: 10000
+  C_v = 0.0059 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=1.05] Computing response functions...
+  Data points: 10000
+  C_v = 0.0057 kcal/(mol·K·atom)
+  κ_T = 0.41 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+[ε=1.1] Computing response functions...
+  Data points: 10000
+  C_v = 0.0061 kcal/(mol·K·atom)
+  κ_T = 0.39 GPa⁻¹
+  (Bulk water: κ_T ~ 0.45 GPa⁻¹ at 300K)
+
+✓ Response functions saved
+
+Generating C60 distance plots...
+  ✓ Saved: 19_c60_distance_timeseries.png
+  ✓ Saved: 20_c60_aggregation_analysis.png
+
+Generating C60 diffusion plots...
+  ✓ Saved: 21_c60_diffusion.png
+
+Generating thermodynamic property plots...
+  ✓ Saved: 22_thermodynamic_response_functions.png
+
+================================================================================
+✓ HIGH-PRIORITY ANALYSES COMPLETE!
+================================================================================
+
+All plots saved to: /store/shuvam/learning_solvent_effects/analysis/plots
+
+New plots generated:
+  19. C60 distance time series (6 panels)
+  20. C60 aggregation analysis
+  21. C60 diffusion (MSD + D coefficient)
+  22. Thermodynamic response functions (C_v, κ_T)
+======================================================================
+C60 NANOPARTICLE SOLVATION STUDY - COMPREHENSIVE ANALYSIS
+======================================================================
+
+Base directory: /store/shuvam/learning_solvent_effects
+Analysis codes: /store/shuvam/learning_solvent_effects/analysis/codes
+
+======================================================================
+RUNNING: Thermodynamic Properties Analysis
+======================================================================
+
+✓ Completed in 368.0 seconds
+
+======================================================================
+RUNNING: Equilibration & Stability Assessment
+======================================================================
+
+✓ Completed in 57.1 seconds
+
+======================================================================
+RUNNING: Radial Distribution Functions
+======================================================================
+
+✓ Completed in 14.3 seconds
+
+======================================================================
+RUNNING: Comprehensive Water Structure (CUDA)
+======================================================================
+
+✓ Completed in 2.7 seconds
+
+======================================================================
+RUNNING: Water Structure Visualization
+======================================================================
+
+✓ Completed in 23.0 seconds
+
+======================================================================
+RUNNING: MSD Validation Analysis
+======================================================================
+
+✓ Completed in 5.6 seconds
+
+======================================================================
+RUNNING: Additional High-Priority Analysis
+======================================================================
+
+✓ Completed in 199.3 seconds
+
+======================================================================
+ANALYSIS SUMMARY
+======================================================================
+  ✓ Success    - Thermodynamic Properties Analysis
+  ✓ Success    - Equilibration & Stability Assessment
+  ✓ Success    - Radial Distribution Functions
+  ✓ Success    - Comprehensive Water Structure (CUDA)
+  ✓ Success    - Water Structure Visualization
+  ✓ Success    - MSD Validation Analysis
+  ✓ Success    - Additional High-Priority Analysis
+
+Total time: 669.8 seconds (11.2 minutes)
+======================================================================
+
+🎉 ALL ANALYSES COMPLETED SUCCESSFULLY!
+
+Results saved to: /store/shuvam/learning_solvent_effects/analysis/plots

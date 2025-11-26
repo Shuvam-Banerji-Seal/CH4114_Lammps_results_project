@@ -1,0 +1,8 @@
+{
+  "units": {
+    "D": "cm\u00b2/s",
+    "epsilon": "kcal/mol"
+  },
+  "experimental_bulk_D": 2.3e-05,
+  "results": {}
+}
